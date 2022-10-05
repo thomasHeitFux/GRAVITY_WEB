@@ -1,7 +1,22 @@
-function Home(){
+import {
+    Navbar,
+    Header,
+    ProjectsHome,
+    ServicesHome,
+    StartHome,
+  } from "../../components";
+  
+  function Home() {
     return (
-        <h1>GRAVITY</h1>
-    )
-}
-
-export default Home
+      <div className="Home">
+        <Navbar />
+        <Header />
+        <ProjectsHome />
+        <ServicesHome />
+        <StartHome />
+      </div>
+    );
+  }
+  
+  export default Home;
+  
