@@ -9,7 +9,7 @@ function Navbar() {
       </a>
       <ul className="links__nav__container flex__center">
         <li className="links__nav__li">
-          <a href="#">Nosotros</a>
+          <a href="/about">Nosotros</a>
         </li>
         <li className="links__nav__li">
           <a href="#">Servicios</a>
