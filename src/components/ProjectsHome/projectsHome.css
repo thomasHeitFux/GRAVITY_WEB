@@ -1,0 +1,16 @@
+.business__logo__container > li img{
+    width: 100px;
+    height: 100px;
+}
+
+.projects__container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);}
+
+.projects__container > li{
+    aspect-ratio: 1;
+    background-color: gray;
+    border: 1px solid #fff;
+}
