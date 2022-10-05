@@ -1,0 +1,35 @@
+.card__services__container {
+  width: 350px;
+  height: 450px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  
+  border-radius: 50px;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card__services__container > img {
+  width: 120px;
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.055em;
+  color: #0d2633;
+}
+
+.card__p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.055em;
+  text-align: center;
+  color: #0d2633;
+}

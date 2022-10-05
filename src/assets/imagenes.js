@@ -15,6 +15,8 @@ import G_circle from "./Marca/logos png/Gravity_logo3.png"
 import Human_010 from "./Personajes/PNG_Personajes/Astronauta_ZERO/010.png"
 import Human_005 from "./Personajes/PNG_Personajes/Astronauta_ZERO/005.png"
 
+import Arrow from "./arrow.svg"
+
 export default {
     "Logo_nav": Logo_nav,
     "Facebook_icon":Facebook_icon,
@@ -29,4 +31,5 @@ export default {
     "G_circle": G_circle,
     "Human_010": Human_010,
     "Human_005": Human_005,
+    "Arrow": Arrow,
 }
