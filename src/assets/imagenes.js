@@ -13,6 +13,7 @@ import Branding_icon from "./iconos RRSS/Iconos de gravity/Tro al blanco.png"
 
 import G_circle from "./Marca/logos png/Gravity_logo3.png"
 import Human_010 from "./Personajes/PNG_Personajes/Astronauta_ZERO/010.png"
+import Human_005 from "./Personajes/PNG_Personajes/Astronauta_ZERO/005.png"
 
 export default {
     "Logo_nav": Logo_nav,
@@ -27,4 +28,5 @@ export default {
     "Branding_icon": Branding_icon,
     "G_circle": G_circle,
     "Human_010": Human_010,
+    "Human_005": Human_005,
 }
