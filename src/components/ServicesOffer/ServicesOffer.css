@@ -1,0 +1,119 @@
+.offer {
+    width: 100%;
+}
+.offerSection {
+    position: relative;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    margin:  50px 100px;
+    padding: 30px 100px;
+}
+
+.offerSection > h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 25px;
+    text-align: center;
+    color: #0D2633;
+    font-weight: 1000;
+    line-height: 40px;
+    letter-spacing: 0.055em;
+    margin: 30px 0px 30px 0px;
+}
+
+.astronautGift {
+    width: 350px;
+}
+
+.offerFrame {
+    position: absolute;
+    top: 45px;
+    left: -30px;
+    width: 280px;
+    height: 63px;
+    padding: 10px;
+    background-color: #f5b45f;
+    color: #0e2b3b;
+    border-radius: 20px;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    font-weight: 1000;
+    transform: rotate(-30deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offerImageInformation {
+    display: flex;
+    flex-direction: row;
+}
+
+.offerInformation {
+    padding: 20px 80px;
+    position: relative;
+}
+.counter {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.number {
+    background-color: #0D2633;
+    width: 80px;
+    height: 95px;
+    font-size: 60px;
+    color:#f5b45f;
+    border-radius: 14px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 1000;
+}
+
+.circleGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.circle {
+    background: #0D2633;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.clock {
+    position: absolute;
+    width: 80px;
+    right: -80px;
+    bottom: 0px;
+}
+
+.informationOffer {
+    margin: 30px 15px 30px 0px;
+    letter-spacing: 0.055em;
+    line-height: 27px;
+    font-size: 15px;
+}
+.btnSecondary {
+    position: absolute;
+    right: 0;
+    background-color: #0D2633;
+    color: #F6B65F;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.055em;
+}

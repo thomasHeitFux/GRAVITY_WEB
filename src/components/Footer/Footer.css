@@ -1,0 +1,82 @@
+.footerSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #0D2633;
+}
+
+.logoFooter {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.footerColumns {
+    display: flex;
+    margin: 100px 100px 50px 100px;
+    color: white;
+}
+
+.footerSecondColumn, .footerThirdColumn{
+    margin-left: 300px;
+}
+
+.creditsSection {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #07212E;
+    color: white;
+    padding: 25px;
+}
+
+.creditsSection > p {
+    font-size: 12.5px;
+}
+
+.listFooter {
+    line-height: 2;
+}
+
+.footerTitle {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    letter-spacing: 0.055em;
+}
+
+.titleAliados {
+    margin-top: 60px;
+}
+
+li a {
+    color: white;
+    letter-spacing: 0.055em;
+}
+
+.listExtra {
+    column-count: 2;
+    line-height: 2;
+}
+
+.creditsSection > button {
+    position: absolute;
+    top: -30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: #f5b45f;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    border: solid 3px white ;
+    transition: 0.5s;
+}
+
+.creditsSection > button:hover {
+    transform: scale(1.2);
+}
+
+.arrow {
+    width: 70%;
+}
