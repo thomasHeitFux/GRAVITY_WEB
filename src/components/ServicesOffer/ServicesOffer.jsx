@@ -20,14 +20,14 @@ function ServiceOffer() {
               <div className="number bold">0</div>
               <div className="number bold">1</div>
               <div className="circleGroup">
-                <div className="circle"></div>
-                <div className="circle"></div>
+                <div className="circle_offer"></div>
+                <div className="circle_offer"></div>
               </div>
               <div className="number bold">2</div>
               <div className="number bold">5</div>
               <div className="circleGroup">
-                <div className="circle"></div>
-                <div className="circle"></div>
+                <div className="circle_offer"></div>
+                <div className="circle_offer"></div>
               </div>
               <div className="number bold">0</div>
               <div className="number bold">3</div>

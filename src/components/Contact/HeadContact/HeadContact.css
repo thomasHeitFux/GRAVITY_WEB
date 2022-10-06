@@ -1,0 +1,29 @@
+.headContact {
+    display: flex;
+    flex-direction: column;
+    background-color: #0D2633;
+    color: white;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    letter-spacing: 0.055em;
+}
+
+.headContact > h1 {
+    font-size: 25px;
+}
+
+.btnContact {
+    font-size: 17px;
+    width: 200px;
+    height: 40px;
+    line-height: 30px;
+    border: none;
+    background-color: #f5b45f;
+    color: #0e2b3b;
+    border-radius: 30px;
+    cursor: pointer;
+}
+

@@ -2,6 +2,7 @@ import Logo_nav from "./Marca/logos png/Gravity_logo5.png";
 import Facebook_icon from "./iconos RRSS/RRSS/Facebook.png";
 import Instagram_icon from "./iconos RRSS/RRSS/Instagram.png";
 import Linkdln_icon from "./iconos RRSS/RRSS/Linkdln.png";
+import Whatssap_icon from "./iconos RRSS/RRSS/Whatsapp.png";
 import Be_icon from "./iconos RRSS/RRSS/Be.png";
 import Pe_icon from "./pe_icon.svg"
 import Facebook_light from "./iconos RRSS/RRSS/Facebook_light.png";
@@ -47,4 +48,5 @@ export default {
     "Arrow_Footer": Arrow_Footer,
     "Arrow_List": Arrow_List,
     "Human_002": Human_002,
+    "Whatssap_icon": Whatssap_icon,
 }
