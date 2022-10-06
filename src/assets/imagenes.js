@@ -39,4 +39,12 @@ export default {
     "G_circle": G_circle,
     "Human_010": Human_010,
     "Arrow": Arrow,
+    "Whatsapp_light": Whatsapp_light,
+    "Facebook_light": Facebook_light,
+    "Instagram_light": Instagram_light,
+    "Linkdln_light": Linkdln_light,
+    "Be_light": Be_light,
+    "Arrow_Footer": Arrow_Footer,
+    "Arrow_List": Arrow_List,
+    "Human_002": Human_002,
 }

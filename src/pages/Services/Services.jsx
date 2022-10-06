@@ -1,4 +1,4 @@
-import { Navbar, ServiceCard2 } from "../../components";
+import { Navbar, ServiceCard2, Footer } from "../../components";
 import "./services.css";
 import images from "../../assets/imagenes";
 
@@ -59,6 +59,7 @@ function Services() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
