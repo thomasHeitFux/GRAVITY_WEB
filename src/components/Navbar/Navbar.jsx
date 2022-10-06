@@ -19,7 +19,7 @@ function Navbar() {
           <a href="#">Clientes</a>
         </li>
         <li className="links__nav__li">
-          <a href="#">Contacto</a>
+          <Link to="/contacto">Contacto</Link>
         </li>
       </ul>
       <ul className="networks__nav__container flex__center">

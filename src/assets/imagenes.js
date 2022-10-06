@@ -47,4 +47,6 @@ export default {
     "Be_light": Be_light,
     "Arrow_Footer": Arrow_Footer,
     "Arrow_List": Arrow_List,
+    "Human_002": Human_002,
+    "Whatssap_icon": Whatssap_icon,
 }
