@@ -23,14 +23,14 @@
 	right: 0;
 }
 
-.subscribeLabel {
-    letter-spacing: 0.055em;
+.subscribeLabel > h1 {
+	margin-left: 70px;
     font-size: 18px;
     padding-left: 20px;
 }
 
 .input-icons {
-    margin-top: 15px;
+	margin-left: 70px;
     width: 450px;
 	height: 50px;
 	background-color: white;
@@ -54,6 +54,7 @@
 }
 
 .subscribeForm{
+	overflow: hidden;
 	position: relative;
 	width: 20%;
 	background-color: #F6B65F;
@@ -84,6 +85,6 @@
 	box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
     height: 100px;
     width: 200px;
-    border-radius: 150px 150px 0 0;
+    border-radius: 150px 150px 0px 0px;
 	background-color: #F6B65F;
 }

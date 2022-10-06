@@ -1,15 +1,16 @@
 .offer {
     width: 100%;
 }
+
 .offerSection {
     position: relative;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
-    margin:  50px 100px;
+    margin: 50px 100px;
     padding: 30px 100px;
 }
 
-.offerSection > h2 {
+.offerSection>h2 {
     display: flex;
     justify-content: center;
 }
@@ -18,9 +19,7 @@
     font-size: 25px;
     text-align: center;
     color: #0D2633;
-    font-weight: 1000;
     line-height: 40px;
-    letter-spacing: 0.055em;
     margin: 30px 0px 30px 0px;
 }
 
@@ -40,7 +39,6 @@
     border-radius: 20px;
     font-size: 25px;
     letter-spacing: 0.1em;
-    font-weight: 1000;
     transform: rotate(-30deg);
     display: flex;
     align-items: center;
@@ -56,25 +54,25 @@
     padding: 20px 80px;
     position: relative;
 }
+
 .counter {
     position: relative;
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
+
 .number {
     background-color: #0D2633;
-    width: 80px;
+    width: 75px;
     height: 95px;
-    font-size: 60px;
-    color:#f5b45f;
+    font-size: 50px;
+    color: #f5b45f;
     border-radius: 14px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-style: normal;
-    font-weight: 1000;
 }
 
 .circleGroup {
@@ -94,16 +92,17 @@
 .clock {
     position: absolute;
     width: 80px;
-    right: -80px;
+    right: -50px;
     bottom: 0px;
 }
 
 .informationOffer {
-    margin: 30px 15px 30px 0px;
+    margin: 30px 0px 30px 0px;
     letter-spacing: 0.055em;
     line-height: 27px;
     font-size: 15px;
 }
+
 .btnSecondary {
     position: absolute;
     right: 0;
@@ -113,7 +112,4 @@
     border-radius: 30px;
     font-size: 15px;
     margin-top: 20px;
-    font-style: normal;
-    font-weight: 700;
-    letter-spacing: 0.055em;
 }

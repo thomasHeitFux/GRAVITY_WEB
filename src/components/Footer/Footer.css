@@ -16,7 +16,8 @@
     color: white;
 }
 
-.footerSecondColumn, .footerThirdColumn{
+.footerSecondColumn,
+.footerThirdColumn {
     margin-left: 300px;
 }
 
@@ -31,7 +32,7 @@
     padding: 25px;
 }
 
-.creditsSection > p {
+.creditsSection>p {
     font-size: 12.5px;
 }
 
@@ -59,7 +60,7 @@ li a {
     line-height: 2;
 }
 
-.creditsSection > button {
+.creditsSection>button {
     position: absolute;
     top: -30px;
     right: 30px;
@@ -69,11 +70,11 @@ li a {
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    border: solid 3px white ;
+    border: solid 3px white;
     transition: 0.5s;
 }
 
-.creditsSection > button:hover {
+.creditsSection>button:hover {
     transform: scale(1.2);
 }
 
