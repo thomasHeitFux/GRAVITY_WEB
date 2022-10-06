@@ -7,3 +7,5 @@ export { default as ServicesOffer } from "./ServicesOffer/ServicesOffer";
 export { default as InformationHome } from "./InformationHome/InformationHome";
 export { default as SubscribeHome } from "./SubscribeHome/SubscribeHome";
 export { default as Footer } from "./Footer/Footer";
+export { default as SectionContact } from "./Contact/Contact/Contact";
+export { default as HeadContact } from "./Contact/HeadContact/HeadContact";
