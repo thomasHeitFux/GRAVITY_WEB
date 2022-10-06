@@ -5,8 +5,8 @@ import "./ServicesOffer.css"
 
 function ServiceOffer() {
   return (
-    <div className="offer">
-      <div className="offerSection">
+    <div className="offer" id="Ebook">
+      <div className="offerSection container">
         <p className="offerFrame bold">
           GRATIS
         </p>
