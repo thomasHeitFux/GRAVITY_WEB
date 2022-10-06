@@ -3,7 +3,7 @@ import images from "../../assets/imagenes";
 
 function StartHome() {
   return (
-    <div className="start__home">
+    <div className="start__home" id="StartHome">
       <img className="g__cricle" src={images.G_circle} alt="Logo Gravity" />
       <div className="start__home__container container">
         <div className="start__home__main">
