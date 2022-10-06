@@ -7,14 +7,16 @@ import Pe_icon from "./pe_icon.svg"
 
 import Glovo_icon____gravity from "./iconos RRSS/Glovo de redes/Glovo_gravity.png"
 
-import Marketing_icon from "./iconos RRSS/Iconos de gravity/Megafono.png"
+import Branding_icon from "./iconos RRSS/Iconos de gravity/Megafono.png"
 import Net_icon from "./iconos RRSS/Iconos de gravity/Text.png"
-import Branding_icon from "./iconos RRSS/Iconos de gravity/Tro al blanco.png"
+import Marketing_icon from "./iconos RRSS/Iconos de gravity/Tro al blanco.png"
 
 import G_circle from "./Marca/logos png/Gravity_logo3.png"
 import Human_010 from "./Personajes/PNG_Personajes/Astronauta_ZERO/010.png"
 
 import Arrow from "./arrow.svg"
+
+import Human_002 from "./Personajes/PNG_Personajes/Astronauta_ZERO/002.png"
 
 export default {
     "Logo_nav": Logo_nav,
@@ -30,4 +32,5 @@ export default {
     "G_circle": G_circle,
     "Human_010": Human_010,
     "Arrow": Arrow,
+    "Human_002": Human_002,
 }
