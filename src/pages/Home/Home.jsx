@@ -4,6 +4,10 @@ import {
     ProjectsHome,
     ServicesHome,
     StartHome,
+    ServicesOffer,
+    InformationHome,
+    SubscribeHome,
+    Footer
   } from "../../components";
   
   function Home() {
@@ -14,6 +18,10 @@ import {
         <ProjectsHome />
         <ServicesHome />
         <StartHome />
+        <ServicesOffer />
+        <InformationHome />
+        <SubscribeHome />
+        <Footer />
       </div>
     );
   }

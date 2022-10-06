@@ -1,6 +1,7 @@
 .header{
     background-color: #0D2633;
     height: calc(100vh - 70px);
+    max-height: 600px;
 }
 
 .container_header{
