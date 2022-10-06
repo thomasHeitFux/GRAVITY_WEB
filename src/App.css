@@ -77,3 +77,10 @@
   letter-spacing: 0.055em;
   mix-blend-mode: normal;
 }
+
+.bold {
+	font-family: 'Nirmala UI';
+	font-style: normal;
+	font-weight: 700;
+  letter-spacing: 0.055em;
+}
