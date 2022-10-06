@@ -1,18 +1,19 @@
 import "./navbar.css";
 import images from "../../assets/imagenes"
+import { Link } from "react-router-dom"
 
 function Navbar() {
   return (
     <nav className="nav container">
-      <a className="navbar__brand" href="#">
+      <Link className="navbar__brand" to="/">
         <img src={images.Logo_nav} alt="Logo" />
-      </a>
+      </Link>
       <ul className="links__nav__container flex__center">
         <li className="links__nav__li">
-          <a href="#">Nosotros</a>
+          <Link to="/nosotros">Nosotros</Link>
         </li>
         <li className="links__nav__li">
-          <a href="#">Servicios</a>
+        <Link to="/servicios">Servicios</Link>
         </li>
         <li className="links__nav__li">
           <a href="#">Clientes</a>
@@ -42,10 +43,7 @@ function Navbar() {
             <img src={images.Be_icon} alt="Be" />
           </a>
         </li>
-        <li className="country__container">
-            <span>Pe.</span>
-            <img src={images.Pe_icon} alt="Bandera de Peru" />
-        </li>
+        
       </ul>
     </nav>
   );
