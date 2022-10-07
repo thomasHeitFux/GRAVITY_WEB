@@ -1,9 +1,7 @@
-import { Home, Services, Contact } from "./pages";
+import { Home, Services, Contact, About } from "./pages";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home } from "./pages";
-import { About } from "./pages";
 import "./App.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
