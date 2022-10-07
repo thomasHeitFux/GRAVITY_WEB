@@ -21,6 +21,8 @@ import Marketing_icon from "./iconos RRSS/Iconos de gravity/Tro al blanco.png"
 
 import G_circle from "./Marca/logos png/Gravity_logo3.png"
 import Human_010 from "./Personajes/PNG_Personajes/Astronauta_ZERO/010.png"
+import Human_005 from "./Personajes/PNG_Personajes/Astronauta_ZERO/005.png"
+import Human_001 from "./Personajes/PNG_Personajes/Astronauta_ZERO/001.png"
 
 import Arrow from "./arrow.svg"
 import Arrow_List from "./Iconos/Gravity/arrowIcon.svg"
@@ -41,7 +43,9 @@ export default {
     "Branding_icon": Branding_icon,
     "G_circle": G_circle,
     "Human_010": Human_010,
+    "Human_005": Human_005,
     "Arrow": Arrow,
+    "Human_001": Human_001,
     "Whatsapp_light": Whatsapp_light,
     "Facebook_light": Facebook_light,
     "Instagram_light": Instagram_light,
