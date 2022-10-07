@@ -7,7 +7,7 @@ function AboutCards() {
       <div className='container__cards'>
 
          <li className='card_container m-5'>
-            <div className='circle'></div>
+            <div className='card__circle'></div>
             <h4 className="card_about_title">Mision</h4>
             <p className="card_about_p">Lorem ipsum dolor sit amet, consectetuer
                adipiscing elit, sed diam nonummy
@@ -16,7 +16,7 @@ function AboutCards() {
                enim ad minim veniam, quis nostrud</p>
          </li>
          <li className="card_container m-5">
-            <div className='circle'></div>
+            <div className='card__circle'></div>
             <h4 className="card_about_title">Vision</h4>
             <p className="card_about_p">Lorem ipsum dolor sit amet, consectetuer
                adipiscing elit, sed diam nonummy

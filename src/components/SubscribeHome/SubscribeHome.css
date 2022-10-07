@@ -30,7 +30,7 @@
 .subscribeLabel > h1 {
   margin-left: 30px;
   font-size: 18px;
-  padding-left: 15px;
+  color: #0e2b3b;
 }
 
 .input-icons {
@@ -45,7 +45,8 @@
 }
 
 .icon {
-  width: 18px;
+  width: 25px;
+  margin-right: -10px;
 }
 
 .subscribeMail {
