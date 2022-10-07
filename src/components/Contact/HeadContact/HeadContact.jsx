@@ -1,3 +1,4 @@
+import imgContact from "../../../assets/imgContact"
 import "./HeadContact.css";
 
 function HeadContact() {
@@ -11,6 +12,7 @@ function HeadContact() {
                 Cotiza o pregunta por nuestros servicios a: <br/>
                 Atención@Gravity.com
             </p>
+            <img src={imgContact.flag} className="flag" />
         </div>
     );
 }
