@@ -1,0 +1,57 @@
+.informationSection {
+    background-color: #0D2633;
+}
+
+.informationSection > .container{
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.informationAgency {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.informationAgency>h1 {
+    color: #F6B65F;
+    font-size: 30px;
+}
+
+.networksContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.networksButton a img {
+    width: 32px;
+    height: 32px;
+}
+
+.information {
+    width: 70%;
+    border-left: solid 2px #F6B65F;
+    padding: 30px 100px 30px 50px;
+}
+
+.information>p {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.055em;
+    max-width: 500px;
+}
+
+.imgLight {
+    position: absolute;
+    width: 200px;
+    right: 0px;
+    bottom: 0px;
+}

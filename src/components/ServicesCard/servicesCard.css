@@ -10,6 +10,12 @@
   align-items: center;
   flex-direction: column;
   gap: 15px;
+  transition: .3s;
+}
+
+.card__services__container:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
 }
 
 .card__services__container > img {
