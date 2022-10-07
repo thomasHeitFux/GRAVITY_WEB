@@ -4,7 +4,7 @@ import './AboutCards.css'
 
 function AboutCards() {
    return (
-      <div className='d-flex justify-content-center'>
+      <div className='container__cards'>
 
          <li className='card_container m-5'>
             <div className='circle'></div>

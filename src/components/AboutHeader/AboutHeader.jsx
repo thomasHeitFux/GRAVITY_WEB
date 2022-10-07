@@ -1,10 +1,10 @@
-
+import './AboutHeader.css'
 import images from "../../assets/imagenes";
 
 function AboutHeader() {
     return (
         <div>
-             <h2 className='text-center mt-5'>Acerca de Gravity</h2>
+             <h2 className='text__center'>Acerca de Gravity</h2>
         <div className="start__home">
             <div className="start__home__container container">
                 <div className="start__home__main">

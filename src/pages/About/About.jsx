@@ -1,7 +1,7 @@
-import { Navbar } from "../../components/index";
+import { Footer, Navbar } from "../../components/index";
 import { AboutHeader,AboutCards,AboutJoinUs } from "../../components/index";
 import images from "../../assets/imagenes";
-
+import './About.css'
 function About() {
     return (
         <div>
@@ -10,7 +10,10 @@ function About() {
             </nav>
           <AboutHeader/>
           <AboutCards/>
+          <div className="separate">
           <AboutJoinUs/>
+          </div>
+          <Footer/>
         </div>
     )
 }

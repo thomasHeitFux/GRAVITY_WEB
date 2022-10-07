@@ -1,21 +1,7 @@
 import images from "../../assets/imagenes";
-
+import "./AboutJoinUs.css"
 function AboutJoinUs() {
     return (
-        // <div className="d-flex p-3 bg-pght">
-        //     <div>
-        //         <h3>Se parte del equipo de Gravity</h3>
-        //         <p>Si deseas pertenecer al equipo Gravity, adjuntanos los
-        //             siguientes datos junto a tu CV y pnk de portafopo.
-        //            </p>
-        //            <ul>
-        //            <p>- Resumen profesional.</p>
-        //             <p>- Cargo al que se aspira.</p>
-        //             <p>- Aspiracion salarial.</p>
-        //             <p>- CV y portafopo.</p>
-        //            </ul>
-        //     </div>
-        // </div>
         <div>
         
             <div className="start__home">
@@ -25,7 +11,7 @@ function AboutJoinUs() {
                         <p>Si deseas pertenecer al equipo Gravity, adjuntanos los
                             siguientes datos junto a tu CV y pnk de portafopo.
                         </p>
-                        <div className="text-light">
+                        <div className="text__light">
                             <p>- Resumen profesional.</p>
                             <p>- Cargo al que se aspira.</p>
                             <p>- Aspiracion salarial.</p>
