@@ -46,6 +46,16 @@ function SectionContact() {
                             <img src={images.Be_icon} alt="Be" />
                         </a>
                     </li>
+                    <li className="networkIcon">
+                        <a href="https://www.tiktok.com/@agencia.gravity?is_from_webapp=1&sender_device=pc" target="_blank">
+                            <img src={images.Tiktok_icon} alt="Tiktok" />
+                        </a>
+                    </li>
+                    <li className="networkIcon">
+                        <a href="https://www.pinterest.com/AgenciaGravity/" target="_blank">
+                            <img src={images.Pinterest_icon} alt="Pinterest" />
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

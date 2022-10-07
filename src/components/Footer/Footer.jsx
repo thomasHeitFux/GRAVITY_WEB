@@ -50,32 +50,32 @@ function Footer() {
           <h3 className="footerTitle bold">Redes Sociales</h3>
           <ul className="listExtra">
             <li>
-              <a href="#">
+              <a href="https://www.instagram.com/agencia_gravity/" target="_blank">
                 <img src={icon.Arrow_List} width="8px" /> Instagram
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.facebook.com/SomosGravity" target="_blank">
                 <img src={icon.Arrow_List} width="8px" /> Facebook
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.behance.net/gallery/150687073/Agencia-Gravity" target="_blank">
                 <img src={icon.Arrow_List} width="8px" /> Behance
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.pinterest.com/AgenciaGravity/" target="_blank">
                 <img src={icon.Arrow_List} width="8px" /> Pinterest
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.tiktok.com/@agencia.gravity?is_from_webapp=1&sender_device=pc" target="_blank">
                 <img src={icon.Arrow_List} width="8px" /> Tik Tok
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.linkedin.com/company/gravity-agencia-de-marketing-y-publicidad/?viewAsMember=true/" target="_blank">
                 <img src={icon.Arrow_List} width="8px" /> LinkedIn
               </a>
             </li>

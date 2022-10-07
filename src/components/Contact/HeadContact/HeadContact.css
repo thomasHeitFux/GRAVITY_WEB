@@ -1,7 +1,7 @@
 .headContact {
+    position: relative;
     display: flex;
     flex-direction: column;
-    background-color: #0D2633;
     color: white;
     padding: 50px;
     justify-content: center;
@@ -25,5 +25,12 @@
     color: #0e2b3b;
     border-radius: 30px;
     cursor: pointer;
+}
+
+.flag {
+    position: absolute;
+    width: 150px;
+    bottom: 0;
+    left: 4em;
 }
 

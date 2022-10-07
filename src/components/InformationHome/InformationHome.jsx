@@ -13,27 +13,27 @@ function InformationHome() {
             <p>Especialistas en campañas en redes sociales</p>
             <ul className="networksContainer">
               <li className="networksButton ">
-                <a href="#">
+                <a href="https://www.linkedin.com/company/gravity-agencia-de-marketing-y-publicidad/?viewAsMember=true">
                   <img src={images.Linkdln_light} alt="Linkdln" />
                 </a>
               </li>
               <li className="networksButton ">
-                <a href="#">
+                <a href="https://wa.me/message/A6KRC3PTRPNDO1">
                   <img src={images.Whatsapp_light} alt="Whatsapp" />
                 </a>
               </li>
               <li className="networksButton ">
-                <a href="#">
+                <a href="https://www.facebook.com/SomosGravity">
                   <img src={images.Facebook_light} alt="Facebook" />
                 </a>
               </li>
               <li className="networksButton ">
-                <a href="#">
+                <a href="https://www.instagram.com/agencia_gravity/">
                   <img src={images.Instagram_light} alt="Instagram" />
                 </a>
               </li>
               <li className="networksButton ">
-                <a href="#">
+                <a href="https://www.behance.net/gallery/150687073/Agencia-Gravity">
                   <img src={images.Be_light} alt="Be" />
                 </a>
               </li>

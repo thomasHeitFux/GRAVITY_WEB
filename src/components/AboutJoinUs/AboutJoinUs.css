@@ -1,0 +1,18 @@
+.text__light{
+    color: #fff;
+}
+
+.abaut__container{
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.abaut__container p{
+    font-size: 20px;
+}
+
+.btn__abaut{
+    position: absolute;
+    right: 10%;
+    bottom: 30px;
+}
