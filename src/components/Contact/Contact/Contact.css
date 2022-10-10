@@ -26,6 +26,7 @@
 .cardContact > p{
     color: white;
     margin-bottom: 20px;
+    font-size: 19px;
 }
 .circle {
 	height: 100px;
@@ -56,12 +57,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px 50px 20px 150px;
+    padding: 30px 30px 20px 130px;
     gap: 20px;
 }
 
 .networkContact > h1 {
     color: #F6B65F;
+}
+
+.networkContact > p{
+    font-size: 19px;
 }
 
 .develop {

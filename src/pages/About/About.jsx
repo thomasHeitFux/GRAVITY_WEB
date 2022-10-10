@@ -3,6 +3,20 @@ import { AboutHeader,AboutCards,AboutJoinUs } from "../../components/index";
 import images from "../../assets/imagenes";
 import './About.css'
 function About() {
+    const links = [
+        {
+            title: "Nosotros",
+            to: "AbautHeader"
+        },
+        {
+            title: "Mision y vision",
+            to: "AbautCards"
+        },
+        {
+            title: "Se parte del equipo de Gravity",
+            to: "AboutJoinUs"
+        }
+    ]
     return (
         <div>
             <nav className='shadow bg-body rounded'>
@@ -13,7 +27,7 @@ function About() {
           <div className="separate">
           <AboutJoinUs/>
           </div>
-          <Footer/>
+          <Footer links={links}/>
         </div>
     )
 }

@@ -13,7 +13,7 @@
 }
 
 .informationAgency {
-    width: 40%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -24,6 +24,11 @@
 .informationAgency>h1 {
     color: #F6B65F;
     font-size: 30px;
+}
+
+.informationAgency > p{
+    font-size: 19px;
+    width: 250px;
 }
 
 .networksContainer {
@@ -43,15 +48,15 @@
 }
 
 .information>p {
-    font-size: 15px;
+    font-size: 19px;
     line-height: 25px;
     letter-spacing: 0.055em;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .imgLight {
     position: absolute;
     width: 200px;
-    right: 0px;
+    right: -20px;
     bottom: 0px;
 }

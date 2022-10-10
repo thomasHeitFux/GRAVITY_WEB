@@ -15,6 +15,10 @@
     font-size: 25px;
 }
 
+.headContact > p{
+    font-size: 19px;
+}
+
 .btnContact {
     font-size: 17px;
     width: 200px;

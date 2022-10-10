@@ -18,6 +18,15 @@
 
 }
 
+@media (max-width: 375px) {
+  .footerColumns{
+    flex-direction: column;
+  }
+  .footerFirstColumn{
+    display: none;
+  }
+}
+
 .creditsSection {
   position: relative;
   width: 100%;
@@ -70,6 +79,7 @@ li a {
   text-align: center;
   border: solid 3px white;
   transition: 0.5s;
+  z-index: 20;
 }
 
 .creditsSection > button:hover {

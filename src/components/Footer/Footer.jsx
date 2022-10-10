@@ -1,56 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/Marca/logos png/Gravity_logo6.png";
 import icon from "../../assets/imagenes";
 import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
 import "./Footer.css";
 
-function Footer() {
+function Footer({ links }) {
+  const [padTop, setPatTop] = useState(0)
+  
+  window.onscroll = () => {
+    setPatTop(screen.height / 3 - 50);
+  }
   return (
     <div className="footerSection">
       <div className="footerColumns container">
         <div className="footerFirstColumn">
           <img className="logoFooter" src={logo} />
           <ul className="listFooter">
-            <li>
-              <Link to="Projects" smooth={true} duration={1000}>
-                <img src={icon.Arrow_List} width="8px" /> Nuestros proyectos
-              </Link>
-            </li>
-            <li>
-              <Link to="Services" smooth={true} duration={1000}>
-                <img src={icon.Arrow_List} width="8px" /> Nuestros servicios
-              </Link>
-            </li>
-            <li>
-              <Link to="StartHome" smooth={true} duration={1000}>
-                <img src={icon.Arrow_List} width="8px" /> ¿No sabes donde
-                comenzar?
-              </Link>
-            </li>
-            <li>
-              <Link to="Ebook" smooth={true} duration={1000}>
-                <img src={icon.Arrow_List} width="8px" /> E-Books 100% gratis
-              </Link>
-            </li>
-            <li>
-              <Link to="InromationHome" smooth={true} duration={1000}>
-                <img src={icon.Arrow_List} width="8px" /> ¿Quienes somos?
-              </Link>
-            </li>
-            <li>
-              <Link to="SuscribeHome" smooth={true} duration={1000}>
-                <img src={icon.Arrow_List} width="8px" /> Suscribete a nuestra
-                comunidad
-              </Link>
-            </li>
+            {links?.map((link) => (
+              <li key={link.to}>
+                <Link to={link.to} offset={-padTop} smooth={true} duration={1000}>
+                  <img src={icon.Arrow_List} width="8px" /> {link.title}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
         <div className="footerSecondColumn">
           <h3 className="footerTitle bold">Redes Sociales</h3>
           <ul className="listExtra">
             <li>
-              <a href="https://www.instagram.com/agencia_gravity/" target="_blank">
+              <a
+                href="https://www.instagram.com/agencia_gravity/"
+                target="_blank"
+              >
                 <img src={icon.Arrow_List} width="8px" /> Instagram
               </a>
             </li>
@@ -60,22 +43,34 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="https://www.behance.net/gallery/150687073/Agencia-Gravity" target="_blank">
+              <a
+                href="https://www.behance.net/gallery/150687073/Agencia-Gravity"
+                target="_blank"
+              >
                 <img src={icon.Arrow_List} width="8px" /> Behance
               </a>
             </li>
             <li>
-              <a href="https://www.pinterest.com/AgenciaGravity/" target="_blank">
+              <a
+                href="https://www.pinterest.com/AgenciaGravity/"
+                target="_blank"
+              >
                 <img src={icon.Arrow_List} width="8px" /> Pinterest
               </a>
             </li>
             <li>
-              <a href="https://www.tiktok.com/@agencia.gravity?is_from_webapp=1&sender_device=pc" target="_blank">
+              <a
+                href="https://www.tiktok.com/@agencia.gravity?is_from_webapp=1&sender_device=pc"
+                target="_blank"
+              >
                 <img src={icon.Arrow_List} width="8px" /> Tik Tok
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/company/gravity-agencia-de-marketing-y-publicidad/?viewAsMember=true/" target="_blank">
+              <a
+                href="https://www.linkedin.com/company/gravity-agencia-de-marketing-y-publicidad/?viewAsMember=true/"
+                target="_blank"
+              >
                 <img src={icon.Arrow_List} width="8px" /> LinkedIn
               </a>
             </li>

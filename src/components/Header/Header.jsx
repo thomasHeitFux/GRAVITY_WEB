@@ -12,7 +12,7 @@ function Header() {
           <span className="color__secondary">gravedad</span>, <br />
           llevamos su marca a lo <span className="color__secondary">alto</span>!
         </h2>
-        <button className="btn__primary">Agenda aqui</button>
+        <button className="btn__primary">Agenda aquí</button>
       </div>
     </header>
   );
