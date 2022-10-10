@@ -17,7 +17,7 @@ function Navbar() {
             <Link to="/servicios">Servicios</Link>
           </li>
           <li className="links__nav__li">
-            <a href="#">Clientes</a>
+            <Link to="/clientes">Clientes</Link>
           </li>
           <li className="links__nav__li">
             <Link to="/contacto">Contacto</Link>

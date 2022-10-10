@@ -66,8 +66,9 @@
   padding: 10px 15px;
   border: none;
   outline: none;
-  background-color: #29404b;
-  font-size: 1.1rem;
+  background-color: rgba(255, 255, 255, .15);
+  font-size: 19px;
+  color: #ffffff;
 }
 
 .form__textarea {
@@ -77,9 +78,10 @@
   padding: 10px 15px;
   border: none;
   outline: none;
-  background-color: #29404b;
-  font-size: 1.1rem;
+  background-color: rgba(255, 255, 255, .15);
+  font-size: 19px;
   resize: none;
+  color: #ffffff;
 }
 
 .start__home__ornament {

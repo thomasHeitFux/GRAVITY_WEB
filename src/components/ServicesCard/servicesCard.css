@@ -1,6 +1,6 @@
 .card__services__container {
   width: 350px;
-  height: 450px;
+  height: 470px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   
   border-radius: 50px;
@@ -33,7 +33,7 @@
 
 .card__p {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 19px;
   line-height: 27px;
   letter-spacing: 0.055em;
   text-align: center;

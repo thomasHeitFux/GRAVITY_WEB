@@ -10,7 +10,7 @@ function InformationHome() {
         <div className="container">
           <div className="informationAgency ">
             <h1 className="informationTitle bold">Agencia Gravity</h1>
-            <p>Especialistas en campañas en redes sociales</p>
+            <p>Especialistas en campañas en redes sociales.</p>
             <ul className="networksContainer">
               <li className="networksButton ">
                 <a href="https://www.linkedin.com/company/gravity-agencia-de-marketing-y-publicidad/?viewAsMember=true">
@@ -41,13 +41,13 @@ function InformationHome() {
           </div>
           <div className="information">
             <p>
-              Somos una agencia creativa que brinda soluciones innovadoraas
-              mediante estrategias de marketing acompañada de la creación de
-              identidades virtuales fuertes y efectivas. Gestionamos y diseñamos
-              feeds de redes.
-              <br />
-              La agencia gravity brinda servicios de diversas disciplinas con el
-              objetivo de trabajar en equipo, haciendo de manera integral para
+              Somos una Agencia creativa que brinda soluciones innovadoras
+              mediante estrategias de marketing acompañadas de la creación de
+              identidades visuales fuertes y efectivas. Además de ello,
+              gestionamos y diseñamos feeds de redes.
+              <br /> <br />
+              La Agencia Gravity brinda servicios de diversas disciplinas con el
+              objetivo de trabajar en equipo, haciéndolo de manera integral para
               el beneficio de sus clientes.
             </p>
           </div>

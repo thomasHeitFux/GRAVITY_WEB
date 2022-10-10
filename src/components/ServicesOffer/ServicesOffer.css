@@ -17,11 +17,12 @@
 }
 
 .title {
-    font-size: 25px;
     text-align: center;
     color: #0D2633;
     line-height: 40px;
     margin: 30px 0px 30px 0px;
+    font-weight: 700;
+    font-size: 33px;
 }
 
 .astronautGift {
@@ -38,12 +39,13 @@
     background-color: #f5b45f;
     color: #0e2b3b;
     border-radius: 20px;
-    font-size: 25px;
     letter-spacing: 0.1em;
     transform: rotate(-30deg);
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
+    font-size: 33px;
 }
 
 .offerImageInformation {
@@ -52,7 +54,7 @@
 }
 
 .offerInformation {
-    padding: 20px 10px 20px 80px;
+    padding: 20px 0px 20px 80px;
     position: relative;
 }
 
@@ -101,7 +103,8 @@
     margin: 30px 0px 30px 0px;
     letter-spacing: 0.055em;
     line-height: 27px;
-    font-size: 18px;
+    font-size: 19px;
+    color: #0D2633;
 }
 
 .btnSecondary {
