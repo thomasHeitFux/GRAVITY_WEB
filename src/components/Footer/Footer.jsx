@@ -6,20 +6,27 @@ import { animateScroll as scroll } from "react-scroll";
 import "./Footer.css";
 
 function Footer({ links }) {
-  const [padTop, setPatTop] = useState(0)
-  
+  const [padTop, setPatTop] = useState(0);
+
   window.onscroll = () => {
-    setPatTop(screen.height / 3 - 50);
-  }
+    setPatTop(screen.height / 3 - 170);
+  };
   return (
     <div className="footerSection">
       <div className="footerColumns container">
         <div className="footerFirstColumn">
-          <img className="logoFooter" src={logo} />
+          <a href="/">
+            <img className="logoFooter" src={logo} />
+          </a>
           <ul className="listFooter">
             {links?.map((link) => (
               <li key={link.to}>
-                <Link to={link.to} offset={-padTop} smooth={true} duration={1000}>
+                <Link
+                  to={link.to}
+                  offset={-padTop}
+                  smooth={true}
+                  duration={1000}
+                >
                   <img src={icon.Arrow_List} width="8px" /> {link.title}
                 </Link>
               </li>
