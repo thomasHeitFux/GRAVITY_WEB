@@ -18,3 +18,4 @@ export { default as CustomersData } from "./CustomersData/CustomersData";
 export { default as CustomersImages } from "./CustomersImages/CustomersImages";
 export { default as CustomerCard } from "./CustomersCard/CustomersCard";
 export { default as FloatingBar } from "./FloatingBar/FloatingBar";
+export { default as ModalBrand } from "./ModalBrand/ModalBrand"

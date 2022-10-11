@@ -1,8 +1,7 @@
 import { Home, Services, Contact, About, Clientes } from "./pages";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { FloatingBar } from "./components"
+import { FloatingBar, ModalBrand } from "./components";
 import "./App.css";
-
 
 function App() {
   return (

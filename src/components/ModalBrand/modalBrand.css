@@ -1,0 +1,124 @@
+.backdrop__modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.modal__brand {
+  background-color: #f5b45f;
+  border-radius: 30px;
+  padding: 15px;
+  z-index: 30;
+}
+
+.modal__brand__container{
+  border-radius: 30px;
+  background-color: #0e2b3b;
+  padding: 30px 90px;
+}
+
+.modal__information{
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal__information > div h3{
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.modal__information > div p{
+  font-size: 19px;
+  color: #fff;
+  margin-top: 20px;
+  width: 600px;
+}
+
+.modal__brand__img {
+  width: 150px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 40px 0 0 ;
+}
+
+.modal__brand__img > img {
+  width: 60%;
+  object-fit: cover;
+}
+
+.modal__form {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.modal__form > div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 43% 26% 26%;
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+.modal__form > div > input {
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, .15);
+  font-size: 19px;
+  color: #ffffff;
+}
+
+.modal__form > div > input:nth-child(5) {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.modal__form > div > textarea{
+  grid-row: 3;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, .15);
+  font-size: 19px;
+  resize: none;
+  color: #ffffff;
+}
+
+.btn__form{
+  background-color: #f5b45f;
+  color: #0e2b3b;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 60px 10px 30px;
+  font-weight: 700;
+  font-size: 20px;
+  position: relative;
+  margin: 10px 10px 0px 0px;
+}
+
+.btn__form > img{
+  width: 20px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
