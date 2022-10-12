@@ -44,7 +44,7 @@
 }
 .container__cards{
   display: flex;
-  margin: 40px;
+  margin: 40px 40px 0px;
   gap: 40px;
   justify-content: center;
 }

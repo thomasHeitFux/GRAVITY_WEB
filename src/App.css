@@ -10,6 +10,7 @@
   list-style: none;
   text-decoration: none;
   font-family: Nirmala;
+    /* border: 1px solid #000; */
 }
 
 .img__max {
@@ -102,6 +103,25 @@
   border-radius: 10px;
 }
 
--webkit-scrollbar-button:active{
+-webkit-scrollbar-button:active {
   display: block;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 360px;
+  }
+
+  .btn__primary {
+    font-size: 15px;
+    line-height: normal;
+    padding: 7px 14px;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+
+  .title__section {
+    font-size: 25px;
+    margin: 20px 0px 10px;
+  }
 }

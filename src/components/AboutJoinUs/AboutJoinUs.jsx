@@ -3,7 +3,7 @@ import "./AboutJoinUs.css";
 function AboutJoinUs() {
   return (
     <div id="AboutJoinUs">
-      <div className="start__home">
+      <div className="abaut">
         <div className="start__home__container container ">
           <div className="start__home__main abaut__container">
             <h3 className="color__secondary">Se parte del equipo Gravity</h3>
