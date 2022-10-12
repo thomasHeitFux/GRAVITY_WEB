@@ -118,3 +118,76 @@
     font-size: 15px;
     margin-top: 40px;
 }
+
+@media (max-width: 768px) {
+    .offerFrame {
+        top: 15px;
+        width: 150px;
+        height: 40px;
+        padding: 0px;
+        border-radius: 15px;
+        font-size: 25px;
+    }
+
+    .title {
+        line-height: normal;
+        font-size: 20px;
+        margin: 40px 0 0px;
+    }
+
+    .offerSection {
+        border-radius: 30px;
+        padding: 20px;
+    }
+
+    .offerImage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .astronautGift {
+        width: 80px;
+    }
+
+    .counter {
+        gap: 5px;
+    }
+
+    .number {
+        width: 25px;
+        height: 35px;
+        font-size: 20px;
+        border-radius: 4px;
+    }
+
+    .circle_offer {
+        background: #0D2633;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+    }
+    
+
+    .offerInformation {
+        padding: 20px 0px 20px 10px;
+        position: relative;
+    }
+
+    .informationOffer {
+        margin: 30px 0px 30px 0px;
+        letter-spacing: 0.055em;
+        line-height: normaL;
+        font-size: 12px;
+        color: #0D2633;
+    }
+
+    .clock {
+        width: 35px;
+    }
+
+    .btnSecondary {
+        padding: 5px 20px;
+        font-size: 15px;
+    }
+}

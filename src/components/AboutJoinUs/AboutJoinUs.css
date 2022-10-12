@@ -16,3 +16,18 @@
     right: 10%;
     bottom: 30px;
 }
+
+.abaut{
+    width: 100%;
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(13, 38, 51, 1) 50%,
+    rgba(246, 182, 95, 1) 50%
+  );
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
