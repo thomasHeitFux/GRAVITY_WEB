@@ -7,6 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <FloatingBar />
+      <ModalBrand />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/nosotros" element={<About />} />
