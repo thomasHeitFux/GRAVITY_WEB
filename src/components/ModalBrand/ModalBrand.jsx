@@ -4,9 +4,14 @@ import countries from "../../utils/countries.json";
 import { useEffect } from "react";
 import axios from "axios";
 import { useForm } from "react-hook-form";
+import { useSelector, useDispatch } from "react-redux";
+import { setModal } from "../../store/slices/modal.slice";
+import { motion, AnimatePresence } from "framer-motion";
 
 function ModalBrand() {
+  const modal = useSelector((state) => state.modal);
   const { register, handleSubmit, reset } = useForm();
+  const dispatch = useDispatch();
 
   useEffect(() => {
     async function success(pos) {
@@ -22,51 +27,76 @@ function ModalBrand() {
 
       reset({
         country: dataCountry.name,
-        telephone: dataCountry.dial_code
-      })
+        telephone: dataCountry.dial_code,
+      });
     }
     navigator.geolocation.getCurrentPosition(success);
   }, []);
 
-  const submit = e => {
+  const submit = (e) => {
     console.log(e);
-  }
+  };
+
+  const closeModal = () => {
+    dispatch(setModal(null));
+  };
   return (
     <div className="backdrop__modal">
-      <div className="modal__brand container">
-        <div className="modal__brand__container">
-          <div className="modal__information">
-            <div>
-              <h3>Branding</h3>
-              <p>
-                Desarollo de la identidad visual de una marca como Logo,
-                papelería, diseño web, naming, elementos graficos,
-                merchandising, etc.
-              </p>
-            </div>
-            <div className="modal__brand__img flex__center">
-              <img src={images.Marketing_icon} alt="Imagen de Servicios" />
-            </div>
-          </div>
-          <form className="modal__form" onSubmit={handleSubmit(submit)}>
-            <div>
-              <input type="text" placeholder="Nombre" {...register("name")}/>
-              <input type="text" placeholder="Pais" {...register("country")} />
-              <input
-                type="text"
-                placeholder="Telefono"
-                {...register("telephone")}
-              />
-              <input type="text" placeholder="Empresa" {...register("business")}/>
-              <input type="text" placeholder="Correo" {...register("email")}/>
-              <textarea placeholder="Te escuchamos..." {...register("message")}></textarea>
-            </div>
-            <button className="btn__form">
-              Enviar <img src={images.Arrow} alt="Arrow" />
+      <AnimatePresence>
+        <motion.div
+          className="modal__brand container"
+          initial={{ y: "-200%" }}
+          animate={{ y: "0" }}
+          exit={{ y: "-200%" }}
+        >
+          <div className="modal__brand__container">
+            <button className="btn__close__modal" onClick={closeModal}>
+              X
             </button>
-          </form>
-        </div>
-      </div>
+            <div className="modal__information">
+              <div>
+                <h3>{modal.title}</h3>
+                <p>{modal.paragraph}</p>
+              </div>
+              <div className="modal__brand__img flex__center">
+                <img src={modal.img} alt={modal.alt} />
+              </div>
+            </div>
+            <form className="modal__form" onSubmit={handleSubmit(submit)}>
+              <div>
+                <input type="text" placeholder="Nombre" {...register("name")} />
+                <input
+                  type="text"
+                  placeholder="Pais"
+                  {...register("country")}
+                />
+                <input
+                  type="text"
+                  placeholder="Telefono"
+                  {...register("telephone")}
+                />
+                <input
+                  type="text"
+                  placeholder="Empresa"
+                  {...register("business")}
+                />
+                <input
+                  type="text"
+                  placeholder="Correo"
+                  {...register("email")}
+                />
+                <textarea
+                  placeholder="Te escuchamos..."
+                  {...register("message")}
+                ></textarea>
+              </div>
+              <button className="btn__form">
+                Enviar <img src={images.Arrow} alt="Arrow" />
+              </button>
+            </form>
+          </div>
+        </motion.div>
+      </AnimatePresence>
     </div>
   );
 }
