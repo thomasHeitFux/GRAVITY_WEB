@@ -19,6 +19,7 @@
 }
 
 .modal__brand__container{
+  position: relative;
   border-radius: 30px;
   background-color: #0e2b3b;
   padding: 30px 90px;
@@ -121,4 +122,19 @@
   position: absolute;
   right: 10px;
   top: 10px;
+}
+
+.btn__close__modal{
+  background: rgba(255, 255, 255, .15);
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  width: 40px;
+  aspect-ratio: 1;
+  font-weight: 700;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
 }

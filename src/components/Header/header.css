@@ -31,6 +31,19 @@
   font-weight: 300;
 }
 
+.typed-cursor{
+  opacity: 1;
+  color: #f5b45f;
+  border-radius: 2px;
+  animation: typedjsBlink 1s infinite;
+  -webkit-animation: typedjsBlink 1s infinite;
+  animation: typedjsBlink 1s infinite;
+}
+
+@keyframes typedjsBlink{
+  50% { opacity: 0.0; }
+}
+
 @media (max-width: 768px) {
   .title__primary {
     font-size: 25px;
