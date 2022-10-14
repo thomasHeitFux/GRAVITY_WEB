@@ -5,9 +5,9 @@ import './About.css'
 function About() {
     return (
         <div>
-            <nav className='shadow bg-body rounded'>
+            {/* <nav className='shadow bg-body rounded'>
                 <Navbar />
-            </nav>
+            </nav> */}
           <AboutHeader/>
           <AboutCards/>
           <div className="separate">

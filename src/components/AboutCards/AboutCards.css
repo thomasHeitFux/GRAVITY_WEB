@@ -42,9 +42,37 @@
   border-radius: 50%;
   background: #ccc;
 }
-.container__cards{
+.container_about_cards{
   display: flex;
+  flex-direction: row;
   margin: 40px;
   gap: 40px;
   justify-content: center;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 768px) {
+.container_about_cards{
+  flex-direction: column;
+}
+.card_container{
+  width: 300px;
+  height: 200px;
+  flex-direction: row;
+}
+.card__circle{
+  width: 100px;
+  height: 90px;
+}
+.card_about_title{
+  text-align: left;
+}
+.card_about_p{
+  text-align: left;
+}
+.container_about_cards{
+  padding: 0px;
+  margin: 5px;
+}
 }
