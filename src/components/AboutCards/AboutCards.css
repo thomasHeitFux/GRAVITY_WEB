@@ -45,7 +45,6 @@
 .container_about_cards{
   display: flex;
   flex-direction: row;
-  margin: 40px;
   gap: 40px;
   justify-content: center;
 }

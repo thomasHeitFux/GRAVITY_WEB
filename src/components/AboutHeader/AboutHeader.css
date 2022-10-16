@@ -75,6 +75,12 @@
 /* MEDIA QUERY */
 
 @media (max-width: 768px) {
+  .text__center{
+    /* width: 320px; */
+  }
+  .start__abaut{
+    /* width: 320px; */
+  }
   .start__abaut__main>h3{
     font-size: 20px;
    
@@ -83,7 +89,6 @@
     font-size: 14px;
   }
   .start__about__container {
-    height: 430px;
     display: flex;
     flex-direction: row;
   }

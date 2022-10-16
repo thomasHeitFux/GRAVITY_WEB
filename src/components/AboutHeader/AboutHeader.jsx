@@ -4,7 +4,7 @@ import images from "../../assets/imagenes";
 function AboutHeader() {
   return (
     <div>
-      <h3 className="title__section">Acerca de Gravity</h3>
+      <h3 className="text__center">Acerca de Gravity</h3>
       <div className="start__abaut">
         <div className="start__about__container container">
           <div className="start__about__main">
