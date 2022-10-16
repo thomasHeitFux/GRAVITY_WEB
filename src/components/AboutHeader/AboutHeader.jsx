@@ -10,13 +10,13 @@ function AboutHeader() {
           <div className="start__about__main">
             <h3 className="color__secondary">Nosotros</h3>
             <p>
-              Somos una agencia creativa que brinda soluciones innovadoras
+              Somos una Agencia creativa que brinda soluciones innovadoras
               mediante estrategias de marketing acompañada de la creación de
               identidades visuales fuertes y efectivas. Gestionamos y diseñamos
               feeds de redes.
               <br />
               <br />
-              La Agencia grevity brinda servicios de diversas disciplinas con el
+              La Agencia Gravity brinda servicios de diversas disciplinas con el
               objetivo de trabajar en equipo, haciéndolo de manera integral para
               el beneficio de sus clientes.
             </p>

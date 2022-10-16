@@ -29,7 +29,7 @@
 
 .subscribeLabel > h1 {
   margin-left: 30px;
-  font-size: 18px;
+  font-size: 19px;
   color: #0e2b3b;
 }
 
@@ -91,4 +91,56 @@
   width: 200px;
   border-radius: 150px 150px 0px 0px;
   background-color: #f6b65f;
+}
+
+@media (max-width: 768px) {
+  .subscribeImage {
+    width: 35%;
+  }
+
+  .atronautImg {
+    position: absolute;
+    height: 100px;
+    bottom: 0px;
+    left: 0;
+  }
+
+  .subscribeInformation {
+    width: 65%;
+    padding: 5px 20px;
+  }
+  
+  .subscribeLabel > h1 {
+    margin-left: 0px;
+    font-size: 13px;
+  }
+
+  .subscribeForm {
+    display: none;
+    position: relative;
+    width: 15%;
+    background-color: #f6b65f;
+  }
+
+  .input-icons {
+    margin-left: 0px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .subscribeMail {
+    height: auto;
+    font-size: 13px;
+    padding-left: 0px;
+  }
+  
+  .icon {
+    width: 15px;
+    margin-right: -5px;
+  }
 }

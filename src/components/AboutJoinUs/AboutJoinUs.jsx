@@ -11,7 +11,7 @@ function AboutJoinUs() {
                         <p>Si deseas pertenecer al equipo Gravity, adjuntanos los
                             siguientes datos junto a tu CV y link de portafolio.
                         </p>
-                        <div className=" text__light">
+                        <div className="text__light">
                             <p>- Resumen profesional.</p>
                             <p>- Cargo al que se aspira.</p>
                             <p>- Aspiracion salarial.</p>

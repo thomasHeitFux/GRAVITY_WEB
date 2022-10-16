@@ -70,6 +70,7 @@ li a {
   text-align: center;
   border: solid 3px white;
   transition: 0.5s;
+  z-index: 20;
 }
 
 .creditsSection > button:hover {
@@ -78,4 +79,28 @@ li a {
 
 .arrow {
   width: 70%;
+}
+
+@media (max-width: 768px) {
+  .footerColumns{
+    flex-direction: column;
+  }
+  .listFooter{
+    display: none;
+  }
+
+  .creditsSection > button {
+    position: absolute;
+    top: -30px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #f5b45f;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    border: solid 3px white;
+    transition: 0.5s;
+    z-index: 20;
+  }
 }

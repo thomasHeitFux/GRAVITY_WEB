@@ -1,0 +1,51 @@
+.customersHeader {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 70px 0px;
+}
+
+.customersHeader > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.customersHeader > .container > h3 {
+  font-size: 50px;
+  font-weight: 700px;
+  color: #0e2b3b;
+  margin-bottom: -20px;
+}
+
+.customers__header__card {
+  background-color: #fff;
+  max-width: 350px;
+  padding: 50px 20px 30px;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.customers__header__card > span {
+  width: 80px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #000;
+  position: absolute;
+  top: -40px;
+}
+
+.customers__header__card > h4 {
+  color: #0e2b3b;
+  text-align: start;
+  width: 100%;
+  font-size: 20px;
+}
+
+.customers__header__card > p {
+  font-size: 20px;
+}

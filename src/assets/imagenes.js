@@ -30,6 +30,10 @@ import Arrow_Footer from "./Iconos/Gravity/row.svg"
 
 import Human_002 from "./Personajes/PNG_Personajes/Astronauta_ZERO/002.png"
 
+import Wathsapp__glovo from "./iconos RRSS/Glovo de redes/Glovo_wathsapp.png"
+
+import Menu_icon from "./menu.svg"
+
 export default {
     "Logo_nav": Logo_nav,
     "Facebook_icon":Facebook_icon,
@@ -57,4 +61,6 @@ export default {
     "Whatssap_icon": Whatssap_icon,
     "Pinterest_icon": Pinterest_icon,
     "Tiktok_icon": Tiktok_icon,
+    "Whatssap_glovo": Wathsapp__glovo,
+    "Menu_icon": Menu_icon
 }

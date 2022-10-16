@@ -1,6 +1,6 @@
 // import Card from '../ServicesCard/ServicesCard'
 // import Images from "../../assets/imagenes"
-import './AboutCards.css'
+import "./AboutCards.css";
 
 function AboutCards() {
    return (

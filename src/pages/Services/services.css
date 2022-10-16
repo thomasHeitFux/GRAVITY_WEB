@@ -58,6 +58,8 @@
   padding: 10px 20px;
   border: none;
   border-radius: 30px;
+  font-size: 19px;
+  outline: none;
 }
 
 .services__contact__form > textarea {
@@ -91,7 +93,7 @@
 
 .services__contact__message > p {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 19px;
   line-height: 28px;
   letter-spacing: 0.055em;
   margin-top: 10px;

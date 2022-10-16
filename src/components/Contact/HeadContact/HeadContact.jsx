@@ -4,7 +4,7 @@ import "./HeadContact.css";
 function HeadContact() {
   return (
     <div className="div__backoground">
-      <div className="headContact container">
+      <div className="headContact container" id="scheduleHere">
         <h1 className="bold">
           Antes de ello tenemos una asesoría <br /> gratuita para ti
         </h1>

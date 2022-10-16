@@ -8,8 +8,7 @@
   height: 70px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  
+  align-items: center;  
 }
 
 .navbar__brand > img {
@@ -19,6 +18,18 @@
 
 .navbar__brand > img:hover{
   transform: scale(1.1);
+}
+
+.links__container{
+  width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn__menu{
+  border: none;
+  background: none;
+  display: none;
 }
 
 .links__nav__container {
@@ -61,4 +72,40 @@
 
 .country__container span {
   margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    height: 45px;
+  }
+
+  .navbar__brand > img {
+    width: 110px;
+    transition: .3s;
+  }  
+
+  .btn__menu{
+    display: block;
+    z-index: 20;
+  }
+  .links__container *{
+    border: 1px solid #000;
+  }
+
+  .links__container{
+    background-color: #00a6ff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: .3s;
+  }
+
+  .links__nav__container{
+    flex-direction: column;
+  }
 }
