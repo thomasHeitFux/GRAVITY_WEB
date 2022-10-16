@@ -36,8 +36,12 @@
 
 .text__center {
   text-align: center;
+  margin: 10px;
 }
 
+.color__secondary{
+color: #ffffff;
+}
 .abaut__ornament__container {
   position: relative;
   height: 100%;
@@ -75,26 +79,31 @@
 /* MEDIA QUERY */
 
 @media (max-width: 768px) {
-  .text__center{
-    /* width: 320px; */
-  }
-  .start__abaut{
-    /* width: 320px; */
-  }
+
   .start__abaut__main>h3{
     font-size: 20px;
    
   }
-  .start__about__main>p{
-    font-size: 14px;
+  .start__about__main{
+    margin-top: -75px;
   }
+  .start__about__main>p{
+    margin-left: -5%;
+    width: 280px;
+    font-size: 14px;
+    z-index: 10;
+  }
+
   .start__about__container {
+    height: 530px;
     display: flex;
     flex-direction: row;
   }
   .abaut_img__ornament.img__2 {
+    left: -90px;
+    z-index: 1;
     width: 150px;
-    position: relative;
+    position: absolute;
   }
   aside>.box__yellow {
     display: none;

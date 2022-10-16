@@ -56,7 +56,8 @@
   flex-direction: column;
 }
 .card_container{
-  width: 300px;
+  margin-left: 8px;
+  width: 340px;
   height: 200px;
   flex-direction: row;
 }
@@ -68,10 +69,16 @@
   text-align: left;
 }
 .card_about_p{
+ 
   text-align: left;
 }
 .container_about_cards{
   padding: 0px;
   margin: 5px;
+}
+.text_card{
+  width: 220px;
+  height: 180px;
+  overflow: hidden;
 }
 }

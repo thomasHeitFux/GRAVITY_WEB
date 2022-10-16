@@ -19,18 +19,14 @@ function About() {
     ]
     return (
         <div className="About">
-            {/* <nav className='shadow bg-body rounded'>
+            <nav className='shadow bg-body rounded'>
                 <Navbar />
-            </nav> */}
+            </nav>
           <AboutHeader/>
           <AboutCards/>
           <AboutJoinUs/>
-<<<<<<< HEAD
           {/* <Footer/> */}
-=======
-          </div>
           <Footer links={links}/>
->>>>>>> 1b6dc06ff2addb781182c099222956e238191e46
         </div>
     )
 }
