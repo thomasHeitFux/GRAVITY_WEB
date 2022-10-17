@@ -4,8 +4,8 @@
 }
 
 .projects__container {
-    max-width: 1400px;
-    margin: auto;
+  max-width: 1400px;
+  margin: auto;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -16,4 +16,11 @@
   aspect-ratio: 1;
   background-color: gray;
   border: 1px solid #fff;
+}
+
+@media (max-width: 768px) {
+  .business__logo__container > li img {
+    width: 60px;
+    height: 60px;
+  }
 }

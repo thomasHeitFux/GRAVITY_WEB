@@ -1,16 +1,17 @@
 import React from "react";
 import astronautGift from "../../assets/Personajes/PNG_Personajes/Astronauta_ZERO/011.png";
 import clock from "../../assets/iconos RRSS/Iconos de gravity/Relog.png";
-import "./ServicesOffer.css"
+import "./ServicesOffer.css";
 
 function ServiceOffer() {
   return (
     <div className="offer" id="Ebook">
       <div className="offerSection container">
-        <p className="offerFrame bold">
-          GRATIS
-        </p>
-        <h2 className="title bold">Aprende todo sobre Marketing,<br />Branding y Marca personal</h2>
+        <p className="offerFrame bold">¡GRATIS!</p>
+        <h2 className="title bold">
+          Aprende todo sobre Marketing, <br />
+          Branding y Marca personal
+        </h2>
         <div className="offerImageInformation">
           <div className="offerImage">
             <img className="astronautGift" src={astronautGift} />
@@ -34,14 +35,14 @@ function ServiceOffer() {
               <img className="clock" src={clock} />
             </div>
             <p className="informationOffer">
-              Accede del a nuestros 3 E-Books de manera 100% gratuita por tiempo
+              Accede a nuestros 3 E-Books de manera 100% gratuita por tiempo
               limitado:
               <br />
-              Aprende todo lo que nesesitas saber sobre Marketing, Branding y
-              Marca personal, con ello podras potenciar tu marca al maximo, tender
-              los conceptos basicos para poner en acción una estrategia ganadora
-              para tu marca. Comocer la importancia de un buen branding y saber
-              cómo llegar de manera correcta a tú publico.
+              Aprende todo lo que necesitas saber sobre Marketing, Branding y
+              marca personal, con ello podrás potenciar tu marca al máximo,
+              tender los conceptos básicos para poner en acción una estrategia
+              ganadora para tu marca. Conoce la importancia de un buen branding
+              y saber como llegar de manera correcta a tu público.
             </p>
             <button className="btnSecondary bold">Los quiero</button>
           </div>

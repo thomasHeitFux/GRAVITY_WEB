@@ -1,6 +1,6 @@
 import React from "react";
 import astronaut from "../../assets/Personajes/PNG_Personajes/Astronauta_ZERO/001.png";
-import circleCard from "../../assets/Iconos/Cartas o Sobres/Sobre-Blanco 02.png";
+import circleCard from "../../assets/Iconos/Cartas o Sobres/Sobre-Color.png";
 import icon from "../../assets/imagenes";
 import "./SubscribeHome.css";
 

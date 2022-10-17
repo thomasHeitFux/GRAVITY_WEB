@@ -9,7 +9,7 @@ function StartHome() {
         <div className="start__home__main">
           <h3 className="color__secondary">¿No sabes por donde comenzar?</h3>
           <p>
-            Cuentanos cual es tu marca y accede a una asesoria <br /> gratuita.
+            Cuéntanos cuál es tu marca y accede a una asesoría <br /> gratuita.
           </p>
           <form action="" className="form__start__home">
             <input
@@ -28,11 +28,12 @@ function StartHome() {
         </div>
         <div className="start__home__ornament flex__center">
           <div className="globo">
-            Si tienes alguna duda <br /> sobre nosotros estaremos <br />{" "}
+            Si tienes alguna duda <br />
+            sobre nosotros, estaremos <br />
             gustosos de responderte.
           </div>
           <img src={images.Human_010} alt="Human Gravity" />
-        <div className="box__yellow"></div>
+          <div className="box__yellow"></div>
         </div>
       </div>
     </div>
