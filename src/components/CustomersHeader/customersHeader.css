@@ -28,6 +28,7 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
+  box-shadow: -17px 11px 21px -1px rgba(87, 87, 87, 0.137);
 }
 
 .customers__header__card > span {
@@ -49,3 +50,20 @@
 .customers__header__card > p {
   font-size: 20px;
 }
+
+@media (max-width: 768px) {
+  .customers__header__card > p {
+    font-size: 14px;
+  }
+  .customers__header__card {
+    margin-left: 100px;
+    width: 260px;
+  }
+  .customersHeader > .container > h3 {
+    position: absolute;
+    font-size: 20px;
+    top: 73%;
+    left: 5%;
+  }
+ 
+  }

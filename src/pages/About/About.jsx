@@ -25,7 +25,6 @@ function About() {
           <AboutHeader/>
           <AboutCards/>
           <AboutJoinUs/>
-          {/* <Footer/> */}
           <Footer links={links}/>
         </div>
     )

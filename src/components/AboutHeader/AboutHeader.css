@@ -37,6 +37,7 @@
 .text__center {
   text-align: center;
   margin: 10px;
+  
 }
 
 .color__secondary{
@@ -95,7 +96,7 @@ color: #ffffff;
   }
 
   .start__about__container {
-    height: 530px;
+    height: 600px;
     display: flex;
     flex-direction: row;
   }
@@ -107,5 +108,8 @@ color: #ffffff;
   }
   aside>.box__yellow {
     display: none;
+  }
+  .text__center {
+    font-size: 20px; 
   }
 }

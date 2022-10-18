@@ -31,3 +31,11 @@
 .customers__data__two div span{
     display: block;
 }
+@media (max-width: 768px) {
+    .customers__data__two{
+        display: none;
+    }
+    .customers__data__one{
+        display: none;
+    }
+}
