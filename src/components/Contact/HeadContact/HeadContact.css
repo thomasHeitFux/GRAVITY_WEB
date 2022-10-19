@@ -38,3 +38,46 @@
     left: 4em;
 }
 
+@media (max-width: 768px) {
+    .headContact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        color: white;
+        padding: 50px 20px;
+        text-align: center;
+        gap: 20px;
+        letter-spacing: 0.055em;
+    }
+    
+    .headContact > h1 {
+        font-size: 18px;
+        text-align: end;
+    }
+    
+    .headContact > p{
+        font-size: 13px;
+        text-align: end;
+        width: 50%;
+    }
+    
+    .btnContact {
+        font-size: 17px;
+        width: 200px;
+        height: 40px;
+        line-height: 30px;
+        border: none;
+        background-color: #f5b45f;
+        color: #0e2b3b;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    
+    .flag {
+        position: absolute;
+        width: 100px;
+        bottom: 0;
+        left: 0;
+    }
+}

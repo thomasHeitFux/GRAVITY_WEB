@@ -90,6 +90,13 @@
   background-color: #0d2633;
 }
 
+.resalt__link{
+  transform: scale(1.2);
+  font-weight: 700;
+  color: #0d2633;
+  border-bottom: 3px solid #0d2633;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }

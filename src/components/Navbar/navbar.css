@@ -47,6 +47,7 @@
 
 .links__nav__li > a {
   color: #0E2B3B;
+  transition: .1s;
 }
 
 .links__nav__li:nth-child(4) {

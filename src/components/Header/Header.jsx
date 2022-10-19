@@ -9,10 +9,11 @@ function Header() {
   useEffect(() => {
     const options = {
     	strings: [
-        'Creativo',
-        'Prooo',
-        'Siuuuu',
-        'Crackkk'
+        'branding',
+        'diseño web',
+        'estrategia de redes',
+        'diseño de post',
+        'packaging'
       ],
       typeSpeed: 100,
       backSpeed: 100,
@@ -30,7 +31,7 @@ function Header() {
     <header className="header">
       <div className="container container_header">
         <h1 className="title__primary">
-          Hola <span className="color__secondary" style={{ whiteSpace: 'pre' }} ref={el}></span>
+        ¿Su marca necesita <span className="color__secondary" style={{ whiteSpace: 'pre' }} ref={el}></span>?
         </h1>
         <h2 className="title__secondary">
           ¡Vamos en contra de la{" "}
