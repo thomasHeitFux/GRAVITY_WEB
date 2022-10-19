@@ -13,3 +13,13 @@
     gap: 30px;
     margin-bottom: 70px;
 }
+
+@media (max-width: 768px) {
+   .customers__list__container{
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+   } 
+   .customers__list__title{
+    font-size: 25px;
+   }
+}

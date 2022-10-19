@@ -23,3 +23,9 @@
     height: 30%;
     padding: 10px 2px;
 }
+
+@media (max-width: 768px) {
+    .customer__card{
+        width: 170px;
+    } 
+ }
