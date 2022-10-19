@@ -3,11 +3,11 @@ import images from "../../assets/imagenes";
 
 function AboutHeader() {
   return (
-    <div id="AbautHeader">
-      <h3 className="title__section">Acerca de Agencia Gravity</h3>
+    <div>
+      <h3 className="text__center">Acerca de Gravity</h3>
       <div className="start__abaut">
-        <div className="start__home__container container">
-          <div className="start__home__main">
+        <div className="start__about__container container">
+          <div className="start__about__main">
             <h3 className="color__secondary">Nosotros</h3>
             <p>
               Somos una Agencia creativa que brinda soluciones innovadoras
@@ -21,15 +21,11 @@ function AboutHeader() {
               el beneficio de sus clientes.
             </p>
           </div>
-          <div className="abaut__ornament__container flex__center">
-            <img
-              className="abaut_img__ornament img__2"
-              src={images.Human_005}
-              alt="Human Gravity"
-            />
+          <aside className="abaut__ornament__container flex__center">
+            <img className="abaut_img__ornament img__2" src={images.Human_005} alt="Human Gravity" />
 
             <div className="box__yellow"></div>
-          </div>
+          </aside>
         </div>
       </div>
     </div>

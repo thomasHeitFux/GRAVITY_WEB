@@ -1,3 +1,7 @@
+.start__abaut{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 .text__light{
     color: #fff;
 }
@@ -17,17 +21,37 @@
     bottom: 30px;
 }
 
-.abaut{
-    width: 100%;
-  position: relative;
-  background: linear-gradient(
-    90deg,
-    rgba(13, 38, 51, 1) 50%,
-    rgba(246, 182, 95, 1) 50%
-  );
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+@media (max-width: 768px) {
+    .box__yellow{
+        display: none;
+    }
+    .abaut_img__ornament{
+        width: 120px;
+    }
+    .abaut__ornament__container{
+        height: 200px;
+        justify-self:flex-end;
+        align-self: flex-end;
+        margin-right: 40px;
+    }
+    .title__join{
+        margin-left: 10%;
+        width: 300px;
+        right: -90%;
+        top: 5%;
+    }
+    .btn__abaut{
+        right: 35%;
+        bottom: 10px;
+    }
+    .abaut__container>p{
+        margin-left: 10%;
+    }
+    .text__light>p{
+        margin-left: 10%;
+    }
+    .text__light{
+        width: 264px;
+    }
+
 }
