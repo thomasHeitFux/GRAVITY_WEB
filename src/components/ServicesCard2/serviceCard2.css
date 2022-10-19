@@ -3,6 +3,10 @@
   border-left: 2px solid #fff ;
 }
 
+.service_card_2_text{
+  max-width: 80%;
+}
+
 .service_card_2_text > h4 {
   font-weight: 700;
   font-size: 27px;

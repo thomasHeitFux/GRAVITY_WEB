@@ -33,6 +33,7 @@ function Services() {
               paragraph="Desarrollo de la identidad visual de una marca como Logo,
               papelería, diseño web, UI, naming, elementos gráficos,
               merchandising, etc."
+              i={0.5}
             />
             <ServiceCard2
               img={images.Net_icon}
@@ -40,6 +41,7 @@ function Services() {
               paragraph="Creación de contenido orgánico y publicitario para redes,
               programación de publicaciones y automatización de
               mensajes, al igual que el desarrollo de copies para redes."
+              i={1}
             />
             <ServiceCard2
               img={images.Marketing_icon}
@@ -47,6 +49,7 @@ function Services() {
               paragraph="Creación de estrategias, en redes sociales, para la
               generación de Leads y contenido orgánico. Planes
               estratégicos para la organización interna de la marca."
+              i={1.5}
             />
           </div>
         </div>
