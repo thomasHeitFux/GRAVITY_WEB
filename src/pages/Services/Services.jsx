@@ -1,6 +1,7 @@
 import { Navbar, ServiceCard2, Footer } from "../../components";
 import "./services.css";
 import images from "../../assets/imagenes";
+import {motion} from "framer-motion"
 
 function Services() {
   const links = [
@@ -14,8 +15,7 @@ function Services() {
     },
   ];
   return (
-    <>
-      <Navbar />
+    <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{duration: 1}}>
       <h3 id="Services" className="title__section">
         Servicios
       </h3>
@@ -78,7 +78,7 @@ function Services() {
         </div>
       </div>
       <Footer links={links} />
-    </>
+    </motion.div>
   );
 }
 

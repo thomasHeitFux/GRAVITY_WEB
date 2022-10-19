@@ -2,6 +2,8 @@ import { Footer, Navbar } from "../../components/index";
 import { AboutHeader,AboutCards,AboutJoinUs } from "../../components/index";
 import images from "../../assets/imagenes";
 import './About.css'
+import { motion } from "framer-motion"
+
 function About() {
     const links = [
         {
@@ -18,17 +20,14 @@ function About() {
         }
     ]
     return (
-        <div>
-            <nav className='shadow bg-body rounded'>
-                <Navbar />
-            </nav>
+        <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{duration: 1}}>
           <AboutHeader/>
           <AboutCards/>
           <div className="separate">
           <AboutJoinUs/>
           </div>
           <Footer links={links}/>
-        </div>
+        </motion.div>
     )
 }
 

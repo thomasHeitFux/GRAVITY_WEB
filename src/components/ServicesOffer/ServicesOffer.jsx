@@ -34,7 +34,7 @@ function ServiceOffer() {
               <div className="number bold">3</div>
               <img className="clock" src={clock} />
             </div>
-            <p className="informationOffer">
+            <p className="informationOffer informationOffer__desktop">
               Accede a nuestros 3 E-Books de manera 100% gratuita por tiempo
               limitado:
               <br />
@@ -43,6 +43,13 @@ function ServiceOffer() {
               tender los conceptos básicos para poner en acción una estrategia
               ganadora para tu marca. Conoce la importancia de un buen branding
               y saber como llegar de manera correcta a tu público.
+            </p>
+            <p className="informationOffer informationOffer__mobile">
+              Accede del a nuestros 3 E-Books de manera 100% gratuita por tiempo
+              limitado. 
+              <br />
+              Aprende todo de Marketing digital, Branding y Marca
+              personal con lo cual podras potenciar tu marca al maximo,
             </p>
             <button className="btnSecondary bold">Los quiero</button>
           </div>

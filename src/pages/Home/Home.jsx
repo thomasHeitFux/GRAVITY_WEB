@@ -9,6 +9,7 @@ import {
   SubscribeHome,
   Footer,
 } from "../../components";
+import { motion } from "framer-motion"
 
 function Home() {
   const links = [
@@ -38,8 +39,7 @@ function Home() {
     },
   ];
   return (
-    <div className="Home">
-      <Navbar />
+    <motion.div className="Home" initial={{opacity: 0}} animate={{opacity:1}} transition={{duration: 1}}>
       <Header />
       <ProjectsHome />
       <ServicesHome />
@@ -48,7 +48,7 @@ function Home() {
       <InformationHome />
       <SubscribeHome />
       <Footer links={links}/>
-    </div>
+    </motion.div>
   );
 }
 
