@@ -84,7 +84,18 @@ li a {
 @media (max-width: 768px) {
   .footerColumns{
     flex-direction: column;
+    padding: 30px 20px 10px;
   }
+
+  .footerColumns ul li{
+    font-size: 13px;
+  }
+
+  .logoFooter {
+    width: 110px;
+    margin-bottom: 0px;
+  }
+
   .listFooter{
     display: none;
   }
@@ -92,9 +103,9 @@ li a {
   .creditsSection > button {
     position: absolute;
     top: -30px;
-    right: 20px;
-    width: 60px;
-    height: 60px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
     background-color: #f5b45f;
     color: #fff;
     border-radius: 50px;
@@ -102,5 +113,12 @@ li a {
     border: solid 3px white;
     transition: 0.5s;
     z-index: 20;
+  }
+
+  .footerTitle {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    letter-spacing: 0.055em;
+    font-size: 16px;
   }
 }

@@ -94,32 +94,32 @@
 }
 
 @media (max-width: 768px) {
+  .subscribeSection{
+    height: 150px;
+    overflow: hidden;
+  }
+
+  .subscribeSection > .container{
+    height: 100%;
+  }
   .subscribeImage {
-    width: 35%;
+    width: 30%;
   }
 
   .atronautImg {
     position: absolute;
-    height: 100px;
-    bottom: 0px;
-    left: 0;
+    width: 100px;
+    height: auto;
   }
 
   .subscribeInformation {
     width: 65%;
-    padding: 5px 20px;
+    padding: 10px 20px;
   }
   
   .subscribeLabel > h1 {
     margin-left: 0px;
     font-size: 13px;
-  }
-
-  .subscribeForm {
-    display: none;
-    position: relative;
-    width: 15%;
-    background-color: #f6b65f;
   }
 
   .input-icons {
@@ -130,7 +130,7 @@
     border-radius: 30px;
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 5px 10px;
   }
 
   .subscribeMail {
@@ -143,4 +143,29 @@
     width: 15px;
     margin-right: -5px;
   }
+
+
+.subscribeForm {
+  position: relative;
+  width: 15%;
+  background-color: #f6b65f;
+}
+
+.subscribeCircleCard {
+  position: absolute;
+  right: 5px;
+  bottom: 20px;
+
+  height: 50px;
+  width: 50px;
+}
+
+.circleCard {
+  width: 30px;
+}
+
+.subscribeCircle {
+  height: 40px;
+  width: 90px;
+}
 }

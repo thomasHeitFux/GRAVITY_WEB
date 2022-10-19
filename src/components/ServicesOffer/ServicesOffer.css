@@ -1,6 +1,6 @@
 .offer {
     width: 100%;
-    padding: 60px 0px;
+    padding: 50px 0px;
 }
 
 .offerSection {
@@ -119,19 +119,32 @@
     margin-top: 40px;
 }
 
+.informationOffer__mobile{
+    display: none;
+}
+
 @media (max-width: 768px) {
+    .informationOffer__desktop{
+        display: none;
+    }
+
+    .informationOffer__mobile{
+        display: block;
+    }
+
     .offerFrame {
         top: 15px;
-        width: 150px;
-        height: 40px;
+        left: -15px;
+        width: 120px;
+        height: 30px;
         padding: 0px;
         border-radius: 15px;
-        font-size: 25px;
+        font-size: 15px;
     }
 
     .title {
         line-height: normal;
-        font-size: 20px;
+        font-size: 16px;
         margin: 40px 0 0px;
     }
 

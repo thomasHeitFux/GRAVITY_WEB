@@ -1,16 +1,13 @@
 import { Home, Services, Contact, About, Clientes } from "./pages";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { FloatingBar, ModalBrand } from "./components";
-import { useSelector } from "react-redux"
+import { FloatingBar, Navbar } from "./components";
 import "./App.css";
 
 function App() {
-  const modal = useSelector(state => state.modal)
-  
   return (
     <BrowserRouter>
+      <Navbar />
       <FloatingBar />
-      {modal !== null && <ModalBrand />}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/nosotros" element={<About />} />

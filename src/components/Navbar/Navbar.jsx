@@ -1,10 +1,12 @@
 import "./navbar.css";
 import images from "../../assets/imagenes";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 
 function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
+  const location = useLocation().pathname;
 
   return (
     <div className="nav__expand">
@@ -20,17 +22,37 @@ function Navbar() {
           style={{ right: openMenu ? "0px" : "-100%" }}
         >
           <ul className="links__nav__container flex__center">
-            <li className="links__nav__li">
-              <Link to="/nosotros">Nosotros</Link>
+            <li className="links__nav__li ">
+              <Link
+                to="/nosotros"
+                className={location === "/nosotros" ? "resalt__link" : "nel"}
+              >
+                Nosotros
+              </Link>
             </li>
             <li className="links__nav__li">
-              <Link to="/servicios">Servicios</Link>
+              <Link
+                to="/servicios"
+                className={location === "/servicios" ? "resalt__link" : "nel"}
+              >
+                Servicios
+              </Link>
             </li>
             <li className="links__nav__li">
-              <Link to="/clientes">Clientes</Link>
+              <Link
+                to="/clientes"
+                className={location === "/clientes" ? "resalt__link" : "nel"}
+              >
+                Clientes
+              </Link>
             </li>
             <li className="links__nav__li">
-              <Link to="/contacto">Contacto</Link>
+              <Link
+                to="/contacto"
+                className={location === "/contacto" ? "resalt__link" : "nel"}
+              >
+                Contacto
+              </Link>
             </li>
           </ul>
           <ul className="networks__nav__container flex__center">

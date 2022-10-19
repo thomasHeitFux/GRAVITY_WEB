@@ -7,6 +7,7 @@ import {
   CustomerCard
 } from "../../components";
 import './clientes.css'
+import { motion } from "framer-motion";
 
 const cards = [1, 2, 3, 4, 5, 6]
 
@@ -23,8 +24,7 @@ function Clientes() {
   ]
 
   return (
-    <>
-      <Navbar />
+    <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{duration: 1}}>
       <section>
         <h3 className="title__section" id="customers">Clientes</h3>
         <CustomersHeader />
@@ -42,7 +42,7 @@ function Clientes() {
         </div>
       </section>
       <Footer links={links}/>
-    </>
+    </motion.div>
   );
 }
 
