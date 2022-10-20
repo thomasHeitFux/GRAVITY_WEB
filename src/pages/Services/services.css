@@ -180,3 +180,9 @@
     padding: 20px;
   }
 }
+.lottie{
+position: absolute;
+width: 290px;
+right: 50%;
+bottom: 10px;
+}
