@@ -2,8 +2,18 @@ import { Navbar, ServiceCard2, Footer } from "../../components";
 import "./services.css";
 import images from "../../assets/imagenes";
 import {motion} from "framer-motion"
+import Lottie from "react-lottie";
+import noteData from '../../assets/lottie/20221012_COHETE_V4.0.json';
+
 
 function Services() {
+  const defaultOptions={
+    loop:false,
+    autoplay:true,
+    renderSettings:{
+      preserveAspectRatio:'xMidYmid slice'
+    }
+  };
   const links = [
     {
       title: "Servicios",
@@ -66,6 +76,9 @@ function Services() {
               ¿Cuál es el siguiente paso que va a dar tu marca? <br />
               Cotiza aquí.
             </p>
+            <div className='lottie'>
+          <Lottie options={{animationData:noteData,...defaultOptions}} />
+            </div>
           </div>
           <div className="services__contact">
             <form className="services__contact__form">
