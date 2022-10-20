@@ -25,6 +25,12 @@
     font-size: 33px;
 }
 
+.offerImage{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 .astronautGift {
     width: 350px;
 }
