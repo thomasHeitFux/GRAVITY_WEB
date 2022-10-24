@@ -1,0 +1,26 @@
+.business__logo__container > li img {
+  width: 100px;
+  height: 100px;
+}
+
+.projects__container {
+  max-width: 1400px;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.projects__container > li {
+  aspect-ratio: 1;
+  background-color: gray;
+  border: 1px solid #fff;
+}
+
+@media (max-width: 768px) {
+  .business__logo__container > li img {
+    width: 60px;
+    height: 60px;
+  }
+}
