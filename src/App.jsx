@@ -1,11 +1,11 @@
 import { Home, Services, Contact, About, Clientes } from "./pages";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import { FloatingBar, Navbar } from "./components";
 import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <FloatingBar />
       <Routes>
@@ -15,7 +15,7 @@ function App() {
         <Route path="/contacto" element={<Contact />} />
         <Route path="/clientes" element={<Clientes />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
