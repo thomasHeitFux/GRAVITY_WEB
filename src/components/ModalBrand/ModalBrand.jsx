@@ -1,6 +1,4 @@
-import { setModal } from "../../store/slices/modal.slice";
 import { motion, AnimatePresence } from "framer-motion";
-import { useSelector, useDispatch } from "react-redux";
 import countries from "../../utils/countries.json";
 import images from "../../assets/imagenes";
 import { useForm } from "react-hook-form";
@@ -10,8 +8,6 @@ import "./modalBrand.css";
 
 function ModalBrand({closeModal2}) {
   const { register, handleSubmit, reset } = useForm();
-  const modal = useSelector((state) => state.modal);
-  const dispatch = useDispatch();
 
   useEffect(() => {
     async function success(pos) {

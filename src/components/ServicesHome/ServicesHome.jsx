@@ -1,15 +1,12 @@
-import { setModal } from "../../store/slices/modal.slice";
 import { AnimatePresence, motion } from "framer-motion";
 import services from "../../utils/services.json";
 import images from "../../assets/imagenes";
-import { useDispatch } from "react-redux";
 import { useState } from "react";
 import "./servicesHome.css";
 import Modal from "../ModalBrand/ModalBrand";
 
 function ServicesHome() {
   const [selectedId, setSelectedId] = useState(null);
-  const dispatch = useDispatch();
 
   const changeId = (e) => {
     dispatch(setModal(e));
