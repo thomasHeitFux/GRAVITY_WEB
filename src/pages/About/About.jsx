@@ -1,5 +1,5 @@
 import { Footer, Navbar } from "../../components/index";
-import { AboutHeader,AboutCards,AboutJoinUs } from "../../components/index";
+import { AboutHeader,AboutCards,AboutJoinUs ,FloatingBar} from "../../components/index";
 import images from "../../assets/imagenes";
 import './About.css'
 import { motion } from "framer-motion"
@@ -20,7 +20,9 @@ function About() {
         }
     ]
     return (
-        <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{duration: 1}}>          
+        <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{duration: 1}}>       
+          <Navbar />
+      <FloatingBar />   
           <AboutHeader/>
           <AboutCards/>
           <AboutJoinUs/>

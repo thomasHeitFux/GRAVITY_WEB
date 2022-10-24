@@ -6,8 +6,8 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
-      <FloatingBar />
+      {/* <Navbar />
+      <FloatingBar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/nosotros" element={<About />} />
