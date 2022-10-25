@@ -13,27 +13,27 @@ function InformationHome() {
             <p className="infor__paragraph__desktop">Especialistas en campañas en redes sociales.</p>
             <ul className="networksContainer infor__paragraph__desktop">
               <li className="networksButton ">
-                <a href="https://www.linkedin.com/company/gravity-agencia-de-marketing-y-publicidad/?viewAsMember=true">
+                <a href="https://www.linkedin.com/company/gravity-agencia-de-marketing-y-publicidad/?viewAsMember=true" target="_blank">
                   <img src={images.Linkdln_light} alt="Linkdln" />
                 </a>
               </li>
               <li className="networksButton ">
-                <a href="https://wa.me/message/A6KRC3PTRPNDO1">
+                <a href="https://wa.me/message/A6KRC3PTRPNDO1" target="_blank">
                   <img src={images.Whatsapp_light} alt="Whatsapp" />
                 </a>
               </li>
               <li className="networksButton ">
-                <a href="https://www.facebook.com/SomosGravity">
+                <a href="https://www.facebook.com/SomosGravity" target="_blank">
                   <img src={images.Facebook_light} alt="Facebook" />
                 </a>
               </li>
               <li className="networksButton ">
-                <a href="https://www.instagram.com/agencia_gravity/">
+                <a href="https://www.instagram.com/agencia_gravity/" target="_blank">
                   <img src={images.Instagram_light} alt="Instagram" />
                 </a>
               </li>
               <li className="networksButton ">
-                <a href="https://www.behance.net/gallery/150687073/Agencia-Gravity">
+                <a href="https://www.behance.net/gallery/150687073/Agencia-Gravity" target="_blank">
                   <img src={images.Be_light} alt="Be" />
                 </a>
               </li>

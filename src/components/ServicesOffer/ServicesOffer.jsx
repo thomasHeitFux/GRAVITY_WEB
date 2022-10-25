@@ -8,15 +8,15 @@ function ServiceOffer() {
     <div className="offer" id="Ebook">
       <div className="offerSection container">
         <p className="offerFrame bold">¡GRATIS!</p>
-        <h2 className="title bold">
-          Aprende todo sobre Marketing, <br />
-          Branding y Marca personal
-        </h2>
         <div className="offerImageInformation">
           <div className="offerImage">
             <img className="astronautGift" src={astronautGift} />
           </div>
           <div className="offerInformation">
+            <h2 className="title bold">
+              Aprende todo sobre Marketing, <br />
+              Branding y Marca personal
+            </h2>
             <div className="counter">
               <div className="number bold">0</div>
               <div className="number bold">1</div>
@@ -46,10 +46,10 @@ function ServiceOffer() {
             </p>
             <p className="informationOffer informationOffer__mobile">
               Accede del a nuestros 3 E-Books de manera 100% gratuita por tiempo
-              limitado. 
+              limitado.
               <br />
-              Aprende todo de Marketing digital, Branding y Marca
-              personal con lo cual podras potenciar tu marca al maximo,
+              Aprende todo de Marketing digital, Branding y Marca personal con
+              lo cual podras potenciar tu marca al maximo,
             </p>
             <button className="btnSecondary bold">Los quiero</button>
           </div>
