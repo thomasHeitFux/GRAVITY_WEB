@@ -27,8 +27,8 @@ function Clientes() {
     }
   ]
 
-  
-//   const [index, setIndex] = useState(0)
+
+  const [index, setIndex] = useState(0)
 //   let i=0
 //  useEffect(()=>{
 //   setInterval(()=>{ index < 2 ? setIndex(index+1) : setIndex(0)}, 3000)
