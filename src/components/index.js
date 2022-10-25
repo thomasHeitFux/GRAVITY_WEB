@@ -13,7 +13,7 @@ export { default as SubscribeHome } from "./SubscribeHome/SubscribeHome";
 export { default as Footer } from "./Footer/Footer";
 export { default as SectionContact } from "./Contact/Contact/Contact";
 export { default as HeadContact } from "./Contact/HeadContact/HeadContact";
-export { default as CustomersHeader } from "./CustomersHeader/DustomersHeader";
+export { default as CustomersHeader } from "./CustomersHeader/CustomersHeader";
 export { default as CustomersData } from "./CustomersData/CustomersData";
 export { default as CustomersImages } from "./CustomersImages/CustomersImages";
 export { default as CustomerCard } from "./CustomersCard/CustomersCard";

@@ -6,10 +6,14 @@ import {
   CustomersImages,
   CustomerCard
 } from "../../components";
+import clientsJSON from "../../clients.json"
 import './clientes.css'
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 const cards = [1, 2, 3, 4, 5, 6]
+
+
 
 function Clientes() {
   const links = [
@@ -23,19 +27,27 @@ function Clientes() {
     }
   ]
 
+
+  const [index, setIndex] = useState(0)
+//   let i=0
+//  useEffect(()=>{
+//   setInterval(()=>{ index < 2 ? setIndex(index+1) : setIndex(0)}, 3000)
+//  }, [index])
+
+
   return (
     <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{duration: 1}}>
-      <section>
+      <section className="customers__section">
         <h3 className="title__section" id="customers">Clientes</h3>
-        <CustomersHeader />
-        <CustomersData />
-        <CustomersImages />
+        <CustomersHeader name={clientsJSON.data[index].name} banner={clientsJSON.data[index].img.banner} />
+        <CustomersData name={clientsJSON.data[index].name} description={clientsJSON.data[index].description}/>
+        <CustomersImages img={clientsJSON.data[index].img} />
         <div className="customers__list container">
           <h3 className="customers__list__title" id="moreProjects">Mas proyectos</h3>
           <div className="customers__list__container">
             {
-              cards.map(card => (
-                <CustomerCard key={card}/>
+              clientsJSON.data.map(c => (
+                <CustomerCard key={clientsJSON.data.indexOf(c)} img={c.img.mockup[4]} name={c.name} description={c.description.l}/>
               ))
             }
           </div>

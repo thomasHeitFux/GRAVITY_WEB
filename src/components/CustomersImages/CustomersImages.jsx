@@ -1,12 +1,28 @@
-import './customersImages.css'
+import "./customersImages.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
-function CustomersImages() {
+function CustomersImages({ img }) {
+  const settings = {
+    dots:true,
+    infinite:true,
+    speed:500,
+    slidesToShow:4,
+    slidesToScroll:4,
+    lazyLoad: true,
+  }
   return (
-    <ul className="customers__images__container">
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
+    <Slider {...settings}>
+        {img.mockup.map((i) => {
+          return (
+            <div className="slider__item" key={img.mockup.indexOf(i)}>
+              <img src={i} width="381.26px" height="381.26" />
+            </div>
+          );
+        })}
+
+    </Slider>
   );
 }
 

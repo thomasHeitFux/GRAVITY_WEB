@@ -17,6 +17,11 @@
   margin-bottom: -20px;
 }
 
+.customer__header__banner{
+  position: absolute;
+  object-fit: cover;
+  left:0
+}
 .customers__header__card {
   background-color: #fff;
   max-width: 350px;
