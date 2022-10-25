@@ -17,7 +17,7 @@ function CustomersImages({ img }) {
         {img.mockup.map((i) => {
           return (
             <div className="slider__item" key={img.mockup.indexOf(i)}>
-              <img src={i} width="381.26px" height="381.26" />
+              <img src={i}  />
             </div>
           );
         })}

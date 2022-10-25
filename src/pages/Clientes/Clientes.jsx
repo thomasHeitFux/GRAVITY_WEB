@@ -11,8 +11,6 @@ import './clientes.css'
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
-const cards = [1, 2, 3, 4, 5, 6]
-
 
 
 function Clientes() {
@@ -29,11 +27,11 @@ function Clientes() {
 
 
   const [index, setIndex] = useState(0)
-//   let i=0
-//  useEffect(()=>{
-//   setInterval(()=>{ index < 2 ? setIndex(index+1) : setIndex(0)}, 3000)
-//  }, [index])
+ useEffect(()=>{
+  setTimeout(()=>{ index < 2 ? setIndex(index+1) : setIndex(0)}, 3000);
+ }, [index]);
 
+console.log(index);
 
   return (
     <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{duration: 1}}>

@@ -1,5 +1,5 @@
 .customers__section{
-    width: 100vw;
+    width: 99vw;
 }
 .customers__list__title{
     font-size: 50px;
@@ -14,7 +14,7 @@
     align-items: center;
     grid-template-columns: repeat(3, auto);
     gap: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 @media (max-width: 768px) {
