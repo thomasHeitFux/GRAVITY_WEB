@@ -1,3 +1,6 @@
+.customers__section{
+    width: 100vw;
+}
 .customers__list__title{
     font-size: 50px;
     margin: 60px 0px 30px;

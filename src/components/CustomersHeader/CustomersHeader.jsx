@@ -1,10 +1,10 @@
 import "./customersHeader.css";
 
-function CustomersHeader({banner,name}) {
+function CustomersHeader({ banner, name }) {
   return (
     <div className="customersHeader">
       <div className="container">
-    <img src={banner} alt="" />
+        <img src={banner} className="customer__header__banner" />
         <div className="customers__header__card">
           <span></span>
           <h4>{name}</h4>
