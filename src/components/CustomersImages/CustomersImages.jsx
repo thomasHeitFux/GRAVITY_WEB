@@ -1,30 +1,27 @@
 import "./customersImages.css";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import { Pagination } from "swiper";
-import "swiper/css/pagination";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
-function CustomersImages(img) {
-  console.log(Swiper);
+function CustomersImages({ img }) {
+  const settings = {
+    dots:true,
+    infinite:true,
+    speed:500,
+    slidesToShow:4,
+    slidesToScroll:4
+  }
   return (
-    <ul>
-      <Swiper
-        spaceBetween={0}
-        slidesPerView={4}
-        modules={[Pagination]}
-        pagination={{
-          clickable: true,
-        }}
-      >
-        {img.img.mockup.map((i) => {
+    <Slider {...settings}>
+        {img.mockup.map((i) => {
           return (
-            <SwiperSlide>
-              <img height="500px" src={i} />
-            </SwiperSlide>
+            <div>
+              <img src={i} width="381px" key={img.mockup.indexOf(i)} />
+            </div>
           );
         })}
-      </Swiper>
-    </ul>
+
+    </Slider>
   );
 }
 
