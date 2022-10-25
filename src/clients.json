@@ -1,0 +1,33 @@
+{"data":[{
+    "name":"Oreva", "img":{"mockup":["https://res.cloudinary.com/ddkurzft6/image/upload/v1666626644/gravity/Oreva/Recurso_55JTG_rws3tv.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626643/gravity/Oreva/Recurso_54JTG_zeyvjs.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_51JTG_jseeqv.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_53JTG_hve7wi.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_47JTG_pm6psn.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_50JTG_sm18pn.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_52JTG_zewapf.jpg"], 
+    "banner":"https://res.cloudinary.com/ddkurzft6/image/upload/v1666626643/gravity/Oreva/banner.jpg", "icon":""}, "description":{"s":"","l":""}
+    },
+    {
+    "name":"D Fabian", "img":{"mockup":["https://res.cloudinary.com/ddkurzft6/image/upload/v1666626666/gravity/D%20Fabian/Recurso_49JTG_wriqbr.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626666/gravity/D%20Fabian/Recurso_45JTG_a9mdok.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626665/gravity/D%20Fabian/Recurso_48JTG_i9dy9q.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626665/gravity/D%20Fabian/Recurso_46JTG_qmpzqp.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626665/gravity/D%20Fabian/Recurso_41JTG_ysq07u.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/Recurso_44JTG_wnfu9g.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/Recurso_43JTG_tkpyqi.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/Recurso_42JTG_k0rnjs.jpg"], 
+    "banner":"https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/banner.jpg", "icon":""}, "description":{"s":"","l":""}
+    },
+    {
+    "name":"Mujer Libre", "img":{"mockup":["https://res.cloudinary.com/ddkurzft6/image/upload/v1666626618/gravity/MujerLibre/Recurso_40JTG_zazpab.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626618/gravity/MujerLibre/Recurso_39JTG_znctwk.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626618/gravity/MujerLibre/Recurso_37JTG_q7suaf.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626618/gravity/MujerLibre/Recurso_38JTG_cycrtt.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/Recurso_35JTG_ijdzne.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/Recurso_33JTG_k461vv.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/Recurso_36JTG_um3pnh.jpg",
+    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/Recurso_34JTG_ns6gru.jpg"], 
+    "banner":"https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/banner.jpg", "icon":""}, "description":{"s":"","l":""}
+    }
+]}

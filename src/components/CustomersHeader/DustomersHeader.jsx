@@ -1,13 +1,13 @@
 import "./customersHeader.css";
 
-function CustomersHeader() {
+function CustomersHeader({banner,name}) {
   return (
     <div className="customersHeader">
       <div className="container">
-        <h3>Su super slogan aqui</h3>
+    <img src={banner} alt="" />
         <div className="customers__header__card">
           <span></span>
-          <h4>Lorem ipsum</h4>
+          <h4>{name}</h4>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
             repellendus nemo corrupti, animi saepe voluptatibus totam quo

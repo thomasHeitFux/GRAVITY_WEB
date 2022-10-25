@@ -1,14 +1,31 @@
 .customers__images__container {
-    max-width: 1400px;
-    margin: auto;
+  max-width: 1400px;
+  margin: auto;
   display: grid;
   justify-content: center;
   align-items: center;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.customers__images__container > li {
+.customers__images__container>li {
   aspect-ratio: 1;
   background-color: gray;
   border: 1px solid #fff;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+  bottom: 0
+}
+.swiper-pagination-bullet {
+  /* margin-top: 10rem; */
+  background-color: #D7D4D4 !important;
+  height: 0.9rem !important;
+  width: 0.9rem !important;
+  margin: 0.9rem !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #B5B4B4!important;
+  height: 1.3rem !important;
+  width: 1.3rem !important;
 }
