@@ -6,7 +6,7 @@ import {
   CustomersImages,
   CustomerCard
 } from "../../components";
-import clientsJSON from "../../clients.json"
+import clientsJSON from "../../utils/clients.json"
 import './clientes.css'
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
