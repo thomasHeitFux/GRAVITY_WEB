@@ -13,7 +13,7 @@ function CustomersImages({ img }) {
     lazyLoad: true,
   }
   return (
-    <Slider {...settings}>
+    <Slider className="slider" {...settings}>
         {img.mockup.map((i) => {
           return (
             <div className="slider__item" key={img.mockup.indexOf(i)}>

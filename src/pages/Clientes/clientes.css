@@ -16,7 +16,9 @@
     gap: 30px;
     margin-bottom: 100px;
 }
-
+.carrousel_villero{
+    
+}
 @media (max-width: 768px) {
    .customers__list__container{
     grid-template-columns: repeat(2, auto);

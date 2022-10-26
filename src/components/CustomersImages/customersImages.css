@@ -18,13 +18,20 @@
 }
 
 .slider__item >img{
-  width:381.26px;
-  height:381.26
+  width:310px;
+  height:auto;
 }
 
+.slider{
+  max-width: 90vw;
+  margin-left: 4.5%;
+}
 @media (max-width: 568px) {
   .slider__item >img{
-    width:150.26px;
+    width:90.26px;
     height:150.26
+  }
+  .slider{
+    max-width: 90vw;
   }
 }
