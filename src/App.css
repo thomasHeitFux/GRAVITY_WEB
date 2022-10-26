@@ -131,10 +131,14 @@
     font-size: 25px;
     margin: 20px 0px 10px;
   }
+
+  .slick-dots li button:before {
+    font-size: 10px !important;
+    line-height: 10px !important;
+  }
 }
 
 .slick-dots li button:before {
   font-size: 20px;
   line-height: 20px;
- 
 }
