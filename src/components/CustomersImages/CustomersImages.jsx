@@ -11,7 +11,7 @@ function CustomersImages({ img }) {
     slidesToShow:4,
     slidesToScroll:4,
     lazyLoad: true,
-    arrows: false
+    arrows: false,
   }
   return (
     <Slider className="slider" {...settings}>

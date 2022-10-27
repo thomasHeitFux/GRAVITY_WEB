@@ -2,50 +2,44 @@
   border: 1px solid black;
 } */
 
-.customer__header__banner{
+.customersHeader {
+  width: 99vw;
+  margin: 0;
+}
+
+.customer__container {
+  display: flex;
+  margin-left: 0;
+  margin: 0;
+}
+
+.customer__header__banner {
   width: 99vw;
   height: 500px;
   margin-top: 60px;
-}
-.customersHeader {
-  width: 95%;
-  background-color: #f2f2f2;
-  padding: 70px 0px;
-}
-
-.customersHeader > .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.customersHeader > .container > h3 {
-  font-size: 50px;
-  font-weight: 700px;
-  color: #0e2b3b;
-  margin-bottom: -20px;
-}
-
-.customer__header__banner{
-  position: absolute;
+  margin-left: 0;
+  position: relative;
   object-fit: cover;
-  left:0
+  left: 0
 }
+
 .customers__header__card {
   background-color: #fff;
+  right: 7rem;
+  top: 22rem;
   max-width: 310px;
-  padding: 50px 20px 30px;
+  /* padding: 50px 20px 30px; */
   border-radius: 30px;
-  position: relative;
+  position: absolute;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   gap: 20px;
   box-shadow: -17px 11px 21px -1px rgba(87, 87, 87, 0.137);
 }
 
-.customers__header__card > span {
+.customers__header__card span {
   width: 80px;
   aspect-ratio: 1;
   border-radius: 50%;
@@ -54,35 +48,41 @@
   top: -40px;
 }
 
-.customers__header__card > h4 {
+/* .customers__header__card h4 {
   color: #0e2b3b;
   text-align: start;
   width: 100%;
   font-size: 20px;
-}
+} */
 
-.customers__header__card > p {
-  font-size: 20px;
+.customers__header__card p {
+  font-size: 18px;
+  margin-top: 2rem;
+  padding: 1rem 2rem 1rem 2rem;
+  width: 18rem;
 }
 
 @media (max-width: 568px) {
-  .customers__header__card > p {
+  .customers__header__card>p {
     font-size: 14px;
   }
+
   .customers__header__card {
-    margin-left: 100px;
+    /* margin-left: 100px; */
     width: 260px;
   }
-  .customersHeader > .container > h3 {
+
+  .customersHeader>.container>h3 {
     position: absolute;
     font-size: 20px;
     top: 73%;
     left: 5%;
   }
-  .customer__header__banner{
+
+  .customer__header__banner {
     width: 99vw;
     height: 400px;
     margin-top: 60px;
   }
- 
-  }
+
+}

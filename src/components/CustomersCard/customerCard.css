@@ -1,6 +1,7 @@
 .customer__card{
     width: 300px;
     height: 300px;
+    margin: 6rem 0 6rem 0;
 }
 
 .customer__card__header{
@@ -19,7 +20,11 @@
     color: #000;
 }
 
-
+.customer__card__text{
+display: flex;
+justify-content: center;
+align-content: center;
+}
 
 @media (max-width: 768px) {
     .customer__card{

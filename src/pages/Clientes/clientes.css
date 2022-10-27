@@ -1,9 +1,14 @@
 .customers__section{
     width: 99vw;
 }
+.title__section{
+    display: flex;
+    flex-direction: column;
+}
+
 .customers__list__title{
     font-size: 50px;
-    margin: 60px 0px 30px;
+    margin: 60px 0px 0px;
     text-align: center;
     color: #0d2633;
 }

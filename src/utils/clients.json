@@ -6,7 +6,8 @@
     "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_47JTG_pm6psn.jpg",
     "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_50JTG_sm18pn.jpg",
     "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_52JTG_zewapf.jpg"], 
-    "banner":"https://res.cloudinary.com/ddkurzft6/image/upload/v1666626643/gravity/Oreva/banner.jpg", "icon":""}, "description":{"s":"Agro exportadores de arandanos, gengibre, mango, palta y curcuma.","l":""}
+    "banner":"https://res.cloudinary.com/ddkurzft6/image/upload/v1666626643/gravity/Oreva/banner.jpg", "icon":""}, 
+    "description":{"s":"Agro exportadores de arandanos, gengibre, mango, palta y curcuma.","l":"no hay descripcion, no hay descripcion no hay descripcion no hay descripcion,no hay descripcion no hay descripcion, no hay descripcion no hay descripcion no hay descripcion"}
     },
     {
     "name":"D Fabian", "img":{"mockup":["https://res.cloudinary.com/ddkurzft6/image/upload/v1666626666/gravity/D%20Fabian/Recurso_49JTG_wriqbr.jpg",
@@ -17,10 +18,12 @@
     "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/Recurso_44JTG_wnfu9g.jpg",
     "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/Recurso_43JTG_tkpyqi.jpg",
     "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/Recurso_42JTG_k0rnjs.jpg"], 
-    "banner":"https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/banner.jpg", "icon":""}, "description":{"s":"","l":""}
+    "banner":"https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/banner.jpg", "icon":""}, 
+    "description":{"s":"No hay descripcion, no hay descripcion, no hay descripcion no hay descripcion no hay descripcion, no hay descripcion","l":"no hay descripcion, no hay descripcion no hay descripcion no hay descripcion,no hay descripcion no hay descripcion, no hay descripcion no hay descripcion no hay descripcion"}
     },
     {
-    "name":"Mujer Libre", "img":{"mockup":["https://res.cloudinary.com/ddkurzft6/image/upload/v1666626618/gravity/MujerLibre/Recurso_40JTG_zazpab.jpg",
+    "name":"Mujer Libre", 
+    "img":{"mockup":["https://res.cloudinary.com/ddkurzft6/image/upload/v1666626618/gravity/MujerLibre/Recurso_40JTG_zazpab.jpg",
     "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626618/gravity/MujerLibre/Recurso_39JTG_znctwk.jpg",
     "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626618/gravity/MujerLibre/Recurso_37JTG_q7suaf.jpg",
     "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626618/gravity/MujerLibre/Recurso_38JTG_cycrtt.jpg",
@@ -28,6 +31,7 @@
     "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/Recurso_33JTG_k461vv.jpg",
     "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/Recurso_36JTG_um3pnh.jpg",
     "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/Recurso_34JTG_ns6gru.jpg"], 
-    "banner":"https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/banner.jpg", "icon":""}, "description":{"s":"","l":""}
+    "banner":"https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/banner.jpg", "icon":""},  
+    "description":{"s":"No hay descripcion, no hay descripcion, no hay descripcion no hay descripcion no hay descripcion, no hay descripcion","l":"no hay descripcion, no hay descripcion no hay descripcion no hay descripcion,no hay descripcion no hay descripcion, no hay descripcion no hay descripcion no hay descripcion"}
     }
 ]}

@@ -1,29 +1,29 @@
-.customers__images__container {
+/* .customers__images__container {
   max-width: 1400px;
   margin: auto;
   display: grid;
   justify-content: center;
   align-items: center;
   grid-template-columns: repeat(3, 1fr);
-}
+} */
 
-.customers__images__container>li {
+/* .customers__images__container>li {
   aspect-ratio: 1;
   background-color: gray;
   border: 1px solid #fff;
-}
+} */
 
 .slider__item{
   margin: 0;
 }
 
-.slider__item >img{
+.slider__item img{
   width:380px;
   height:auto;
 }
 
 .slider{
-  max-width: 100xw;
+  max-width: 99vw !important;
   margin: auto;
 }
 

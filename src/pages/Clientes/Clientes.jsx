@@ -31,17 +31,16 @@ function Clientes() {
   setTimeout(()=>{ index < 2 ? setIndex(index+1) : setIndex(0)}, 3000);
  }, [index]);
 
-console.log(index);
 
   return (
-    <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{duration: 1}}>
+    <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{duration: 1}} margin="0">
       <section className="customers__section">
         <h3 className="title__section" id="customers">Clientes</h3>
-        <CustomersHeader name={clientsJSON.data[index].name} banner={clientsJSON.data[index].img.banner} />
+        <CustomersHeader name={clientsJSON.data[index].name} banner={clientsJSON.data[index].img.banner} description={clientsJSON.data[index].description.l}/>
         <CustomersData name={clientsJSON.data[index].name} description={clientsJSON.data[index].description}/>
         <CustomersImages img={clientsJSON.data[index].img} />
         <div className="customers__list container">
-          <h3 className="customers__list__title" id="moreProjects">Mas proyectos</h3>
+          {/* <h3 className="customers__list__title" id="moreProjects">Mas proyectos</h3> */}
           <div className="customers__list__container">
             {
               clientsJSON.data.map(c => (
