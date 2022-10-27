@@ -5,26 +5,26 @@ import "./ServicesOffer.css";
 import Countdown, { zeroPad } from "react-countdown";
 
 function ServiceOffer() {
-  const renderer = ({ days, hours, minutes, seconds, completed }) => {
+  const renderer = ({ completed, formatted }) => {
     if (completed) {
       return <span>Terminado</span>;
     } else {
       return (
         <div className="counter">
-          <div className="number bold">{zeroPad(hours).split("")[0]}</div>
-          <div className="number bold">{zeroPad(hours).split("")[1]}</div>
+          <div className="number bold">{zeroPad(formatted.hours).split("")[0]}</div>
+          <div className="number bold">{zeroPad(formatted.hours).split("")[1]}</div>
           <div className="circleGroup">
             <div className="circle_offer"></div>
             <div className="circle_offer"></div>
           </div>
-          <div className="number bold">{zeroPad(minutes).split("")[0]}</div>
-          <div className="number bold">{zeroPad(minutes).split("")[1]}</div>
+          <div className="number bold">{zeroPad(formatted.minutes).split("")[0]}</div>
+          <div className="number bold">{zeroPad(formatted.minutes).split("")[1]}</div>
           <div className="circleGroup">
             <div className="circle_offer"></div>
             <div className="circle_offer"></div>
           </div>
-          <div className="number bold">{zeroPad(seconds).split("")[0]}</div>
-          <div className="number bold">{zeroPad(seconds).split("")[1]}</div>
+          <div className="number bold">{zeroPad(formatted.seconds).split("")[0]}</div>
+          <div className="number bold">{zeroPad(formatted.seconds).split("")[1]}</div>
           <img className="clock" src={clock} />
         </div>
       );
@@ -44,7 +44,7 @@ function ServiceOffer() {
               Aprende todo sobre Marketing, <br />
               Branding y Marca personal
             </h2>
-            <Countdown date={Date.now() + 172800000} renderer={renderer} />
+            <Countdown date={1666879069127 + 259200000} renderer={renderer} daysInHours={true} />
             <p className="informationOffer informationOffer__desktop">
               Accede a nuestros 3 E-Books de manera 100% gratuita por tiempo
               limitado:
