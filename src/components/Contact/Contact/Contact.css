@@ -80,8 +80,8 @@
 }
 
 .networkIcon a img {
-    width: 32px;
-    height: 32px;
+    width: 52px;
+    height: 52px;
 }
 
 @media (max-width: 768px) {

@@ -2,8 +2,35 @@ import React from "react";
 import astronautGift from "../../assets/Personajes/PNG_Personajes/Astronauta_ZERO/011.png";
 import clock from "../../assets/iconos RRSS/Iconos de gravity/Relog.png";
 import "./ServicesOffer.css";
+import Countdown, { zeroPad } from "react-countdown";
 
 function ServiceOffer() {
+  const renderer = ({ completed, formatted }) => {
+    if (completed) {
+      return <span>Terminado</span>;
+    } else {
+      return (
+        <div className="counter">
+          <div className="number bold">{zeroPad(formatted.hours).split("")[0]}</div>
+          <div className="number bold">{zeroPad(formatted.hours).split("")[1]}</div>
+          <div className="circleGroup">
+            <div className="circle_offer"></div>
+            <div className="circle_offer"></div>
+          </div>
+          <div className="number bold">{zeroPad(formatted.minutes).split("")[0]}</div>
+          <div className="number bold">{zeroPad(formatted.minutes).split("")[1]}</div>
+          <div className="circleGroup">
+            <div className="circle_offer"></div>
+            <div className="circle_offer"></div>
+          </div>
+          <div className="number bold">{zeroPad(formatted.seconds).split("")[0]}</div>
+          <div className="number bold">{zeroPad(formatted.seconds).split("")[1]}</div>
+          <img className="clock" src={clock} />
+        </div>
+      );
+    }
+  };
+
   return (
     <div className="offer" id="Ebook">
       <div className="offerSection container">
@@ -17,23 +44,7 @@ function ServiceOffer() {
               Aprende todo sobre Marketing, <br />
               Branding y Marca personal
             </h2>
-            <div className="counter">
-              <div className="number bold">0</div>
-              <div className="number bold">1</div>
-              <div className="circleGroup">
-                <div className="circle_offer"></div>
-                <div className="circle_offer"></div>
-              </div>
-              <div className="number bold">2</div>
-              <div className="number bold">5</div>
-              <div className="circleGroup">
-                <div className="circle_offer"></div>
-                <div className="circle_offer"></div>
-              </div>
-              <div className="number bold">0</div>
-              <div className="number bold">3</div>
-              <img className="clock" src={clock} />
-            </div>
+            <Countdown date={1666879069127 + 259200000} renderer={renderer} daysInHours={true} />
             <p className="informationOffer informationOffer__desktop">
               Accede a nuestros 3 E-Books de manera 100% gratuita por tiempo
               limitado:
