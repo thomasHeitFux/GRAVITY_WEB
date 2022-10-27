@@ -1,18 +1,15 @@
 import "./customersHeader.css";
 
-function CustomersHeader({ banner, name }) {
+function CustomersHeader({ banner, name, description }) {
   return (
     <div className="customersHeader">
-      <div className="container">
+      <div className="customer__container">
         <img src={banner} className="customer__header__banner" />
         <div className="customers__header__card">
           <span></span>
-          <h4>{name}</h4>
+          {/* <h4>{name}</h4> */}
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
-            repellendus nemo corrupti, animi saepe voluptatibus totam quo
-            quisquam eum officia! Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Iste, autem?
+            {description}
           </p>
         </div>
       </div>
