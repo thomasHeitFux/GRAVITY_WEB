@@ -9,10 +9,6 @@ function HeadContact() {
           Antes de ello tenemos una asesoría <br /> gratuita para ti
         </h1>
         <button className="btnContact bold">Agenda aquí</button>
-        <p>
-          Cotiza o pregunta por nuestros servicios a: <br />
-          Atención@Gravity.com
-        </p>
         <img src={imgContact.flag} className="flag" />
       </div>
     </div>
