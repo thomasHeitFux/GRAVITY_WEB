@@ -28,7 +28,7 @@ function Clientes() {
 
   const [index, setIndex] = useState(0)
  useEffect(()=>{
-  setTimeout(()=>{ index < 2 ? setIndex(index+1) : setIndex(0)}, 3000);
+  setTimeout(()=>{ index < 2 ? setIndex(index+1) : setIndex(0)}, 10000);
  }, [index]);
 
 
