@@ -84,7 +84,8 @@
     height: 32px;
 }
 
-@media (max-width: 768px) {
+/* MOBILE */
+@media (max-width: 568px) {
     .sectionContact {
         flex-direction: column;
         padding:20px;
@@ -104,4 +105,21 @@
         display: flex;
         gap: 13px;
     }
+}
+
+/* TABLET */
+@media (width:768px) {
+    .sectionContact {
+        flex-direction: column;
+    }
+    .cardContact {
+        width: fit-content;
+        flex-direction: row;
+        align-self: center;
+    }
+    .networkContact {
+        display: flex;
+        flex-direction: row;
+    }
+
 }

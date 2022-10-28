@@ -11,13 +11,11 @@
     letter-spacing: 0.055em;
 }
 
-.headContact > h1 {
+.headContact>h1 {
     font-size: 25px;
 }
 
-.headContact > p{
-    font-size: 19px;
-}
+
 
 .btnContact {
     font-size: 17px;
@@ -38,7 +36,8 @@
     left: 4em;
 }
 
-@media (max-width: 768px) {
+/* MOBILE */
+@media (max-width: 568px) {
     .headContact {
         display: flex;
         flex-direction: column;
@@ -50,18 +49,13 @@
         gap: 20px;
         letter-spacing: 0.055em;
     }
-    
-    .headContact > h1 {
+
+    .headContact>h1 {
         font-size: 18px;
         text-align: end;
     }
-    
-    .headContact > p{
-        font-size: 13px;
-        text-align: end;
-        width: 50%;
-    }
-    
+
+
     .btnContact {
         font-size: 17px;
         width: 200px;
@@ -73,11 +67,40 @@
         border-radius: 30px;
         cursor: pointer;
     }
-    
+
     .flag {
         position: absolute;
         width: 100px;
         bottom: 0;
         left: 0;
+    }
+}
+
+/* TABLET */
+@media (max-width: 1020px) {
+    .flag {
+        left: 0;
+    }
+
+}
+
+@media (width: 768px) {
+    .flag {
+        left: -50%;
+    }
+
+    .headContact>h1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.055em;
+    }
+
+    .btnContact {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
     }
 }
