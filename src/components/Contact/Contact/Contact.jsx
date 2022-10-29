@@ -5,14 +5,14 @@ import imgContact from "../../../assets/imgContact"
 function SectionContact() {
     return (
         <div className="flex flex-col-reverse pt-12 pb-12 w-full text-center justify-center items-center xl:flex-row  lg:flex-row md:flex-col sm:flex-col ">
-            <div className="cardContact flex w-4/4  p-6 space-x-2 rounded-3xl xl:flex-col lg:flex-col lg:space-x-0 md:flex-row  lg:w-1/4 md:w-4/5 justify-center items-center sm:w-4/5 sm:space-x-16">
+            <div className="cardContact flex w-4/4  p-6 space-x-2 rounded-3xl xl:flex-col lg:flex-col lg:space-x-0 md:flex-row  lg:w-1/4 md:w-4/5 justify-center items-center sm:w-4/5 sm:space-x-16 lg:p-20">
                 <div className="flex items-center justify-center h-24 w-24 bg-white rounded-full z-10">
                     <img src={imgContact.envelopColor} className="w-16" />
                 </div>
                 <div className="flex flex-col justify-center items-center">
                 <h1 className="bold">Te escuchamos</h1>
                 <p> Atención@Gravity.com</p>
-                <button className="btn bold lg:w-full sm:w-48 rounded-xl p-1 ">Enviar Email</button>
+                <button className="btn bold lg:w-full w-32 sm:w-48 rounded-3xl p-1 ">Enviar Email</button>
                 </div>
             </div>
             <div className="networkContact flex flex-col items-center pb-5 gap-5  xl:flex-col lg:flex-col lg:w-2/5 md:flex-row sm:w-4/5 sm:pt-5 sm:flex-row">
