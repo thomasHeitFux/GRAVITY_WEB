@@ -7,7 +7,8 @@
     "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_50JTG_sm18pn.jpg",
     "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_52JTG_zewapf.jpg"], 
     "banner":"https://res.cloudinary.com/ddkurzft6/image/upload/v1666626643/gravity/Oreva/banner.jpg", "icon":""}, 
-    "description":{"s":"Agro exportadores de arandanos, gengibre, mango, palta y curcuma.","l":"no hay descripcion, no hay descripcion no hay descripcion no hay descripcion,no hay descripcion no hay descripcion, no hay descripcion no hay descripcion no hay descripcion"}
+    "description":{"s":"Agro exportadores de arandanos, gengibre, mango, palta y curcuma.",
+    "l":"Oreva Trading es una agroexportadora centrada en la comercialización de Arándanos, cúrcuma, kion, mango y palta. Buscan trasmitir el cuidado y delicadeza con la que tratan sus productos, así como su compromiso con la naturaleza y el cuidado de ella."}
     },
     {
     "name":"D Fabian", "img":{"mockup":["https://res.cloudinary.com/ddkurzft6/image/upload/v1666626666/gravity/D%20Fabian/Recurso_49JTG_wriqbr.jpg",
@@ -19,7 +20,8 @@
     "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/Recurso_43JTG_tkpyqi.jpg",
     "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/Recurso_42JTG_k0rnjs.jpg"], 
     "banner":"https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/banner.jpg", "icon":""}, 
-    "description":{"s":"No hay descripcion, no hay descripcion, no hay descripcion no hay descripcion no hay descripcion, no hay descripcion","l":"no hay descripcion, no hay descripcion no hay descripcion no hay descripcion,no hay descripcion no hay descripcion, no hay descripcion no hay descripcion no hay descripcion"}
+    "description":{"s":"El arte de una buena sazón",
+    "l":"D Fabian, es un restaurante especializado en la preparación de pollerías y parrillas, ubicada al norte del Perú, en Chimbote, para el logo se solicitó que represente sus dos platos estrella, al igual que tenga una alta versatilidad para su posterior uso en cartas, banners, post en redes, fachada, etc"}
     },
     {
     "name":"Mujer Libre", 
@@ -32,6 +34,7 @@
     "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/Recurso_36JTG_um3pnh.jpg",
     "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/Recurso_34JTG_ns6gru.jpg"], 
     "banner":"https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/banner.jpg", "icon":""},  
-    "description":{"s":"No hay descripcion, no hay descripcion, no hay descripcion no hay descripcion no hay descripcion, no hay descripcion","l":"no hay descripcion, no hay descripcion no hay descripcion no hay descripcion,no hay descripcion no hay descripcion, no hay descripcion no hay descripcion no hay descripcion"}
+    "description":{"s":"Mujeres Fuertes, Mujeres libres",
+    "l":"Desarrollamos un imagotipo, acudiendo a la silueta de una mujer acompañada del color morado que representa la autenticidad del movimiento, el carácter y fuerza que desea trasmitir."}
     }
 ]}
