@@ -12,13 +12,16 @@ function Footer({ links }) {
     setPatTop(screen.height / 3 - 170);
   };
   return (
-    <div className="footerSection">
-      <div className="footerColumns container">
+    <div
+      className="w-full flex flex-col"
+      style={{ backgroundColor: "#0d2633" }}
+    >
+      <div className="flex justify-between flex-col text-white	px-5 pt-8 pb-2.5 max-w-6xl m-auto w-full">
         <div className="footerFirstColumn">
           <a href="/">
-            <img className="logoFooter" src={logo} />
+            <img className="w-28" src={logo} />
           </a>
-          <ul className="listFooter">
+          <ul className="listFooter hidden">
             {links?.map((link) => (
               <li key={link.to}>
                 <Link
@@ -34,18 +37,23 @@ function Footer({ links }) {
           </ul>
         </div>
         <div className="footerSecondColumn">
-          <h3 className="footerTitle bold">Redes Sociales</h3>
+          <h3 className="mb-2.5 mt-7 tracking-wider bold">Redes Sociales</h3>
           <ul className="listExtra">
             <li>
               <a
                 href="https://www.instagram.com/agencia_gravity/"
                 target="_blank"
+                className="flex gap-0.5	"
               >
                 <img src={icon.Arrow_List} width="8px" /> Instagram
               </a>
             </li>
             <li>
-              <a href="https://www.facebook.com/SomosGravity" target="_blank">
+              <a
+                href="https://www.facebook.com/SomosGravity"
+                target="_blank"
+                className="flex gap-0.5	"
+              >
                 <img src={icon.Arrow_List} width="8px" /> Facebook
               </a>
             </li>
@@ -53,6 +61,7 @@ function Footer({ links }) {
               <a
                 href="https://www.behance.net/gallery/150687073/Agencia-Gravity"
                 target="_blank"
+                className="flex gap-0.5	"
               >
                 <img src={icon.Arrow_List} width="8px" /> Behance
               </a>
@@ -61,6 +70,7 @@ function Footer({ links }) {
               <a
                 href="https://www.pinterest.com/AgenciaGravity/"
                 target="_blank"
+                className="flex gap-0.5	"
               >
                 <img src={icon.Arrow_List} width="8px" /> Pinterest
               </a>
@@ -69,6 +79,7 @@ function Footer({ links }) {
               <a
                 href="https://www.tiktok.com/@agencia.gravity?is_from_webapp=1&sender_device=pc"
                 target="_blank"
+                className="flex gap-0.5	"
               >
                 <img src={icon.Arrow_List} width="8px" /> Tik Tok
               </a>
@@ -77,6 +88,7 @@ function Footer({ links }) {
               <a
                 href="https://www.linkedin.com/company/gravity-agencia-de-marketing-y-publicidad/?viewAsMember=true/"
                 target="_blank"
+                className="flex gap-0.5	"
               >
                 <img src={icon.Arrow_List} width="8px" /> LinkedIn
               </a>
@@ -85,13 +97,14 @@ function Footer({ links }) {
           <h3 className="footerTitle bold">Correo Electrónico</h3>
           <ul>
             <li>
-              <a href="#">
+              <a href="#"                 className="flex gap-0.5	"
+>
                 <img src={icon.Arrow_List} width="8px" /> Atencion@gravity.com
               </a>
             </li>
           </ul>
         </div>
-        <div className="footerThirdColumn">
+        <div className="footerThirdColumn hidden">
           <h3 className="footerTitle bold">Forma parte del equipo:</h3>
           <ul>
             <li>
@@ -104,12 +117,21 @@ function Footer({ links }) {
           <img src="" alt="" />
         </div>
       </div>
-      <div className="creditsSection">
-        <button onClick={() => scroll.scrollToTop()}>
-          <img src={icon.Arrow_Footer} className="arrow" />
+      <div
+        className="relative w-full justify-center items-center	text-center	text-white p-6"
+        style={{ backgroundColor: "#07212e" }}
+      >
+        <button
+          className="absolute right-5	-top-1/4 w-10 h-10 rounded-full border-4 border-solid border-white duration-300 hover:scale-125"
+          onClick={() => scroll.scrollToTop()}
+          style={{ backgroundColor: "#f5b45f" }}
+        >
+          <img src={icon.Arrow_Footer} className="w-9/12 m-auto" />
         </button>
-        <p>Web elaborada por Agencia Gravity y Josué Tello</p>
-        <p>Copyright © 2022 Agencia Gravity</p>
+        <p className="text-xs">
+          Web elaborada por Agencia Gravity y Josué Tello
+        </p>
+        <p className="text-xs">Copyright © 2022 Agencia Gravity</p>
       </div>
     </div>
   );
