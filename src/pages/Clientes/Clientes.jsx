@@ -34,21 +34,19 @@ function Clientes() {
 
   return (
     <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{duration: 1}} margin="0">
-      <section className="customers__section">
-        <h3 className="title__section" id="customers">Clientes</h3>
+      <section className="">
+        <h3 className="my-10 text-3xl text-azul flex justify-center" id="customers">Clientes</h3>
         <CustomersHeader name={clientsJSON.data[index].name} banner={clientsJSON.data[index].img.banner} description={clientsJSON.data[index].description.l}/>
         <CustomersData name={clientsJSON.data[index].name} description={clientsJSON.data[index].description}/>
         <CustomersImages img={clientsJSON.data[index].img} />
-        <div className="customers__list container">
           {/* <h3 className="customers__list__title" id="moreProjects">Mas proyectos</h3> */}
-          <div className="customers__list__container">
+          <div className="flex flex-row justify-center mx-10 my-36 gap-20">
             {
               clientsJSON.data.map(c => (
                 <CustomerCard key={clientsJSON.data.indexOf(c)} img={c.img.mockup[4]} name={c.name} description={c.description.l}/>
               ))
             }
           </div>
-        </div>
       </section>
       <Footer links={links}/>
     </motion.div>

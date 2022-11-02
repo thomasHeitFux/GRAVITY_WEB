@@ -2,13 +2,11 @@ import "./customersData.css";
 
 function CustomersData({name, description}) {
   return (
-    <div className="container customers__data">
-      <div className="customers__data__one">
-        <h4>{name}</h4>
-        <p>
+    <div className="my-10 ml-20">
+        <h4 className="text-5xl text-azul mb-5 font-bold">{name}</h4>
+        <p className="text-2xl text-azul mb-16">
          {description.s}
         </p>
-      </div>
     </div>
   );
 }
