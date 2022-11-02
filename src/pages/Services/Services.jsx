@@ -29,9 +29,9 @@ function Services() {
       <h3 id="Services" className="title__section">
         Servicios
       </h3>
-      <div className="services">
+      <div className="services pt-12">
         <div className="container services__cards">
-          <img
+          <img 
             className="service__cards__human"
             src={images.Human_002}
             alt="Human"
