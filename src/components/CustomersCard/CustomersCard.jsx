@@ -2,17 +2,11 @@ import "./customerCard.css";
 
 function CustomerCard({ img, name, description }) {
   return (
-    <div className="customer__card">
-      <div className="customer__card__header">
-        <img src={img} height="250px" alt="" />
-        <h4>{name}</h4>
-        <div className="customer__card__text">
-          <p>
-            {description
-              ? description
-              : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae iure explicabo."}
-          </p>
-        </div>
+    <div className="w-3/12">
+      <img src={img} alt="" className="rounded-t-3xl" />
+      <h4 className="text-azul text-2xl my-5 font-bold">{name}</h4>
+      <div className="">
+        <p className="text-azul">{description && description}</p>
       </div>
     </div>
   );

@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        "azul": "#0D2633"
+      },
       fontFamily: {
         'display': ['Nirmala UI'],
         'body': ['Nirmala UI'],

@@ -6,7 +6,7 @@ function CustomersHeader({ banner, name, description }) {
         <img src={banner} className="w-screen relative" />
         <div className="absolute w-80 right-40 top-60 bg-white p-10 rounded-3xl">
           <span></span>
-          <p className="mt-5">
+          <p className="mt-5 text-azul text-base">
             {description}
           </p>
         </div>
