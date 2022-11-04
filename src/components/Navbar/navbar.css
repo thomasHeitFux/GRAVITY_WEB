@@ -89,21 +89,20 @@
     display: block;
     z-index: 20;
   }
-  .links__container *{
-    border: 1px solid #000;
-  }
+
 
   .links__container{
-    background-color: #00a6ff;
+    background-color: white;
     position: fixed;
-    bottom: 0;
+    top:0;
     width: 100%;
-    height: calc(100vh);
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     transition: .3s;
+    z-index:30
   }
 
   .links__nav__container{
