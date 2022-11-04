@@ -42,13 +42,14 @@
 
 */
 .customers__header__card span {
-  width: 80px;
+  /* width: 80px; */
   aspect-ratio: 1;
-  border-radius: 50%;
-  background-color: #000;
+  /* border-radius: 50%; */
+  /* background-color: #000; */
   position: absolute;
   top: -40px;
-  right: 120px;
+  /* 
+  right: 120px; */
 } 
 /*-------------------------------------------*/
 /* .customers__header__card h4 { NOT
