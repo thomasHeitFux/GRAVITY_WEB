@@ -7,22 +7,26 @@ import { useLocation } from "react-router-dom";
 function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
   const location = useLocation().pathname;
-
+  
+  const handleToggle =()=>{
+    console.log(openMenu);
+    setOpenMenu(!openMenu)
+  }
   return (
     <div className="nav__expand">
-      <nav className="nav container">
-        <Link className="navbar__brand" to="/">
-          <img src={images.Logo_nav} alt="Logo" />
+      <nav className="flex justify-between  items-center ">
+        <Link className="z-50 ml-2" to="/">
+          <img className="w-32" src={images.Logo_nav} alt="Logo" />
         </Link>
-        <button className="btn__menu" onClick={() => setOpenMenu(true)}>
-          <img src={images.Menu_icon} alt="Menu Icon" />
+        <button className="z-50" onClick={handleToggle}>
+          <img  onClick={handleToggle} src={images.Menu_icon} alt="Menu Icon" />
         </button>
         <div
           className="links__container"
           style={{ right: openMenu ? "0px" : "-100%" }}
         >
           <ul className="links__nav__container flex__center">
-            <li className="links__nav__li ">
+            <li onClick={handleToggle} className="links__nav__li ">
               <Link
                 to="/nosotros"
                 className={location === "/nosotros" ? "resalt__link" : "nel"}
@@ -30,7 +34,7 @@ function Navbar() {
                 Nosotros
               </Link>
             </li>
-            <li className="links__nav__li">
+            <li onClick={handleToggle} className="links__nav__li">
               <Link
                 to="/servicios"
                 className={location === "/servicios" ? "resalt__link" : "nel"}

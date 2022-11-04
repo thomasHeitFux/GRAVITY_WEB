@@ -1,21 +1,22 @@
 import { AnimatePresence, motion } from "framer-motion";
+import ModalBrand from "../ModalBrand/ModalBrand";
 import services from "../../utils/services.json";
 import images from "../../assets/imagenes";
 import { useState } from "react";
 import "./servicesHome.css";
-import Modal from "../ModalBrand/ModalBrand";
 
 function ServicesHome() {
   const [selectedId, setSelectedId] = useState(null);
+  const [dataCard, setDataCard] = useState([]);
 
   const changeId = (e) => {
-    dispatch(setModal(e));
+    setDataCard(e);
     setSelectedId(e.id);
   };
 
   const closeModal2 = (i) => {
-    setSelectedId(i)
-  }
+    setSelectedId(i);
+  };
 
   return (
     <div className="container" id="Services">
@@ -38,7 +39,7 @@ function ServicesHome() {
       </ul>
       <AnimatePresence>
         {selectedId && (
-          <Modal closeModal2={closeModal2}/>
+          <ModalBrand closeModal2={closeModal2} dataCard={dataCard} />
         )}
       </AnimatePresence>
     </div>
