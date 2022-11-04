@@ -31,7 +31,7 @@ function Header() {
     <header className="header">
       <div className="container container_header">
         <h1 className="title__primary">
-        ¿Su marca necesita <span className="color__secondary" style={{ whiteSpace: 'pre' }} ref={el}></span>?
+        ¿Nesecita <span className="color__secondary" style={{ whiteSpace: 'pre' }} ref={el}></span>?
         </h1>
         <h2 className="title__secondary">
           ¡Vamos en contra de la{" "}
