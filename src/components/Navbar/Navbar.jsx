@@ -6,54 +6,58 @@ import { useLocation } from "react-router-dom";
 
 function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
+
   const location = useLocation().pathname;
   
   const handleToggle =()=>{
-    console.log(openMenu);
     setOpenMenu(!openMenu)
   }
+
+  
+  console.log("La resolución de tu pantalla es: " + screen.width + " x " + screen.height) 
   return (
-    <div className="nav__expand">
-      <nav className="flex justify-between  items-center ">
-        <Link className="z-50 ml-2" to="/">
+    <div className="">
+      <nav className="flex  justify-between  items-center h-16 shadow-lg z-50">
+      <Link className=" ml-2 z-50" to="/">
           <img className="w-32" src={images.Logo_nav} alt="Logo" />
         </Link>
-        <button className="z-50" onClick={handleToggle}>
+        <button className="z-50 lg:hidden" onClick={handleToggle}>
           <img  onClick={handleToggle} src={images.Menu_icon} alt="Menu Icon" />
         </button>
         <div
-          className="links__container"
-          style={{ right: openMenu ? "0px" : "-100%" }}
+          className="mt-96 bg-white fixed w-full  h-96 flex flex-col z-10 justify-center items-center duration-500 gap-5 lg:flex-row lg:w-3/5 lg:justify-between lg:mt-0 lg:h-3 lg:m-2  lg:static"
+          style={{ right: openMenu  ? "0px" : "-100%" }}
         >
-          <ul className="links__nav__container flex__center">
+          <ul className="flex flex-col gap-5 lg:flex-row lg:mt-0 text-lg ">
             <li onClick={handleToggle} className="links__nav__li ">
               <Link
                 to="/nosotros"
-                className={location === "/nosotros" ? "resalt__link" : "nel"}
+                className={location === "/nosotros" ? "resalt__link" : "text-azul"}
               >
                 Nosotros
               </Link>
             </li>
-            <li onClick={handleToggle} className="links__nav__li">
+            <li onClick={handleToggle} className="">
               <Link
                 to="/servicios"
-                className={location === "/servicios" ? "resalt__link" : "nel"}
+                className={location === "/servicios" ? "resalt__link" : "text-azul"}
+                c
               >
                 Servicios
               </Link>
             </li>
-            <li className="links__nav__li">
+            <li onClick={handleToggle} className="">
               <Link
                 to="/clientes"
-                className={location === "/clientes" ? "resalt__link" : "nel"}
+                className={location === "/clientes" ? "resalt__link" : "text-azul"}
               >
                 Clientes
               </Link>
             </li>
-            <li className="links__nav__li">
+            <li onClick={handleToggle} className="">
               <Link
                 to="/contacto"
-                className={location === "/contacto" ? "resalt__link" : "nel"}
+                className={location === "/contacto" ? "resalt__link" : "text-azul"}
               >
                 Contacto
               </Link>
@@ -92,6 +96,7 @@ function Navbar() {
           </ul>
         </div>
       </nav>
+   
     </div>
   );
 }
