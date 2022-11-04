@@ -41,15 +41,16 @@
 }
 
 */
-.customers__header__card span {
-  width: 80px;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background-color: #000;
-  position: absolute;
-  top: -40px;
-  right: 120px;
-} 
+/* .customers__header__card span { */
+  /* width: 80px; */
+  /* aspect-ratio: 1; */
+  /* border-radius: 50%; */
+  /* background-color: #000; */
+  /* position: absolute; */
+  /* top: -40px; */
+  /* 
+  right: 120px; */
+/* }  */
 /*-------------------------------------------*/
 /* .customers__header__card h4 { NOT
   color: #0e2b3b;
