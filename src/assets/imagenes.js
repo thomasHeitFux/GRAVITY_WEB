@@ -12,6 +12,7 @@ import Instagram_light from "./iconos RRSS/RRSS/Instagram_light.png";
 import Linkdln_light from "./iconos RRSS/RRSS/Linkdln_linght.png";
 import Be_light from "./iconos RRSS/RRSS/Be_light.png";
 import Whatsapp_light from "./iconos RRSS/RRSS/Wathsapp_light.png";
+import Tik_tok_light from "./iconos RRSS/RRSS/Tik_Tok_light.svg"
 
 import Glovo_icon____gravity from "./iconos RRSS/Glovo de redes/Glovo_gravity.png"
 
@@ -62,5 +63,6 @@ export default {
     "Pinterest_icon": Pinterest_icon,
     "Tiktok_icon": Tiktok_icon,
     "Whatssap_glovo": Wathsapp__glovo,
-    "Menu_icon": Menu_icon
+    "Menu_icon": Menu_icon,
+    "Tik_tok_light": Tik_tok_light
 }
