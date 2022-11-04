@@ -2,6 +2,7 @@ import "./customersHeader.css";
 
 function CustomersHeader({ banner, name, description }) {
   return (
+    
     <div className="shadow-card relative top-0 right-0">
 
         <img src={banner} className="relative h-80 object-cover w-full lg:h-5/6 lg:w-screen" />
