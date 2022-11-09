@@ -17,7 +17,7 @@ function Navbar() {
   return (
     <div className="">
       <nav className="flex  justify-between  items-center h-16 shadow-lg z-50">
-      <Link className=" ml-7 z-50" to="/">
+      <Link className=" ml-7 z-50 hover:scale-105 duration-500" to="/">
           <img className="w-32" src={images.Logo_nav} alt="Logo" />
         </Link>
         <button className="z-50 lg:hidden" onClick={handleToggle}>
