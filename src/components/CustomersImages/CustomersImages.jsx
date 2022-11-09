@@ -14,7 +14,7 @@ function CustomersImages({ img }) {
     arrows: false,
   }
   return (
-    <Slider className="slider" {...settings}>
+    <Slider className="slider mb-20" {...settings}>
         {img.mockup.map((i) => {
           return (
             <div className="slider__item" key={img.mockup.indexOf(i)}>
