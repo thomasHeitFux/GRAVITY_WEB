@@ -35,7 +35,7 @@ function Clientes() {
   return (
     <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{duration: 1}} margin="0">
       <section className="">
-        <h3 className="my-10 text-azul flex justify-center lg:text-3xl" id="customers">Clientes</h3>
+        <h3 className="my-10 text-azul font-extrabold text-2xl flex justify-center lg:text-3xl" id="customers">Clientes</h3>
         <CustomersHeader name={clientsJSON.data[index].name} banner={clientsJSON.data[index].img.banner} description={clientsJSON.data[index].description.l}/>
         <CustomersData name={clientsJSON.data[index].name} description={clientsJSON.data[index].description}/>
         <CustomersImages img={clientsJSON.data[index].img} />
