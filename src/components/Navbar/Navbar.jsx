@@ -17,7 +17,7 @@ function Navbar() {
   return (
     <div className="">
       <nav className="flex  justify-between  items-center h-16 shadow-lg z-50">
-      <Link className=" ml-2 z-50" to="/">
+      <Link className=" ml-7 z-50" to="/">
           <img className="w-32" src={images.Logo_nav} alt="Logo" />
         </Link>
         <button className="z-50 lg:hidden" onClick={handleToggle}>
@@ -36,6 +36,7 @@ function Navbar() {
                 Nosotros
               </Link>
             </li>
+            <li>|</li>
             <li onClick={handleToggle} className="">
               <Link
                 to="/servicios"
@@ -45,6 +46,7 @@ function Navbar() {
                 Servicios
               </Link>
             </li>
+            <li>|</li>
             <li onClick={handleToggle} className="">
               <Link
                 to="/clientes"
@@ -53,6 +55,7 @@ function Navbar() {
                 Clientes
               </Link>
             </li>
+            <li>|</li>
             <li onClick={handleToggle} className="">
               <Link
                 to="/contacto"
@@ -62,7 +65,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          <ul className="flex gap-5">
+          <ul className="flex gap-5 mr-7">
             <li className="w-8 h-8">
               <a href="https://www.facebook.com/SomosGravity" target="_blank">
                 <img src={images.Facebook_icon} alt="Facebook" />
