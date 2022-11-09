@@ -36,7 +36,7 @@ function Navbar() {
                 Nosotros
               </Link>
             </li>
-            <li>|</li>
+            <li className='hidden lg:flex'>|</li>
             <li onClick={handleToggle} className="">
               <Link
                 to="/servicios"
@@ -46,7 +46,7 @@ function Navbar() {
                 Servicios
               </Link>
             </li>
-            <li>|</li>
+            <li className='hidden lg:flex'>|</li>
             <li onClick={handleToggle} className="">
               <Link
                 to="/clientes"
@@ -55,7 +55,7 @@ function Navbar() {
                 Clientes
               </Link>
             </li>
-            <li>|</li>
+            <li className='hidden lg:flex'>|</li>
             <li onClick={handleToggle} className="">
               <Link
                 to="/contacto"
