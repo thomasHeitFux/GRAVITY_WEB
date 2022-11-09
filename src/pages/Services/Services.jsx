@@ -4,9 +4,34 @@ import images from "../../assets/imagenes";
 import {motion} from "framer-motion"
 import Lottie from "react-lottie";
 import noteData from '../../assets/lottie/20221012_COHETE_V4.0.json';
-
+import sendInfo from "../../utils/sendInfo";
+import { useState } from 'react';
 
 function Services() {
+  const [input, setInput] = useState({
+    nombre: "",
+    telefono: "",
+    correo: "",
+    mensaje: ""
+})
+
+  function handleChange(e) {
+    setInput({
+        ...input,
+        [e.target.name]: e.target.value
+    })
+ }
+
+ function handleSubmit(e) {
+ e.preventDefault();
+ sendInfo(input)
+ setInput({
+  nombre: "",
+  telefono: "",
+  correo: "",
+  mensaje: ""
+ })
+}
   const defaultOptions={
     loop:false,
     autoplay:true,
@@ -81,11 +106,11 @@ function Services() {
             </div>
           </div>
           <div className="services__contact">
-            <form className="services__contact__form">
-              <input type="text" placeholder="Nombre" />
-              <input type="text" placeholder="Telefono" />
-              <input type="text" placeholder="Correo" />
-              <textarea placeholder="Mensaje"></textarea>
+            <form onSubmit={handleSubmit} className="services__contact__form">
+              <input type="text" placeholder="Nombre" name="nombre" onChange={handleChange} value={input.nombre} />
+              <input type="text" placeholder="Telefono" name="telefono" onChange={handleChange} value={input.telefono}/>
+              <input type="text" placeholder="Correo" name="correo" onChange={handleChange} value={input.correo}/>
+              <textarea placeholder="Mensaje" name="mensaje" onChange={handleChange} value={input.mensaje}></textarea>
               <button>
                 <img src={images.Arrow} alt="Flechita" />
               </button>

@@ -14,11 +14,10 @@ function Navbar() {
   }
 
   
-  console.log("La resolución de tu pantalla es: " + screen.width + " x " + screen.height) 
   return (
     <div className="">
       <nav className="flex  justify-between  items-center h-16 shadow-lg z-50">
-      <Link className=" ml-2 z-50" to="/">
+      <Link className=" ml-7 z-50" to="/">
           <img className="w-32" src={images.Logo_nav} alt="Logo" />
         </Link>
         <button className="z-50 lg:hidden" onClick={handleToggle}>
@@ -37,6 +36,7 @@ function Navbar() {
                 Nosotros
               </Link>
             </li>
+            <li>|</li>
             <li onClick={handleToggle} className="">
               <Link
                 to="/servicios"
@@ -46,6 +46,7 @@ function Navbar() {
                 Servicios
               </Link>
             </li>
+            <li>|</li>
             <li onClick={handleToggle} className="">
               <Link
                 to="/clientes"
@@ -54,6 +55,7 @@ function Navbar() {
                 Clientes
               </Link>
             </li>
+            <li>|</li>
             <li onClick={handleToggle} className="">
               <Link
                 to="/contacto"
@@ -63,13 +65,13 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          <ul className="networks__nav__container flex__center">
-            <li className="network__nav__link">
+          <ul className="flex gap-5 mr-7">
+            <li className="w-8 h-8">
               <a href="https://www.facebook.com/SomosGravity" target="_blank">
                 <img src={images.Facebook_icon} alt="Facebook" />
               </a>
             </li>
-            <li className="network__nav__link">
+            <li className="w-8 h-8">
               <a
                 href="https://www.linkedin.com/company/gravity-agencia-de-marketing-y-publicidad/?viewAsMember=true/"
                 target="_blank"
@@ -77,7 +79,7 @@ function Navbar() {
                 <img src={images.Linkdln_icon} alt="Linkdln" />
               </a>
             </li>
-            <li className="network__nav__link">
+            <li className="w-8 h-8">
               <a
                 href="https://www.instagram.com/agencia_gravity/"
                 target="_blank"
@@ -85,7 +87,7 @@ function Navbar() {
                 <img src={images.Instagram_icon} alt="Instagram" />
               </a>
             </li>
-            <li className="network__nav__link">
+            <li className="w-8 h-8">
               <a
                 href="https://www.behance.net/gallery/150687073/Agencia-Gravity"
                 target="_blank"
