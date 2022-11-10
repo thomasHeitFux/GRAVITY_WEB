@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'headerbg': "url('./src/assets/portada-web-con-filtro.jpg')",
+      },
       colors: {
         "azul": "#0D2633",
         "naranja": "#f5b45f"
@@ -21,3 +24,5 @@ module.exports = {
   },
   plugins: [],
 }
+
+// import headerbg from "./src/assets/portada-web-con-filtro"
