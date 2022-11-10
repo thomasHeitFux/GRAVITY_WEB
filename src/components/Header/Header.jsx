@@ -28,12 +28,12 @@ function Header() {
   }, [])
 
   return (
-    <header className="bg-headerbg bg-center bg-cover max-h-[600px] header">
-      <div className="justify-center items-start flex-col h-full gap-5 pt-40 m-auto max-w-screen-xl">
-        <h1 className="text-5xl font-bold leading-[69px] tracking-widest text-white">
+    <header className="max-h-[250px] bg-headerbg bg-center bg-cover lg:max-h-[600px] header">
+      <div className="justify-center items-start flex-col h-full gap-5 pt-10 lg:pt-40 max-w-screen-xl">
+        <h1 className="text-2xl lg:text-5xl font-bold lg:leading-[69px] lg:tracking-widest text-white">
         ¿Necesita <span className="color__secondary" style={{ whiteSpace: 'pre' }} ref={el}></span>?
         </h1>
-        <h2 className="text-5xl text-white leading-[58px] tracking-widest title__secondary">
+        <h2 className="text-xl lg:text-5xl text-white lg:leading-[58px] lg:tracking-widest">
           ¡Vamos en contra de la{" "}
           <span className="color__secondary">gravedad</span>, <br />
           llevamos su marca a lo <span className="color__secondary">alto</span>!

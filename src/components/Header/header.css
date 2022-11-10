@@ -59,7 +59,7 @@
   }
   .header {
     height: calc(100vh - 70px);
-    max-height: 250px;
+    /* max-height: 250px; */
   }
 
   .container_header {
