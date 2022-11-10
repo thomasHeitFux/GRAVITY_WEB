@@ -51,18 +51,18 @@
     letter-spacing: 0px;
   }
   
-  .title__secondary {
-    font-size: 20px;
-    line-height: normal;
-    letter-spacing: 0px;
-    font-weight: 300;
-  }
+  /* .title__secondary { */
+    /* font-size: 20px; */
+    /* line-height: normal; */
+    /* letter-spacing: 0px; */
+    /* font-weight: 300; */
+  /* } */
   .header {
     height: calc(100vh - 70px);
     /* max-height: 250px; */
   }
 
-  .container_header {
+  /* .container_header {
     gap: 12px;
-  }
+  } */
 }
