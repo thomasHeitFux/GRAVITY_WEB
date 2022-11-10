@@ -28,12 +28,12 @@ function Header() {
   }, [])
 
   return (
-    <header className="header">
-      <div className="container container_header">
-        <h1 className="title__primary">
+    <header className="bg-headerbg bg-center bg-cover max-h-[600px] header">
+      <div className="justify-center items-start flex-col h-full gap-5 pt-40 m-auto max-w-screen-xl">
+        <h1 className="text-5xl font-bold leading-[69px] tracking-widest text-white">
         ¿Necesita <span className="color__secondary" style={{ whiteSpace: 'pre' }} ref={el}></span>?
         </h1>
-        <h2 className="title__secondary">
+        <h2 className="text-5xl text-white leading-[58px] tracking-widest title__secondary">
           ¡Vamos en contra de la{" "}
           <span className="color__secondary">gravedad</span>, <br />
           llevamos su marca a lo <span className="color__secondary">alto</span>!
