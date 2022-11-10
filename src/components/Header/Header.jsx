@@ -14,7 +14,7 @@ function Header() {
         'estrategia de redes',
         'diseño de post',
         'packaging'
-      ],
+      ],  
       typeSpeed: 100,
       backSpeed: 100,
       loop: true
@@ -31,7 +31,7 @@ function Header() {
     <header className="header">
       <div className="container container_header">
         <h1 className="title__primary">
-        ¿Nesecita <span className="color__secondary" style={{ whiteSpace: 'pre' }} ref={el}></span>?
+        ¿Necesita <span className="color__secondary" style={{ whiteSpace: 'pre' }} ref={el}></span>?
         </h1>
         <h2 className="title__secondary">
           ¡Vamos en contra de la{" "}
