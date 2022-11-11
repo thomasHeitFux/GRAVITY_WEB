@@ -17,10 +17,10 @@ function Footer({ links }) {
       className="w-full flex flex-col"
       style={{ backgroundColor: "#0d2633" }}
     >
-      <div className="flex justify-between flex-col text-white	px-5 pt-8 pb-2.5 max-w-6xl m-auto w-full sm:flex-row">
+      <div className="flex justify-between flex-col text-white	px-5 pt-8 pb-2.5 max-w-6xl m-auto w-full sm:flex-row lg:p-0 lg:pt-16 lg:pb-5">
         <div className="footerFirstColumn">
           <a href="/">
-            <img className="w-28 lg:w-52" src={logo} />
+            <img className="w-28 lg:w-52 lg:pb-4" src={logo} />
           </a>
           <ul className="listFooter hidden sm:block mt-2">
             {links?.map((link) => (
@@ -30,7 +30,7 @@ function Footer({ links }) {
                   offset={-padTop}
                   smooth={true}
                   duration={1000}
-                  className="flex align-middle gap-1 text-xs mb-2 lg:text-base"
+                  className="flex align-middle gap-1 text-xs mb-2 lg:text-base cursor-pointer"
                 >
                   <img src={icon.Arrow_List} width="8px" /> {link.title}
                 </Link>
@@ -134,7 +134,7 @@ function Footer({ links }) {
         style={{ backgroundColor: "#07212e" }}
       >
         <button
-          className="absolute right-5	-top-1/4 w-10 h-10 rounded-full border-4 border-solid border-white duration-300 hover:scale-125"
+          className="absolute right-2	-top-1/4 w-10 h-10 rounded-full border-4 border-solid border-white duration-300 hover:scale-125"
           onClick={() => scroll.scrollToTop()}
           style={{ backgroundColor: "#f5b45f" }}
         >

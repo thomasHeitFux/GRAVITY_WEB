@@ -1,29 +1,8 @@
-.floating__bar__container {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 70px;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  z-index: 20;
-}
-
 .floating__bar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
   z-index: 21;
 }
 
-.floating__bar__container img {
-  width: 100%;
-  cursor: pointer;
-}
+
 
 .floating__icons {
   display: flex;
