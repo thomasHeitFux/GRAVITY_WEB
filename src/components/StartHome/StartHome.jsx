@@ -1,5 +1,5 @@
-import "./startHome.css";
 import images from "../../assets/imagenes";
+import "./startHome.css";
 
 function StartHome() {
   return (
