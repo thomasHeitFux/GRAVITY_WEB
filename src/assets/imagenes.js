@@ -24,6 +24,7 @@ import G_circle from "./Marca/logos png/Gravity_logo3.png"
 import Human_010 from "./Personajes/PNG_Personajes/Astronauta_ZERO/010.png"
 import Human_005 from "./Personajes/PNG_Personajes/Astronauta_ZERO/005.png"
 import Human_001 from "./Personajes/PNG_Personajes/Astronauta_ZERO/001.png"
+import Human_012 from "./Personajes/PNG_Personajes/Astronauta_ZERO/012.png"
 
 import Arrow from "./arrow.svg"
 import Arrow_List from "./Iconos/Gravity/arrowIcon.svg"
@@ -64,5 +65,6 @@ export default {
     "Tiktok_icon": Tiktok_icon,
     "Whatssap_glovo": Wathsapp__glovo,
     "Menu_icon": Menu_icon,
-    "Tik_tok_light": Tik_tok_light
+    "Tik_tok_light": Tik_tok_light,
+    "Human_012": Human_012
 }
