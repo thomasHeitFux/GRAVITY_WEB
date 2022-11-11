@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'headerbg': "url('./src/assets/portada-web-con-filtro.jpg')",
+        'headerbg': "url('https://res.cloudinary.com/ddkurzft6/image/upload/v1668180959/gravity/assets/portada-web-con-filtro_pzxccm.jpg')",
       },
       colors: {
         "azul": "#0D2633",
