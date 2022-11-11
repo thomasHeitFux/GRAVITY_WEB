@@ -16,10 +16,10 @@ function ProjectsHome({projects}) {
                 <li><img src={images.Glovo_icon____gravity} alt="Gravity Logo" /></li>
             </ul>
             <ul className='projects__container'>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>no hay data</li>
+                <li>no hay data</li>
+                <li>no hay data</li>
+                <li>no hay data</li>
             </ul>
         </div>
     )
