@@ -24,7 +24,7 @@ function Navbar() {
           <img  onClick={handleToggle} src={images.Menu_icon} alt="Menu Icon" />
         </button>
         <div
-          className="mt-96 bg-white fixed w-full  h-96 flex flex-col z-10 justify-center items-center duration-500 gap-5 lg:flex-row lg:w-3/5 lg:justify-between lg:mt-0 lg:h-3 lg:m-2  lg:static"
+          className="mt-96  bg-white fixed w-full  h-full flex flex-col z-40  justify-center items-center duration-500 gap-5 lg:flex-row lg:w-3/5 lg:justify-between lg:mt-0 lg:h-3 lg:m-2  lg:static"
           style={{ right: openMenu  ? "0px" : "-100%" }}
         >
           <ul className="flex flex-col gap-5 lg:flex-row lg:mt-0 text-lg ">
