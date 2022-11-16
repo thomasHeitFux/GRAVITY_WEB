@@ -1,17 +1,1 @@
-.headContact {
-    position: relative;
-    display: flex;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-    letter-spacing: 0.055em;
-}
 
-
-.btnContact {
-    background-color: #f5b45f;
-    color: #0e2b3b;
-    cursor: pointer;
-}

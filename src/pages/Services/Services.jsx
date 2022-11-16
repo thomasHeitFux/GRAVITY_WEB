@@ -56,7 +56,7 @@ function Services() {
         Servicios
       </h3>
       {/* HEADER */}
-      <div className="bg-azul pt-4 pb-16 ">
+      <div className="bg-azul py-4 px-5">
         <div className="flex  justify-center items-center gap-24 ">
           <section className="flex flex-col gap-4 w-40 mb-4 sm:hidden">
             <h3 className="text-sm bold text-naranja">Descarga nuestra <br /> hoja de servicios</h3>
@@ -66,7 +66,7 @@ function Services() {
       
           <img
             className="w-24 sm:w-40 lg:w-52"
-            src={images.Human_002}
+            src={images.Human_005}
             alt="Human"
             />
     

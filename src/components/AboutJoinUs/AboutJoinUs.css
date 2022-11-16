@@ -1,57 +1,23 @@
-.bg_blue{
-    background-color: #0d2633;
-}
-/* 
-.text__light{
-    color: #fff;
-}
-
-.abaut__container{
-    position: relative;
-    padding-bottom: 80px;
-}
-
-.abaut__container p{
-    font-size: 19px;
-} */
-
-.btn__abaut{
-    /* position: absolute;
-    right: 10%;
-    bottom: 30px; */
-}
-
-/* @media (max-width: 768px) {
-    .box__yellow{
-        display: none;
+#AboutJoinUs {
+    background: rgba(13, 38, 51, 1) 95%;
+  }
+  
+  @media (min-width: 640px) {
+    #AboutJoinUs {
+      background: linear-gradient(
+        90deg,
+        rgba(13, 38, 51, 1) 95%,
+        rgba(246, 182, 95, 1) 5%
+      );
     }
-    .abaut_img__ornament{
-        width: 120px;
+  }
+  @media (min-width: 1024px) {
+    #AboutJoinUs {
+      background: linear-gradient(
+        90deg,
+        rgba(13, 38, 51, 1) 90%,
+        rgba(246, 182, 95, 1) 10%
+      );
     }
-    .abaut__ornament__container{
-        height: 200px;
-        justify-self:flex-end;
-        align-self: flex-end;
-        margin-right: 40px;
-    }
-    .title__join{
-        margin-left: 10%;
-        width: 300px;
-        right: -90%;
-        top: 5%;
-    }
-    .btn__abaut{
-        right: 62%;
-        bottom: 20px;
-    }
-    .abaut__container>p{
-        margin-left: 10%;
-    }
-    .text__light>p{
-        margin-left: 10%;
-    }
-    .text__light{
-        width: 264px;
-    }
-
-} */
+  }
+  

@@ -1,4 +1,4 @@
-import { Navbar, Footer, HeadContact, SectionContact } from "../../components";
+import { Footer, HeadContact, SectionContact } from "../../components";
 import {motion} from "framer-motion"
 
 function Contact() {
@@ -9,7 +9,7 @@ function Contact() {
         }
     ]
     return (
-        <motion.div className="Contact" initial={{opacity: 0}} animate={{opacity:1}} transition={{duration: 1}}>
+        <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{duration: 1}}>
             <HeadContact />
             <SectionContact />
             <Footer links={links}/>

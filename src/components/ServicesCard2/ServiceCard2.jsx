@@ -9,7 +9,7 @@ function ServiceCard2({ img, paragraph, title, i }) {
       animate={{ opacity: 1, y: 0 }}
       transition={{delay: i, duration: 1}}
     >
-      <div className="flex shadow-md gap-3 mt-4 rounded-xl w-80 h-32 p-2 justify-center items-center">
+      <div className="flex gap-3 mt-4 rounded-xl w-80 h-32 p-2 justify-center items-center" style={{boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.15)"}}>
         <img className='w-16 h-16'src={img} alt="Imagen de Servicios" />
         <div>
         <h4 className="text-azul bold text-sm">{title}</h4>
