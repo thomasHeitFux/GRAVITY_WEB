@@ -38,7 +38,7 @@ function Footer({ links }) {
             ))}
           </ul>
         </div>
-        <div className="footerSecondColumn sm:pt-[52px] lg:pt-[90px]">
+        <div className="footerSecondColumn sm:pt-[27px] lg:pt-[60px]">
           <h3 className="mb-2.5 mt-7 tracking-wider text-xs sm:mt-0 lg:text-[16px]">Redes Sociales</h3>
           <ul className="flex gap-3 mb-2.5 lg:grid grid-cols-2">
             <li>
@@ -116,7 +116,7 @@ function Footer({ links }) {
             </li>
           </ul>
         </div>
-        <div className="footerThirdColumn hidden sm:block sm:pt-[52px] lg:pt-[90px]">
+        <div className="footerThirdColumn hidden sm:block sm:pt-[27px] lg:pt-[60px]">
           <h3 className="text-xs lg:text-[16px]">Forma parte del equipo:</h3>
           <ul>
             <li>

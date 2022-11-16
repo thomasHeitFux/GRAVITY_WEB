@@ -1,20 +1,18 @@
-import "./customersHeader.css";
-
 function CustomersHeader({ banner, name, description }) {
   return (
-    
-    <div className="shadow-card relative ">
-
-        <img src={banner} className="relative h-80 object-cover w-full lg:h-5/6 lg:w-screen" />
-
-        <div className="absolute rounded-3xl w-40 top-6 right-4 lg:w-80 lg:right-40 lg:top-20 bg-white lg:p-4 ">
-          <span className="w-10 absolute aspect-square right-[59px] my-2 -top-6 lg:-top-10 rounded-full lg:right-32 bg-black lg:w-20"></span>
-          <p className="text-[10px] text-center p-4 mt-2 text-azul lg:mt-5 lg:text-base">
-            {description}
-          </p>
-        </div>
-
+    <div className="shadow-card h-[230px] sm:h-[368px] lg:h-[500px] flex justify-center items-center relative">
+      <img
+        src={banner}
+        className="absolute top-0 h-full object-cover w-full"
+      />
+      <div className="rounded-3xl flex p-4 justify-center flex-col items-center relative sm:py-12 sm:px-6 bg-white lg:py-16">
+        <span className="w-10 absolute bg-azul aspect-square rounded-full -top-6 sm:w-[68px] lg:-top-10 lg:w-20"></span>
+        <p className="text-[10px] w-[125px] text-center text-azul sm:text-[15px] sm:w-[213px] lg:w-[420px] lg:text-[24px]">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore
+        </p>
       </div>
+    </div>
   );
 }
 

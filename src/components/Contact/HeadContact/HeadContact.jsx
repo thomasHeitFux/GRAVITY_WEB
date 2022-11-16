@@ -5,7 +5,7 @@ function HeadContact() {
   return (
     <div>
       <h3 className="text-2xl lg:text-4xl bold mt-3 mb-3 text-center text-azul sm:hidden" id="AbautHeader">
-        Acerca de Gravity
+        Contacto
       </h3>
       <div className="bg-azul w-full h-[200px] sm:h-[300px] lg:h-[550px]">
         <div className="w-full h-full flex justify-end items-center relative sm:gap-32 max-w-6xl m-auto" id="scheduleHere">
