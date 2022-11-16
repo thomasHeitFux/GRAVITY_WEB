@@ -4,11 +4,11 @@ import images from "../../assets/imagenes";
 function AboutHeader() {
   return (
     <div>
-      <h3 className="text-2xl lg:text-4xl bold my-3 lg:my-10 text-center text-azul" id="AbautHeader">
+      <h3 className="text-2xl lg:text-4xl bold my-3 lg:hidden text-center text-azul" id="AbautHeader">
         Acerca de Gravity
       </h3>
-      <div className="bg-azul flex flex-row justify-center">
-        <div className="max-w-6xl m-auto relative lg:py-5">
+      <div className="bg-azul flex justify-center items-center lg:h-[426px]">
+        <div className="max-w-6xl m-auto relative lg:py-5 flex flex-col">
           <div className="ml-4">
             <h3 className="color__secondary text-2xl bold mt-3 lg:text-4xl">
               Nosotros
@@ -23,7 +23,6 @@ function AboutHeader() {
               src={images.Human_002}
               alt="Human Gravity"
             />
-            <div className=""></div>
             <p className="text-white text-xs mb-3 mr-3 sm:ml-4 lg:text-xl">
               <br />
               <br />

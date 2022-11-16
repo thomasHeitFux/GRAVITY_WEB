@@ -52,7 +52,7 @@ function Services() {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
       {/* TITULO */}
-      <h3 id="Services" className=" text-center text-2xl bold m-3 lg:text-4xl">
+      <h3 id="Services" className="lg:hidden text-center text-2xl bold m-3 lg:text-4xl">
         Servicios
       </h3>
       {/* HEADER */}

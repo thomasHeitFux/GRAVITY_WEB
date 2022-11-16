@@ -26,13 +26,13 @@ function SubscribeHome() {
           style={{ backgroundColor: "#f6b65f" }}
         >
           <form className="w-full sm:flex sm:flex-col sm:items-start sm:justify-center sm:ml-[10%]">
-            <label className="mb-4 text-[12px] font-bold text-azul sm:text-center sm:text-[16px] lg:text-2xl">
+            <label className="mb-4 text-[12px] font-bold text-azul sm:text-center sm:text-[16px] lg:text-2x lg:mb-0">
               Suscríbete a nuestro mailing:
             </label>
             <div className="flex w-full bg-white p-1 rounded-3xl mt-3 max-w-[250px] sm:max-w-[260px] lg:max-w-[350px] lg:p-2">
               <input
                 type="email"
-                className="border-none text-[10px] outline-none h-full w-full sm:text-[12px]"
+                className="border-none text-[10px] outline-none h-full w-full sm:text-[12px] lg:text-[15px]"
                 placeholder="correo@ejemplo.com"
               ></input>
               <img src={icon.Arrow} className="mr-3 w-[6px] sm:w-[12px]" />
@@ -40,10 +40,10 @@ function SubscribeHome() {
           </form>
           <div className="hidden sm:block sm:absolute bottom-0 -right-1">
             <div
-              className="w-14 p-2 rounded-full sm:absolute -top-8 right-5 lg:w-24 lg:right-14 lg:-top-14"
+              className="w-14 aspect-square	flex justify-center items-center p-2 rounded-full sm:absolute -top-8 right-5 lg:w-24 lg:right-14 lg:-top-14"
               style={{ backgroundColor: "#0D2633" }}
             >
-              <img src={circleCard} className="w-full" />
+              <img src={circleCard} className="w-full lg:w-[90%]" />
             </div>
             <div
               className="w-20 h-10 rounded-t-full lg:w-40 lg:h-20"

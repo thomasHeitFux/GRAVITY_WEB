@@ -25,14 +25,14 @@ function ServicesHome() {
           <motion.li
             key={card.id}
             layoutId={card.id}
-            className="w-[350px] h-[170px] p-[15px] flex justify-start items-center gap-[30px] rounded-[20px] duration-300 sm:flex-col sm:h-[294px] lg:w-[355px] lg:h-[452px] hover:scale-105"
+            className="w-[350px] h-[170px] p-[15px] flex justify-start items-center gap-[30px] rounded-[20px] duration-300 sm:flex-col sm:h-[294px] lg:w-[355px] lg:h-[432px] hover:scale-105"
             onClick={() => changeId(card)}
             style={{boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.15)"}}
           >
             <img src={images[card.img]} alt={card.alt} className="w-[70px] lg:w-[111px] lg:h-[130px]" />
             <div>
               <h4 className="text-[18px] text-azul text-start mb-[5px] sm:text-center lg:text-[33px]">{card.title}</h4>
-              <p className="text-[12px] text-start sm:text-center lg:text-[21px]">{card.paragraph}</p>
+              <p className="text-[12px] text-start sm:text-center lg:text-[21px] text-azul">{card.paragraph}</p>
             </div>
           </motion.li>
         ))}

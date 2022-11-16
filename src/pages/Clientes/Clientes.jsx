@@ -8,6 +8,7 @@ import {
 import clientsJSON from "../../utils/clients.json";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import { animateScroll as scroll } from "react-scroll";
 
 function Clientes() {
   const links = [
@@ -21,12 +22,19 @@ function Clientes() {
     },
   ];
 
+  
   const [index, setIndex] = useState(0);
-  useEffect(() => {
-    setTimeout(() => {
-      index < 2 ? setIndex(index + 1) : setIndex(0);
-    }, 100000);
-  }, [index]);
+
+  const changePage = (i) => {
+    setIndex(i)
+    scroll.scrollToTop()
+  }
+
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     index < 2 ? setIndex(index + 1) : setIndex(0);
+  //   }, 100000);
+  // }, [index]);
 
   return (
     <motion.div
@@ -37,7 +45,7 @@ function Clientes() {
     >
       <section className="">
         <h3
-          className="text-2xl lg:text-4xl bold mt-3 mb-3 text-center text-azul"
+          className="text-2xl lg:text-4xl bold mt-3 mb-3 text-center text-azul lg:hidden"
           id="AbautHeader"
         >
           Clientes
@@ -52,18 +60,20 @@ function Clientes() {
           description={clientsJSON.data[index].description}
         />
         <CustomersImages img={clientsJSON.data[index].img} />
-        <h3 id="moreProjects" className="text-azul text-2xl font-bold my-5 flex justify-center md:hidden">
+        <h3 id="moreProjects" className="text-azul text-2xl font-bold my-5 flex justify-center lg:text-[36px] lg:mb-16">
           Más de nuestro clientes
         </h3>
         <div className="w-full max-w-6xl m-auto px-5 flex gap-10 justify-center items-center mb-5 lg:mb-16">
           {clientsJSON.data.map((c) => (
-            <CustomerCard
+            <div onClick={() => changePage(clientsJSON.data.indexOf(c))}>
+              <CustomerCard
               key={clientsJSON.data.indexOf(c)}
               img={c.img.mockup[4]}
               name={c.name}
               description={c.description.e}
               hidden={clientsJSON.data.indexOf(c) === index ? "hidden" : ""}
             />
+            </div>
           ))}
         </div>
       </section>
