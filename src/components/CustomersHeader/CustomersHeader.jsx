@@ -1,6 +1,6 @@
 function CustomersHeader({ banner, name, description }) {
   return (
-    <div className="shadow-card h-[230px] sm:h-[368px] lg:h-[500px] flex justify-center items-center relative">
+    <div id="customers" className="shadow-card h-[230px] sm:h-[368px] lg:h-[500px] flex justify-center items-center relative">
       <img
         src={banner}
         className="absolute top-0 h-full object-cover w-full"

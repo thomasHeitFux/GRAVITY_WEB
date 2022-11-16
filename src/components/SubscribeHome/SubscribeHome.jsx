@@ -25,11 +25,11 @@ function SubscribeHome() {
           className="w-4/6 flex justify-between items-center relative py-4 pl-4 h-full sm:justify-center"
           style={{ backgroundColor: "#f6b65f" }}
         >
-          <form className="w-full sm:flex sm:flex-col sm:items-center sm:justify-center">
+          <form className="w-full sm:flex sm:flex-col sm:items-start sm:justify-center sm:ml-[10%]">
             <label className="mb-4 text-[12px] font-bold text-azul sm:text-center sm:text-[16px] lg:text-2xl">
               Suscríbete a nuestro mailing:
             </label>
-            <div className="flex w-full bg-white p-1 rounded-3xl mt-3 max-w-[250px] sm:max-w-[350px] lg:p-2">
+            <div className="flex w-full bg-white p-1 rounded-3xl mt-3 max-w-[250px] sm:max-w-[260px] lg:max-w-[350px] lg:p-2">
               <input
                 type="email"
                 className="border-none text-[10px] outline-none h-full w-full sm:text-[12px]"

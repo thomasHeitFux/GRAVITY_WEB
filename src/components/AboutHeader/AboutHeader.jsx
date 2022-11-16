@@ -4,11 +4,11 @@ import images from "../../assets/imagenes";
 function AboutHeader() {
   return (
     <div>
-      <h3 className="text-2xl lg:text-4xl bold mt-3 mb-3 text-center text-azul" id="AbautHeader">
+      <h3 className="text-2xl lg:text-4xl bold my-3 lg:my-10 text-center text-azul" id="AbautHeader">
         Acerca de Gravity
       </h3>
       <div className="bg-azul flex flex-row justify-center">
-        <div className="max-w-6xl m-auto relative">
+        <div className="max-w-6xl m-auto relative lg:py-5">
           <div className="ml-4">
             <h3 className="color__secondary text-2xl bold mt-3 lg:text-4xl">
               Nosotros

@@ -6,6 +6,10 @@ function Contact() {
         {
             title: "Agenda aqui",
             to: "scheduleHere"
+        },
+        {
+            title: "Te escuchamos",
+            to: "weHearYou"
         }
     ]
     return (

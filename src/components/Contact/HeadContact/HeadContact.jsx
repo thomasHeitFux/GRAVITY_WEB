@@ -14,7 +14,7 @@ function HeadContact() {
             <p className="text-center text-white text-[13px] w-[244px] sm:text-2xl lg:text-[54px] lg:w-[800px] lg:leading-[70px]">
               Antes de ello tenemos una asesoría gratuita para ti
             </p>
-            <button className="text-[10px] font-bold bg-naranja text-azul px-4 py-2 rounded-3xl lg:text-[22px] lg:px-16">
+            <button className="text-[10px] font-bold bg-naranja text-azul px-4 py-2 rounded-3xl lg:text-[22px] lg:px-16 lg:mt-10">
               Agenda aquí
             </button>
           </div>

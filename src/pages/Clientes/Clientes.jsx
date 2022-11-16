@@ -52,10 +52,10 @@ function Clientes() {
           description={clientsJSON.data[index].description}
         />
         <CustomersImages img={clientsJSON.data[index].img} />
-        <h3 className="text-azul text-2xl font-bold my-5 flex justify-center md:hidden">
+        <h3 id="moreProjects" className="text-azul text-2xl font-bold my-5 flex justify-center md:hidden">
           Más de nuestro clientes
         </h3>
-        <div className="w-full max-w-6xl m-auto px-5 grid gap-4 grid-cols-2 justify-between items-center mb-5">
+        <div className="w-full max-w-6xl m-auto px-5 flex gap-10 justify-center items-center mb-5 lg:mb-16">
           {clientsJSON.data.map((c) => (
             <CustomerCard
               key={clientsJSON.data.indexOf(c)}
