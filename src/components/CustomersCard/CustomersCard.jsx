@@ -1,12 +1,10 @@
-import "./customerCard.css";
-
-function CustomerCard({ img, name, description }) {
+function CustomerCard({ img, name, description, hidden }) {
   return (
-    <div className="w-2/5 mb-10 lg:w-3/12">
-      <img src={img} alt="" className="rounded-t-3xl" />
-      <h4 className="text-azul text-2xl my-5 font-bold">{name}</h4>
-      <div className="">
-        <p className="text-azul">{description && description}</p>
+    <div className={`w-full rounded-3xl overflow-hidden	min-h-[195px] max-w-[230px] lg:max-w-[382px] ${hidden}`} style={{backgroundColor: "#f2f2f2", boxShadow: "0px 0px 15px rgba(0, 0, 0, 0.2)"}}>
+      <img src={img} alt="" className="w-full h-full max-h-[108px] object-cover sm:max-h-[140px] lg:max-h-[290px]" />
+      <div className="p-2">
+      <h4 className="text-azul text-[10px] sm:text-[14px] lg:text-[20px] my-2 font-bold">{name}</h4>
+        <p className="text-azul text-[10px] sm:text-[14px] lg:text-[20px]">{description}</p>
       </div>
     </div>
   );

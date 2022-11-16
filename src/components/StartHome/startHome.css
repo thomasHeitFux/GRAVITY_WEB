@@ -1,9 +1,15 @@
 #StartHome {
-  background: linear-gradient(
-    90deg,
-    rgba(13, 38, 51, 1) 95%,
-    rgba(246, 182, 95, 1) 5%
-  );
+  background: rgba(13, 38, 51, 1) 95%;
+}
+
+@media (min-width: 640px) {
+  #StartHome {
+    background: linear-gradient(
+      90deg,
+      rgba(13, 38, 51, 1) 95%,
+      rgba(246, 182, 95, 1) 5%
+    );
+  }
 }
 @media (min-width: 1024px) {
   #StartHome {

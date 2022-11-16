@@ -11,45 +11,45 @@ function ServiceOffer() {
       return (
         <div className="flex gap-2 my-4 lg:my-10">
           <div
-            className="w-[26px] h-[36px] text-[20px] flex justify-center items-center rounded-[7px] font-bold sm:w-[38px] sm:h-[56px] sm:text-[40px] lg:w-[82px] lg:h-[110px] lg:text-[70px]"
+            className="w-[26px] h-[36px] text-[20px] flex justify-center items-center rounded-[7px] font-bold sm:w-[38px] sm:h-[56px] sm:text-[40px] lg:w-[82px] lg:h-[110px] lg:text-[70px] lg:rounded-[18px]"
             style={{ backgroundColor: "#0D2633", color: "#f5b45f" }}
           >
             {zeroPad(formatted.hours).split("")[0]}
           </div>
           <div
-            className="w-[26px] h-[36px] text-[20px] flex justify-center items-center rounded-[7px] font-bold sm:w-[38px] sm:h-[56px] sm:text-[40px] lg:w-[82px] lg:h-[110px] lg:text-[70px]"
+            className="w-[26px] h-[36px] text-[20px] flex justify-center items-center rounded-[7px] font-bold sm:w-[38px] sm:h-[56px] sm:text-[40px] lg:w-[82px] lg:h-[110px] lg:text-[70px] lg:rounded-[18px]"
             style={{ backgroundColor: "#0D2633", color: "#f5b45f" }}
           >
             {zeroPad(formatted.hours).split("")[1]}
           </div>
           <div className="flex flex-col justify-center gap-2">
-            <div className="w-[6px] aspect-square rounded-full sm:w-[12px] lg:w-[24px]" style={{backgroundColor: "#0D2633"}}></div>
-            <div className="w-[6px] aspect-square rounded-full sm:w-[12px] lg:w-[24px]" style={{backgroundColor: "#0D2633"}}></div>
+            <div className="w-[6px] aspect-square rounded-full sm:w-[12px] lg:w-[18px]" style={{backgroundColor: "#0D2633"}}></div>
+            <div className="w-[6px] aspect-square rounded-full sm:w-[12px] lg:w-[18px]" style={{backgroundColor: "#0D2633"}}></div>
           </div>
           <div
-            className="w-[26px] h-[36px] text-[20px] flex justify-center items-center rounded-[7px] font-bold sm:w-[38px] sm:h-[56px] sm:text-[40px] lg:w-[82px] lg:h-[110px] lg:text-[70px]"
+            className="w-[26px] h-[36px] text-[20px] flex justify-center items-center rounded-[7px] font-bold sm:w-[38px] sm:h-[56px] sm:text-[40px] lg:w-[82px] lg:h-[110px] lg:text-[70px] lg:rounded-[18px]"
             style={{ backgroundColor: "#0D2633", color: "#f5b45f" }}
           >
             {zeroPad(formatted.minutes).split("")[0]}
           </div>
           <div
-            className="w-[26px] h-[36px] text-[20px] flex justify-center items-center rounded-[7px] font-bold sm:w-[38px] sm:h-[56px] sm:text-[40px] lg:w-[82px] lg:h-[110px] lg:text-[70px]"
+            className="w-[26px] h-[36px] text-[20px] flex justify-center items-center rounded-[7px] font-bold sm:w-[38px] sm:h-[56px] sm:text-[40px] lg:w-[82px] lg:h-[110px] lg:text-[70px] lg:rounded-[18px]"
             style={{ backgroundColor: "#0D2633", color: "#f5b45f" }}
           >
             {zeroPad(formatted.minutes).split("")[1]}
           </div>
           <div className="flex flex-col justify-center gap-2">
-            <div className="w-[6px] aspect-square rounded-full sm:w-[12px] lg:w-[24px]" style={{backgroundColor: "#0D2633"}}></div>
-            <div className="w-[6px] aspect-square rounded-full sm:w-[12px] lg:w-[24px]" style={{backgroundColor: "#0D2633"}}></div>
+            <div className="w-[6px] aspect-square rounded-full sm:w-[12px] lg:w-[18px]" style={{backgroundColor: "#0D2633"}}></div>
+            <div className="w-[6px] aspect-square rounded-full sm:w-[12px] lg:w-[18px]" style={{backgroundColor: "#0D2633"}}></div>
           </div>
           <div
-            className="w-[26px] h-[36px] text-[20px] flex justify-center items-center rounded-[7px] font-bold sm:w-[38px] sm:h-[56px] sm:text-[40px] lg:w-[82px] lg:h-[110px] lg:text-[70px]"
+            className="w-[26px] h-[36px] text-[20px] flex justify-center items-center rounded-[7px] font-bold sm:w-[38px] sm:h-[56px] sm:text-[40px] lg:w-[82px] lg:h-[110px] lg:text-[70px] lg:rounded-[18px]"
             style={{ backgroundColor: "#0D2633", color: "#f5b45f" }}
           >
             {zeroPad(formatted.seconds).split("")[0]}
           </div>
           <div
-            className="w-[26px] h-[36px] text-[20px] flex justify-center items-center rounded-[7px] font-bold sm:w-[38px] sm:h-[56px] sm:text-[40px] lg:w-[82px] lg:h-[110px] lg:text-[70px]"
+            className="w-[26px] h-[36px] text-[20px] flex justify-center items-center rounded-[7px] font-bold sm:w-[38px] sm:h-[56px] sm:text-[40px] lg:w-[82px] lg:h-[110px] lg:text-[70px] lg:rounded-[18px]"
             style={{ backgroundColor: "#0D2633", color: "#f5b45f" }}
           >
             {zeroPad(formatted.seconds).split("")[1]}
@@ -67,14 +67,14 @@ function ServiceOffer() {
       id="Ebook"
     >
       <div
-        className="max-w-6xl rounded-[50px] relative px-10 py-7 w-full"
+        className="max-w-6xl rounded-[20px] relative px-10 py-7 w-full"
         style={{
           boxShadow: "0px 0px 15px rgba(0, 0, 0, 0.2)",
           backgroundColor: "#F2F2F2",
         }}
       >
         <p
-          className="font-bold py-1 px-8 -rotate-45 rounded-3xl absolute top-5 -left-6 sm:hidden lg:block sm:text-[36px] lg:px-16 lg:top-10 lg:-left-16"
+          className="font-bold text-azul text-[13px] py-1 px-5 -rotate-45 rounded-3xl absolute top-2 -left-6 sm:text-[18px] lg:text-[36px] lg:px-16 lg:top-10 lg:-left-16"
           style={{ backgroundColor: "#F6B65F" }}
         >
           ¡GRATIS!
@@ -92,11 +92,11 @@ function ServiceOffer() {
               Branding y Marca personal
             </h2>
             <Countdown
-              date={1668100184056 + 259200000}
+              date={1688100184056 + 259200000}
               renderer={renderer}
               daysInHours={true}
             />
-            <p className="hidden text-[13px] w-[100%] sm:block lg:text-[20px]">
+            <p className="hidden text-[13px] w-[100%] sm:block lg:text-[20px] text-azul">
               Accede a nuestros 3 E-Books de manera 100% gratuita por tiempo
               limitado:
               <br />
@@ -106,7 +106,7 @@ function ServiceOffer() {
               ganadora para tu marca. Conoce la importancia de un buen branding
               y saber como llegar de manera correcta a tu público.
             </p>
-            <p className="text-[9px] w-[263px] sm:hidden">
+            <p className="text-[10px] w-[263px] sm:hidden text-azul">
               Accede del a nuestros 3 E-Books de manera 100% gratuita por tiempo
               limitado.
               <br />

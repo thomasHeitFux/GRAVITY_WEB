@@ -8,58 +8,64 @@ function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
 
   const location = useLocation().pathname;
-  
-  const handleToggle =()=>{
-    setOpenMenu(!openMenu)
-  }
 
-  
+  const handleToggle = () => {
+    setOpenMenu(!openMenu);
+  };
+
   return (
-    <div className="">
-      <nav className="flex  justify-between  items-center h-16 shadow-lg z-50">
-      <Link className=" ml-7 z-50 hover:scale-105 duration-500" to="/">
+    <div className="shadow-lg">
+      <nav className="flex  justify-between  items-center h-16 z-50 max-w-6xl m-auto">
+        <Link className=" ml-7 z-50 hover:scale-105 duration-500" to="/">
           <img className="w-32" src={images.Logo_nav} alt="Logo" />
         </Link>
         <button className="z-50 lg:hidden" onClick={handleToggle}>
-          <img  onClick={handleToggle} src={images.Menu_icon} alt="Menu Icon" />
+          <img onClick={handleToggle} src={images.Menu_icon} alt="Menu Icon" />
         </button>
         <div
           className="mt-96  bg-white fixed w-full  h-full flex flex-col z-40  justify-center items-center duration-500 gap-5 lg:flex-row lg:w-3/5 lg:justify-between lg:mt-0 lg:h-3 lg:m-2  lg:static"
-          style={{ right: openMenu  ? "0px" : "-100%" }}
+          style={{ right: openMenu ? "0px" : "-100%" }}
         >
           <ul className="flex flex-col gap-5 lg:flex-row lg:mt-0 text-lg ">
             <li onClick={handleToggle} className="links__nav__li ">
               <Link
                 to="/nosotros"
-                className={location === "/nosotros" ? "resalt__link" : "text-azul"}
+                className={
+                  location === "/nosotros" ? "resalt__link" : "text-azul"
+                }
               >
                 Nosotros
               </Link>
             </li>
-            <li className='hidden lg:flex'>|</li>
+            <li className="hidden lg:flex">|</li>
             <li onClick={handleToggle} className="">
               <Link
                 to="/servicios"
-                className={location === "/servicios" ? "resalt__link" : "text-azul"}
-                c
+                className={
+                  location === "/servicios" ? "resalt__link" : "text-azul"
+                }
               >
                 Servicios
               </Link>
             </li>
-            <li className='hidden lg:flex'>|</li>
+            <li className="hidden lg:flex">|</li>
             <li onClick={handleToggle} className="">
               <Link
                 to="/clientes"
-                className={location === "/clientes" ? "resalt__link" : "text-azul"}
+                className={
+                  location === "/clientes" ? "resalt__link" : "text-azul"
+                }
               >
                 Clientes
               </Link>
             </li>
-            <li className='hidden lg:flex'>|</li>
+            <li className="hidden lg:flex">|</li>
             <li onClick={handleToggle} className="">
               <Link
                 to="/contacto"
-                className={location === "/contacto" ? "resalt__link" : "text-azul"}
+                className={
+                  location === "/contacto" ? "resalt__link" : "text-azul"
+                }
               >
                 Contacto
               </Link>
@@ -98,7 +104,6 @@ function Navbar() {
           </ul>
         </div>
       </nav>
-   
     </div>
   );
 }

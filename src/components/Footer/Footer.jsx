@@ -38,8 +38,8 @@ function Footer({ links }) {
             ))}
           </ul>
         </div>
-        <div className="footerSecondColumn">
-          <h3 className="mb-2.5 mt-7 tracking-wider bold sm:mt-0">Redes Sociales</h3>
+        <div className="footerSecondColumn sm:pt-[27px] lg:pt-[60px]">
+          <h3 className="mb-2.5 mt-7 tracking-wider text-xs sm:mt-0 lg:text-[16px]">Redes Sociales</h3>
           <ul className="flex gap-3 mb-2.5 lg:grid grid-cols-2">
             <li>
               <a
@@ -107,17 +107,17 @@ function Footer({ links }) {
               </a>
             </li>
           </ul>
-          <h3 className="footerTitle bold">Correo Electrónico</h3>
+          <h3 className="text-xs lg:text-[16px]">Correo Electrónico</h3>
           <ul>
             <li>
               <a href="#" className="flex align-middle gap-1 text-xs mb-2 lg:text-base">
-                <img src={icon.Arrow_List} width="8px" /> Atencion@gravity.com
+                <img src={icon.Arrow_List} width="8px" /> contacto@agenciagravity.com
               </a>
             </li>
           </ul>
         </div>
-        <div className="footerThirdColumn hidden sm:block">
-          <h3 className="footerTitle bold">Forma parte del equipo:</h3>
+        <div className="footerThirdColumn hidden sm:block sm:pt-[27px] lg:pt-[60px]">
+          <h3 className="text-xs lg:text-[16px]">Forma parte del equipo:</h3>
           <ul>
             <li>
               <a href="#" className="flex align-middle gap-1 text-xs mb-2 lg:text-base">
@@ -125,8 +125,6 @@ function Footer({ links }) {
               </a>
             </li>
           </ul>
-          <h3 className="footerTitle bold titleAliados">Aliados:</h3>
-          <img src="" alt="" />
         </div>
       </div>
       <div
@@ -141,7 +139,7 @@ function Footer({ links }) {
           <img src={icon.Arrow_Footer} className="w-9/12 m-auto" />
         </button>
         <p className="text-xs">
-          Web elaborada por Agencia Gravity y Josué Tello
+          Web elaborada por Agencia Gravity
         </p>
         <p className="text-xs">Copyright © 2022 Agencia Gravity</p>
       </div>

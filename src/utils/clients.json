@@ -1,40 +1,69 @@
-{"data":[{
-    "name":"Oreva", "img":{"mockup":["https://res.cloudinary.com/ddkurzft6/image/upload/v1666626644/gravity/Oreva/Recurso_55JTG_rws3tv.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626643/gravity/Oreva/Recurso_54JTG_zeyvjs.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_51JTG_jseeqv.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_53JTG_hve7wi.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_47JTG_pm6psn.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_50JTG_sm18pn.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_52JTG_zewapf.jpg"], 
-    "banner":"https://res.cloudinary.com/ddkurzft6/image/upload/v1666626643/gravity/Oreva/banner.jpg", "icon":""}, 
-    "description":{"s":"Orgullosos del producto peruano",
-    "l":"Oreva Trading es una agroexportadora centrada en la comercialización de Arándanos, cúrcuma, kion, mango y palta. Buscan trasmitir el cuidado y delicadeza con la que tratan sus productos, así como su compromiso con la naturaleza y el cuidado de ella."}
+{
+  "data": [
+    {
+      "name": "Oreva Trading",
+      "img": {
+        "mockup": [
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626644/gravity/Oreva/Recurso_55JTG_rws3tv.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626643/gravity/Oreva/Recurso_54JTG_zeyvjs.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_51JTG_jseeqv.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_53JTG_hve7wi.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_47JTG_pm6psn.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_50JTG_sm18pn.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626642/gravity/Oreva/Recurso_52JTG_zewapf.jpg"
+        ],
+        "banner": "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626643/gravity/Oreva/banner.jpg",
+        "icon": ""
+      },
+      "description": {
+        "s": "Orgullosos del producto peruano",
+        "l": "Oreva Trading es una agroexportadora centrada en la comercialización de Arándanos, cúrcuma, kion, mango y palta. Buscan trasmitir el cuidado y delicadeza con la que tratan sus productos, así como su compromiso con la naturaleza y el cuidado de ella.",
+        "e": "Una agro expotadora peruana que tenia productos principales ..."
+      }
     },
     {
-    "name":"D Fabian", "img":{"mockup":["https://res.cloudinary.com/ddkurzft6/image/upload/v1666626666/gravity/D%20Fabian/Recurso_49JTG_wriqbr.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626666/gravity/D%20Fabian/Recurso_45JTG_a9mdok.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626665/gravity/D%20Fabian/Recurso_48JTG_i9dy9q.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626665/gravity/D%20Fabian/Recurso_46JTG_qmpzqp.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626665/gravity/D%20Fabian/Recurso_41JTG_ysq07u.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/Recurso_44JTG_wnfu9g.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/Recurso_43JTG_tkpyqi.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/Recurso_42JTG_k0rnjs.jpg"], 
-    "banner":"https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/banner.jpg", "icon":""}, 
-    "description":{"s":"El arte de una buena sazón",
-    "l":"D Fabian, es un restaurante especializado en la preparación de pollerías y parrillas, ubicada al norte del Perú, en Chimbote, para el logo se solicitó que represente sus dos platos estrella, al igual que tenga una alta versatilidad para su posterior uso en cartas, banners, post en redes, fachada, etc"}
+      "name": "D Fabián",
+      "img": {
+        "mockup": [
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626666/gravity/D%20Fabian/Recurso_49JTG_wriqbr.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626666/gravity/D%20Fabian/Recurso_45JTG_a9mdok.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626665/gravity/D%20Fabian/Recurso_48JTG_i9dy9q.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626665/gravity/D%20Fabian/Recurso_46JTG_qmpzqp.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626665/gravity/D%20Fabian/Recurso_41JTG_ysq07u.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/Recurso_44JTG_wnfu9g.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/Recurso_43JTG_tkpyqi.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/Recurso_42JTG_k0rnjs.jpg"
+        ],
+        "banner": "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626664/gravity/D%20Fabian/banner.jpg",
+        "icon": ""
+      },
+      "description": {
+        "s": "El arte de una buena sazón",
+        "l": "D Fabian, es un restaurante especializado en la preparación de pollerías y parrillas, ubicada al norte del Perú, en Chimbote, para el logo se solicitó que represente sus dos platos estrella, al igual que tenga una alta versatilidad para su posterior uso en cartas, banners, post en redes, fachada, etc.",
+        "e": "D Fabian, es un restaurante especializado en la preparación de pollerías y parrillas, ubicada ..."
+      }
     },
     {
-    "name":"Mujer Libre", 
-    "img":{"mockup":["https://res.cloudinary.com/ddkurzft6/image/upload/v1666626618/gravity/MujerLibre/Recurso_40JTG_zazpab.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626618/gravity/MujerLibre/Recurso_39JTG_znctwk.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626618/gravity/MujerLibre/Recurso_37JTG_q7suaf.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626618/gravity/MujerLibre/Recurso_38JTG_cycrtt.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/Recurso_35JTG_ijdzne.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/Recurso_33JTG_k461vv.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/Recurso_36JTG_um3pnh.jpg",
-    "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/Recurso_34JTG_ns6gru.jpg"], 
-    "banner":"https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/banner.jpg", "icon":""},  
-    "description":{"s":"Mujeres Fuertes, Mujeres libres",
-    "l":"Desarrollamos un imagotipo, acudiendo a la silueta de una mujer acompañada del color morado que representa la autenticidad del movimiento, el carácter y fuerza que desea trasmitir."}
+      "name": "Mujer Libre",
+      "img": {
+        "mockup": [
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626618/gravity/MujerLibre/Recurso_40JTG_zazpab.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626618/gravity/MujerLibre/Recurso_39JTG_znctwk.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626618/gravity/MujerLibre/Recurso_37JTG_q7suaf.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626618/gravity/MujerLibre/Recurso_38JTG_cycrtt.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/Recurso_35JTG_ijdzne.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/Recurso_33JTG_k461vv.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/Recurso_36JTG_um3pnh.jpg",
+          "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/Recurso_34JTG_ns6gru.jpg"
+        ],
+        "banner": "https://res.cloudinary.com/ddkurzft6/image/upload/v1666626617/gravity/MujerLibre/banner.jpg",
+        "icon": ""
+      },
+      "description": {
+        "s": "Mujeres Fuertes, Mujeres libres",
+        "l": "Desarrollamos un imagotipo, acudiendo a la silueta de una mujer acompañada del color morado que representa la autenticidad del movimiento, el carácter y fuerza que desea trasmitir.",
+        "e": "Movimiento para motivar e incentivar a las mujeres a persguir sus metas con valor y valentia."
+      }
     }
-]}
+  ]
+}

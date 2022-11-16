@@ -1,13 +1,12 @@
-import "./customersData.css";
-
-function CustomersData({name, description}) {
+function CustomersData({ name, description }) {
   return (
-    <div className="ml-10 my-10 lg:ml-20">
-        <h5 className="absolute text-white text-lg font-bold md:hidden -mt-20 -mb-40"> {description.s}</h5>
-        <h4 className="text-2xl lg:text-5xl text-azul lg:mb-5 font-bold">{name}</h4>
-        <p className="hidden md:block lg:text-2xl text-azul lg:mb-16">
-         {description.s}
-        </p>
+    <div className="mx-5 my-10 max-w-6xl lg:m-auto lg:my-10">
+      <h4 className="text-[15px] text-azul font-bold sm:text-[32px] lg:text-[48px]">
+        {name}
+      </h4>
+      <p className="text-[10px] text-azul sm:text-[15px] lg:text-[32px]">
+        {description.l}
+      </p>
     </div>
   );
 }

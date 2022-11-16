@@ -14,32 +14,32 @@ function StartHome() {
       />
       <div className="flex justify-between items-center py-2 w-full max-w-6xl h-full sm:py-0">
         <div className="py-2 sm:py-0 sm:w-[55%] lg:w-[45%]">
-          <h3 className="text-naranja text-[14px] font-bold w-[170px] sm:text-[16px] sm:w-auto lg:text-[35px]">
+          <h3 className="text-naranja ml-8 text-[14px] font-bold w-[170px] sm:text-[16px] sm:w-auto lg:text-[35px] sm:ml-0">
             ¿No sabes por donde comenzar?
           </h3>
-          <p className="text-white text-[12px] w-[185px] sm:w-auto sm:py-4 lg:text-[21px] lg:w-[555px]">
+          <p className="text-white ml-8 text-[12px] w-[185px] sm:w-auto sm:pt-2 sm:pb-4 lg:text-[21px] lg:w-[555px] sm:ml-0">
             Cuéntanos cuál es tu marca y accede a una asesoría gratuita.
           </p>
           <form className="hidden sm:flex flex-col justify-center items-end gap-3">
             <input
               type="text"
-              className="w-full py-1 px-3 rounded-2xl text-[13px]"
+              className="w-full py-1 px-3 rounded-2xl text-[13px] text-white outline-none lg:text-[15px]"
               style={{ backgroundColor: "rgba(255, 255, 255, 0.15)" }}
               placeholder="correo@ejemplo.com"
             />
             <textarea
               placeholder="Cuentanos sobre tu marca ..."
-              className="w-full py-1 px-3 rounded-2xl text-[13px] h-[80px] lg:h-[141px]"
+              className="w-full py-1 px-3 rounded-2xl text-[13px] h-[80px] lg:h-[141px] lg:text-[15px] text-white outline-none	"
               style={{ backgroundColor: "rgba(255, 255, 255, 0.15)" }}
             ></textarea>
-            <button className="text-[12.5px] bg-naranja text-azul font-bold flex py-1 px-3 rounded-2xl justify-between gap-6">
+            <button className="text-[12.5px] bg-naranja text-azul font-bold flex py-1 px-3 rounded-2xl justify-between gap-6 lg:text-[15px]">
               Enviar{" "}
               <img src={images.Arrow} alt="Flechita" className="w-[13px]" />
             </button>
           </form>
         </div>
         <img
-          className="w-[33%] max-w-[100px] sm:hidden"
+          className="w-[22%] max-w-[100px] mr-5 sm:hidden "
           src={images.Human_012}
         />
         <div className="hidden sm:block relative h-full w-[40%] max-w-[275px] lg:max-w-none bg-azul">
