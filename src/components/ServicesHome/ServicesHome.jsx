@@ -3,7 +3,6 @@ import ModalBrand from "../ModalBrand/ModalBrand";
 import services from "../../utils/services.json";
 import images from "../../assets/imagenes";
 import { useState } from "react";
-import "./servicesHome.css";
 
 function ServicesHome() {
   const [selectedId, setSelectedId] = useState(null);
@@ -26,8 +25,7 @@ function ServicesHome() {
           <motion.li
             key={card.id}
             layoutId={card.id}
-            className="w-[350px] h-[170px] p-[15px] flex justify-start items-center gap-[30px] rounded-[20px] duration-300 sm:flex-col sm:h-[294px] lg:w-[355px]
-            lg:h-[502px] "
+            className="w-[350px] h-[170px] p-[15px] flex justify-start items-center gap-[30px] rounded-[20px] duration-300 sm:flex-col sm:h-[294px] lg:w-[355px] lg:h-[452px] hover:scale-105"
             onClick={() => changeId(card)}
             style={{boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.15)"}}
           >

@@ -4,7 +4,7 @@ import imgContact from "../../../assets/imgContact";
 
 function SectionContact() {
   return (
-    <div className="flex flex-col py-12 px-5 w-full text-center justify-center items-center max-w-6xl m-auto lg:flex-row-reverse lg:justify-around">
+    <div className="flex flex-col py-12 px-5 w-full text-center justify-center items-center max-w-6xl m-auto lg:flex-row-reverse lg:justify-around" id="weHearYou">
       <div className="networkContact flex flex-col items-center pb-5 gap-5">
         <div className="flex flex-col justify-center items-center gap-4">
           <h3 className="font-bold text-[13px] text-naranja sm:text-[32px]">

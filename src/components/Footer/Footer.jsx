@@ -3,7 +3,6 @@ import { animateScroll as scroll } from "react-scroll";
 import React, { useState } from "react";
 import icon from "../../assets/imagenes";
 import { Link } from "react-scroll";
-import "./Footer.css";
 import images from "../../assets/imagenes";
 
 function Footer({ links }) {
@@ -64,7 +63,7 @@ function Footer({ links }) {
             </li>
             <li>
               <a
-                href="https://www.behance.net/gallery/150687073/Agencia-Gravity"
+                href="https://www.behance.net/gravityagencia"
                 target="_blank"
                 className="flex gap-0.5	"
               >
@@ -132,7 +131,7 @@ function Footer({ links }) {
         style={{ backgroundColor: "#07212e" }}
       >
         <button
-          className="absolute right-2	-top-1/4 w-10 h-10 rounded-full border-4 border-solid border-white duration-300 hover:scale-125"
+          className="absolute right-2	-top-1/4 w-10 h-10 rounded-full border-4 border-solid border-white duration-300 hover:scale-125 z-20"
           onClick={() => scroll.scrollToTop()}
           style={{ backgroundColor: "#f5b45f" }}
         >
