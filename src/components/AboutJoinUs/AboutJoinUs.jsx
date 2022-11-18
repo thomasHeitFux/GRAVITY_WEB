@@ -3,7 +3,7 @@ import "./AboutJoinUs.css";
 function AboutJoinUs() {
   return (
     <div className="w-full" id="AboutJoinUs">
-      <div className="my-5 flex relative max-w-6xl m-auto w-full lg:pt-4">
+      <div className="my-5 flex relative max-w-6xl bg-azul m-auto w-full lg:pt-4">
         <div className="flex flex-col gap-4 p-4 pb-0 lg:self-center">
           <div className="flex flex-col gap-4">
             <h3 className="color__secondary text-sm bold sm:text-xl lg:text-3xl">

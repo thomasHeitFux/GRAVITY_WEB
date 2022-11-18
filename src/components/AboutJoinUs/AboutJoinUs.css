@@ -1,23 +1,11 @@
-#AboutJoinUs {
-    background: rgba(13, 38, 51, 1) 95%;
-  }
+
+
+    #AboutJoinUs {
+      background: linear-gradient(
+        90deg,
+        rgba(13, 38, 51, 1) 50%,
+        rgba(246, 182, 95, 1) 50%
+      );
+    }
   
-  @media (min-width: 640px) {
-    #AboutJoinUs {
-      background: linear-gradient(
-        90deg,
-        rgba(13, 38, 51, 1) 95%,
-        rgba(246, 182, 95, 1) 5%
-      );
-    }
-  }
-  @media (min-width: 1024px) {
-    #AboutJoinUs {
-      background: linear-gradient(
-        90deg,
-        rgba(13, 38, 51, 1) 90%,
-        rgba(246, 182, 95, 1) 10%
-      );
-    }
-  }
   
